@@ -85,6 +85,29 @@ switch (room)                       //determines which song to play
     case rStage15_3:
         roomSong = musIntrospection;
         break;
+    case rStage16_1:
+    case rStage16_2:
+    case rStage16_3:
+        roomSong = musVolcano;
+        break;
+    case rFinal_01:
+    case rFinal_02:
+    case rFinal_03:
+    case rFinal_04:
+    case rFinal_05:
+    case rFinal_06:
+    case rFinal_07:
+    case rFinal_08:
+    case rFinal_09:
+    case rFinal_10:
+    case rFinal_11:
+    case rFinal_12:
+    case rFinal_13:
+    case rFinal_14:
+    case rFinal_15:
+    case rFinal_16:
+        roomSong = musStarburnedAndUnkissed;
+        break;
     default:                        //default option in case the room does not have a song set
         roomSong = -1;
         break;

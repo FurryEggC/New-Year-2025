@@ -40,8 +40,8 @@ if instance_exists(objWater2){objWater2.sprite_index = spr12Water2;}</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>314</xoffset>
-    <yoffset>3</yoffset>
+    <xoffset>-79</xoffset>
+    <yoffset>-43</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background41" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>

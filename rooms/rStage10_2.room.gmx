@@ -34,8 +34,8 @@ if instance_exists(objKillerBlock){objKillerBlock.sprite_index = spr10Killer;}</
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1208</w>
-    <h>735</h>
+    <w>1008</w>
+    <h>600</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -45,8 +45,8 @@ if instance_exists(objKillerBlock){objKillerBlock.sprite_index = spr10Killer;}</
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>323</xoffset>
-    <yoffset>-114</yoffset>
+    <xoffset>49</xoffset>
+    <yoffset>86</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background36" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>

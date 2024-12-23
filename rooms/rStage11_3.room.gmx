@@ -24,8 +24,8 @@ if instance_exists(objTouchMovingPlatform){objTouchMovingPlatform.sprite_index =
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1240</w>
-    <h>747</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -35,8 +35,8 @@ if instance_exists(objTouchMovingPlatform){objTouchMovingPlatform.sprite_index =
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>157</xoffset>
-    <yoffset>18</yoffset>
+    <xoffset>-8</xoffset>
+    <yoffset>-42</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background38" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>

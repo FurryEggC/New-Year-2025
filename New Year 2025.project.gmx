@@ -3,6 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound">
     <sounds name="sfx">
@@ -22,6 +23,7 @@
       <sound>sound\sndSave</sound>
       <sound>sound\sndFlip</sound>
       <sound>sound\sndShootRefresher</sound>
+      <sound>sound\sndRadio</sound>
     </sounds>
     <sounds name="music">
       <sound>sound\musOnDeath</sound>
@@ -40,6 +42,8 @@
       <sound>sound\musRitual</sound>
       <sound>sound\musWaitingForSunrise</sound>
       <sound>sound\musIntrospection</sound>
+      <sound>sound\musVolcano</sound>
+      <sound>sound\musStarburnedAndUnkissed</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -308,6 +312,20 @@
         <sprite>sprites\spr15SpikeDS</sprite>
         <sprite>sprites\spr15Save</sprite>
       </sprites>
+      <sprites name="Stage16">
+        <sprite>sprites\spr16SpikeU</sprite>
+        <sprite>sprites\spr16SpikeL</sprite>
+        <sprite>sprites\spr16SpikeR</sprite>
+        <sprite>sprites\spr16SpikeD</sprite>
+        <sprite>sprites\spr16SpikeUS</sprite>
+        <sprite>sprites\spr16SpikeLS</sprite>
+        <sprite>sprites\spr16SpikeRS</sprite>
+        <sprite>sprites\spr16SpikeDS</sprite>
+        <sprite>sprites\spr16Platform</sprite>
+        <sprite>sprites\spr16Save</sprite>
+        <sprite>sprites\spr16VineL</sprite>
+        <sprite>sprites\spr16VineR</sprite>
+      </sprites>
     </sprites>
     <sprites name="misc">
       <sprite>sprites\sprWater</sprite>
@@ -432,6 +450,9 @@
       <background>background\bStage14s</background>
       <background>background\bStage15</background>
       <background>background\bStage15s</background>
+      <background>background\bStage16</background>
+      <background>background\bStage16s</background>
+      <background>background\bStage16Bg</background>
     </backgrounds>
     <backgrounds name="backgrounds">
       <background>background\background8</background>
@@ -447,6 +468,8 @@
       <background>background\background45</background>
       <background>background\background49</background>
       <background>background\background50</background>
+      <background>background\background53</background>
+      <background>background\background56</background>
     </backgrounds>
     <backgrounds name="OneUse(Text)">
       <background>background\background19</background>
@@ -513,6 +536,7 @@
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\sdrColorChange.shader</shader>
+    <shader type="GLSLES">shaders\sdrFinalColor.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fDefault30</font>
@@ -530,9 +554,9 @@
     <object>objects\objMiniRight</object>
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
+    <object>objects\objFinalShader</object>
     <object>objects\objKillerBlock</object>
     <object>objects\objTouchMovingPlatform</object>
-    <object>objects\objJumpRefresher</object>
     <object>objects\objCherry</object>
     <object>objects\objWalljumpR</object>
     <object>objects\objWalljumpL</object>
@@ -543,12 +567,58 @@
     <object>objects\objSave</object>
     <object>objects\objSaveVHard</object>
     <object>objects\objSaveBlocker</object>
+    <object>objects\objFinalWarp</object>
     <object>objects\objWarpAutosaveNext</object>
     <object>objects\objMovingPlatform</object>
     <object>objects\objCoadingConTrigger</object>
     <object>objects\objRCFadeout</object>
     <object>objects\objOutsideRoomChanger</object>
     <object>objects\objSkinChanger</object>
+    <objects name="misc">
+      <object>objects\objWater</object>
+      <object>objects\sprWater0</object>
+      <object>objects\objStage13Trigger</object>
+      <object>objects\objPinObject</object>
+      <object>objects\objUpToward</object>
+      <object>objects\objDownToward</object>
+      <object>objects\objJumpRefresher</object>
+      <object>objects\objDJumpRefresher</object>
+      <object>objects\objSign</object>
+      <objects name="muti_jumps">
+        <object>objects\objSingleJump</object>
+        <object>objects\objDoubleJump</object>
+        <object>objects\objTrippleJump</object>
+        <object>objects\objQuarapleJump</object>
+      </objects>
+      <objects name="shoot_refresher">
+        <object>objects\objShootRefresherOnceL</object>
+        <object>objects\objShootRefresherOnceR</object>
+        <object>objects\objShootRefresherTwiceL</object>
+        <object>objects\objShootRefresherTwiceR</object>
+        <object>objects\objShootRefresherFlipL</object>
+        <object>objects\objShootRefresherFlipR</object>
+        <object>objects\objShootRefresherOffL</object>
+        <object>objects\objShootRefresherOffR</object>
+        <object>objects\objShootRefresherOnL</object>
+        <object>objects\objShootRefresherOnR</object>
+        <object>objects\objBulletDirChangeL</object>
+        <object>objects\objBulletDirChangeR</object>
+        <object>objects\objBulletSpeedChange</object>
+      </objects>
+      <objects name="shape_water">
+        <object>objects\objWater2Spike</object>
+        <object>objects\objWater2Cherry</object>
+        <object>objects\objWater3Spike</object>
+      </objects>
+      <objects name="flips">
+        <object>objects\objGravityUp1</object>
+        <object>objects\objGravityDown1</object>
+        <object>objects\objGravityUp2</object>
+        <object>objects\objGravityDown2</object>
+        <object>objects\objGravityUp3</object>
+        <object>objects\objGravityDown3</object>
+      </objects>
+    </objects>
     <objects name="world">
       <object>objects\objWorld</object>
       <object>objects\objCamera</object>
@@ -621,50 +691,6 @@
       <object>objects\objSpikeTriggerDown</object>
       <object>objects\objCherryTrigger</object>
     </objects>
-    <objects name="misc">
-      <object>objects\objWater</object>
-      <object>objects\sprWater0</object>
-      <object>objects\objSign</object>
-      <object>objects\objUpToward</object>
-      <object>objects\objDownToward</object>
-      <object>objects\objPinObject</object>
-      <object>objects\objStage13Trigger</object>
-      <object>objects\objDJumpRefresher</object>
-      <objects name="shape_water">
-        <object>objects\objWater2Spike</object>
-        <object>objects\objWater2Cherry</object>
-        <object>objects\objWater3Spike</object>
-      </objects>
-      <objects name="shoot_refresher">
-        <object>objects\objShootRefresherOnceL</object>
-        <object>objects\objShootRefresherOnceR</object>
-        <object>objects\objShootRefresherTwiceL</object>
-        <object>objects\objShootRefresherTwiceR</object>
-        <object>objects\objShootRefresherFlipL</object>
-        <object>objects\objShootRefresherFlipR</object>
-        <object>objects\objShootRefresherOffL</object>
-        <object>objects\objShootRefresherOffR</object>
-        <object>objects\objShootRefresherOnL</object>
-        <object>objects\objShootRefresherOnR</object>
-        <object>objects\objBulletDirChangeL</object>
-        <object>objects\objBulletDirChangeR</object>
-        <object>objects\objBulletSpeedChange</object>
-      </objects>
-      <objects name="muti_jumps">
-        <object>objects\objSingleJump</object>
-        <object>objects\objDoubleJump</object>
-        <object>objects\objTrippleJump</object>
-        <object>objects\objQuarapleJump</object>
-      </objects>
-      <objects name="flips">
-        <object>objects\objGravityUp1</object>
-        <object>objects\objGravityDown1</object>
-        <object>objects\objGravityUp2</object>
-        <object>objects\objGravityDown2</object>
-        <object>objects\objGravityUp3</object>
-        <object>objects\objGravityDown3</object>
-      </objects>
-    </objects>
     <objects name="saves">
       <object>objects\objSaveMediumFlip</object>
       <object>objects\objSaveFlip</object>
@@ -687,6 +713,8 @@
       <object>objects\objFadeIn</object>
       <object>objects\objDarwItsAlpha</object>
       <object>objects\objStage09Pg3Game</object>
+      <object>objects\objTelevisionEffect</object>
+      <object>objects\objFinalGimmick</object>
     </objects>
     <objects name="shader">
       <object>objects\objCreateShaderBgStage07</object>
@@ -719,6 +747,7 @@
       <room>rooms\rStage13Sample</room>
       <room>rooms\rStage14Sample</room>
       <room>rooms\rStage15Sample</room>
+      <room>rooms\rStage16Sample</room>
     </rooms>
     <room>rooms\rBegining</room>
     <rooms name="Stage01">
@@ -795,6 +824,30 @@
       <room>rooms\rStage15_1</room>
       <room>rooms\rStage15_2</room>
       <room>rooms\rStage15_3</room>
+    </rooms>
+    <rooms name="Stage16">
+      <room>rooms\rStage16_1</room>
+      <room>rooms\rStage16_2</room>
+      <room>rooms\rStage16_3</room>
+      <room>rooms\rStage16_4</room>
+    </rooms>
+    <rooms name="FinalStage">
+      <room>rooms\rFinal_01</room>
+      <room>rooms\rFinal_02</room>
+      <room>rooms\rFinal_03</room>
+      <room>rooms\rFinal_04</room>
+      <room>rooms\rFinal_05</room>
+      <room>rooms\rFinal_06</room>
+      <room>rooms\rFinal_07</room>
+      <room>rooms\rFinal_08</room>
+      <room>rooms\rFinal_09</room>
+      <room>rooms\rFinal_10</room>
+      <room>rooms\rFinal_11</room>
+      <room>rooms\rFinal_12</room>
+      <room>rooms\rFinal_13</room>
+      <room>rooms\rFinal_14</room>
+      <room>rooms\rFinal_15</room>
+      <room>rooms\rFinal_16</room>
     </rooms>
   </rooms>
   <help>

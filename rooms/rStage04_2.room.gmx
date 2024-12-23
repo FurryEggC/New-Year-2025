@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-104</xoffset>
-    <yoffset>-20</yoffset>
+    <page>0</page>
+    <xoffset>-52</xoffset>
+    <yoffset>-25</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -177,7 +177,7 @@
     <instance objName="objCoadingConTrigger" x="384" y="160" name="inst_87F3CC54" locked="0" code="kind = 3;&#xA;mobj[1] = inst_91AD45B8;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCoadingConTrigger" x="320" y="96" name="inst_E3CE85DD" locked="0" code="kind = 4;&#xA;si = inst_52E81AE9;&#xA;ys = 0.1;&#xA;" scaleX="0.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="objCoadingConTrigger" x="352" y="32" name="inst_84E89C2B" locked="0" code="kind = 3;&#xA;mnum = 1;&#xA;mobj[1] = inst_C5EE9548;&#xA;snd = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeRight" x="256" y="32" name="inst_C5EE9548" locked="0" code="pth = pR1;&#xA;spd = 4;&#xA;enda = 0;&#xA;scl = 10;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeRight" x="256" y="32" name="inst_C5EE9548" locked="0" code="pth = pR1;&#xA;spd = 4;&#xA;enda = 0;&#xA;scl = 10;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMiniLeft" x="544" y="288" name="inst_D0BA027F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMiniLeft" x="544" y="272" name="inst_5A85856B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCoadingConTrigger" x="704" y="496" name="inst_2D594D8F" locked="0" code="kind = 3;&#xA;mnum = 1;&#xA;mobj[1] = inst_5061CC26;&#xA;snd = 1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

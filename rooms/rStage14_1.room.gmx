@@ -39,8 +39,8 @@ with (objSave) {sprite_index = spr14Save;}</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-86</xoffset>
-    <yoffset>-52</yoffset>
+    <xoffset>-83</xoffset>
+    <yoffset>-43</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background49" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>

@@ -149,7 +149,10 @@ Animation_sliding[4] = sprPlayerSliding5;
           <argument>
             <kind>1</kind>
             <string>if ((x &lt; 0 || x &gt; room_width || y &lt; 0 || y &gt; room_height) &amp;&amp; global.edgeDeath)  //check if player has left the room
+{
+    with (objFinalGimmick) event_user(0);
     scrKillPlayer();
+}
 
 //update player sprite
 if (global.playerAnimationFix)
@@ -653,7 +656,8 @@ if (instance_exists(objSlope) &amp;&amp; hspeed != 0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scrKillPlayer();
+            <string>with (objFinalGimmick) event_user(0);
+scrKillPlayer();
 </string>
           </argument>
         </arguments>

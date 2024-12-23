@@ -1,5 +1,9 @@
 //kills the player
 
+var silence;
+if (argument_count == 0) silence = false;
+else silence = argument[0];
+
 if (instance_exists(objPlayer) && (!global.noDeath && !global.debugNoDeath))
 {
     if (global.gameStarted) //normal death
@@ -23,16 +27,18 @@ if (instance_exists(objPlayer) && (!global.noDeath && !global.debugNoDeath))
             }
         }
         
-        with (objPlayer)
+        if (!silence)
         {
-            instance_create(x,y,objBloodEmitter);
-            instance_destroy();
-        }
-        
-        instance_create(0,0,objGameOver);
-        
-        global.death += 1; //increment deaths
+            with (objPlayer)
+            {
+                instance_create(x,y,objBloodEmitter);
+                instance_destroy();
+            }
             
+            instance_create(0,0,objGameOver);
+            
+            global.death += 1; //increment deaths
+        }
         scrSaveGame(false); //save death/time
     }
     else    //death in the difficulty select room, restart the room

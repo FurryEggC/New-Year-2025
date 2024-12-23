@@ -35,7 +35,7 @@ if instance_exists(objTouchMovingPlatform){objTouchMovingPlatform.sprite_index =
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>2</page>
-    <xoffset>109</xoffset>
+    <xoffset>-113</xoffset>
     <yoffset>-33</yoffset>
   </makerSettings>
   <backgrounds>
