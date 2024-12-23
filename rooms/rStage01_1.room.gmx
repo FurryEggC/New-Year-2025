@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>-163</xoffset>
-    <yoffset>-51</yoffset>
+    <page>2</page>
+    <xoffset>83</xoffset>
+    <yoffset>-13</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background8" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -420,6 +420,7 @@
     <tile bgName="bStage01" x="0" y="64" w="32" h="32" xo="0" yo="32" id="10004198" name="inst_3AC96741" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage01" x="0" y="96" w="32" h="32" xo="0" yo="32" id="10004199" name="inst_C21D0547" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage01" x="0" y="128" w="32" h="32" xo="0" yo="32" id="10004200" name="inst_1B5420DA" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage01Number" x="704" y="496" w="96" h="96" xo="0" yo="0" id="10013508" name="inst_0BDBA48A" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

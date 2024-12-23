@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>//change these in creation code
+roomTo = 74;
 </string>
           </argument>
         </arguments>
@@ -48,7 +49,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto_next();
+            <string>room_goto(roomTo);
+with(objFinalGimmick) next_room_index++;
 </string>
           </argument>
         </arguments>
@@ -75,6 +77,8 @@
 
 instance_create(0,0,objTelevisionEffect);
 alarm[0] = 10;
+
+global.grav = 1;
 
 audio_play_sound(sndRadio,0,false);
 </string>

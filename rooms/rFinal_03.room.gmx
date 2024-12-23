@@ -27,8 +27,8 @@ if instance_exists(objDJumpRefresher){objDJumpRefresher.sprite_index=spr03DJumpR
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>-21</xoffset>
+    <page>2</page>
+    <xoffset>-40</xoffset>
     <yoffset>-36</yoffset>
   </makerSettings>
   <backgrounds>
@@ -146,6 +146,7 @@ if instance_exists(objDJumpRefresher){objDJumpRefresher.sprite_index=spr03DJumpR
     <tile bgName="bStage03" x="480" y="320" w="32" h="32" xo="0" yo="0" id="10005342" name="inst_192D8FFA" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage03" x="480" y="352" w="32" h="32" xo="0" yo="0" id="10005343" name="inst_331A46FA" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background19" x="48" y="16" w="256" h="608" xo="0" yo="0" id="10005384" name="inst_269FAF46" depth="7" locked="-1" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage03Number" x="384" y="16" w="48" h="96" xo="96" yo="0" id="10013566" name="inst_8931FD8B" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

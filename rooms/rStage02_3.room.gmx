@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>-397</xoffset>
-    <yoffset>-103</yoffset>
+    <page>2</page>
+    <xoffset>-70</xoffset>
+    <yoffset>-39</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background13" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -402,6 +402,7 @@
     <tile bgName="bStage02" x="704" y="256" w="32" h="32" xo="0" yo="0" id="10005103" name="inst_09A5C20E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage02" x="704" y="288" w="32" h="32" xo="0" yo="0" id="10005104" name="inst_33D0A2BD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage02" x="704" y="320" w="32" h="32" xo="0" yo="0" id="10005105" name="inst_B0D79FAD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage02Number" x="16" y="16" w="96" h="96" xo="192" yo="0" id="10013560" name="inst_8DE819A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

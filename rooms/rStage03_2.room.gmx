@@ -17,8 +17,8 @@ if instance_exists(objDJumpRefresher){objDJumpRefresher.sprite_index=spr03DJumpR
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1936</w>
-    <h>1056</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,9 +27,9 @@ if instance_exists(objDJumpRefresher){objDJumpRefresher.sprite_index=spr03DJumpR
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>-400</xoffset>
-    <yoffset>-121</yoffset>
+    <page>2</page>
+    <xoffset>-63</xoffset>
+    <yoffset>-42</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background14" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -228,6 +228,7 @@ if instance_exists(objDJumpRefresher){objDJumpRefresher.sprite_index=spr03DJumpR
     <tile bgName="bStage03" x="512" y="128" w="32" h="32" xo="0" yo="0" id="10005329" name="inst_F63E5D81" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage03" x="768" y="80" w="32" h="32" xo="0" yo="0" id="10005330" name="inst_9E30E867" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage03" x="368" y="256" w="32" h="32" xo="0" yo="0" id="10005341" name="inst_6652AA91" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage03Number" x="496" y="512" w="48" h="96" xo="48" yo="0" id="10013564" name="inst_F78EB32E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

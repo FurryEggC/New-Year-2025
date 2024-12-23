@@ -420,6 +420,12 @@
     <background>background\bStars</background>
     <background>background\background5</background>
     <background>background\background6</background>
+    <backgrounds name="Number">
+      <background>background\bStage01Number</background>
+      <background>background\bStage02Number</background>
+      <background>background\bStage03Number</background>
+      <background>background\bStage04Number</background>
+    </backgrounds>
     <backgrounds name="Blocks">
       <background>background\bStart</background>
       <background>background\bStage01</background>
@@ -532,6 +538,7 @@
       <script>scripts\scrMakeShapes.gml</script>
       <script>scripts\scrMakeCircle.gml</script>
       <script>scripts\scrBazierMove.gml</script>
+      <script>scripts\array_shuffle.gml</script>
     </scripts>
   </scripts>
   <shaders name="shaders">
@@ -554,7 +561,6 @@
     <object>objects\objMiniRight</object>
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
-    <object>objects\objFinalShader</object>
     <object>objects\objKillerBlock</object>
     <object>objects\objTouchMovingPlatform</object>
     <object>objects\objCherry</object>
@@ -715,6 +721,7 @@
       <object>objects\objStage09Pg3Game</object>
       <object>objects\objTelevisionEffect</object>
       <object>objects\objFinalGimmick</object>
+      <object>objects\objFinalShader</object>
     </objects>
     <objects name="shader">
       <object>objects\objCreateShaderBgStage07</object>
