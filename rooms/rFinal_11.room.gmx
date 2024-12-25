@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -34,9 +34,9 @@ if instance_exists(objTouchMovingPlatform){objTouchMovingPlatform.sprite_index =
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>-85</xoffset>
-    <yoffset>-52</yoffset>
+    <page>2</page>
+    <xoffset>-33</xoffset>
+    <yoffset>-28</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background38" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -240,6 +240,7 @@ if instance_exists(objTouchMovingPlatform){objTouchMovingPlatform.sprite_index =
     <tile bgName="bStage11" x="512" y="336" w="32" h="32" xo="32" yo="0" id="10010316" name="inst_42C33906" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage11s" x="384" y="240" w="16" h="16" xo="32" yo="0" id="10010327" name="inst_6C5BC2C1" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage11s" x="384" y="256" w="16" h="16" xo="32" yo="16" id="10010328" name="inst_6395A8D6" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage11Number" x="8" y="208" w="139" h="96" xo="278" yo="0" id="10013620" name="inst_B8626C6C" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

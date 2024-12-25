@@ -45,9 +45,9 @@ if instance_exists(objSave)
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>-59</xoffset>
-    <yoffset>-55</yoffset>
+    <page>2</page>
+    <xoffset>-61</xoffset>
+    <yoffset>-30</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background21" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -268,6 +268,8 @@ if instance_exists(objSave)
     <tile bgName="bStage05" x="384" y="448" w="32" h="32" xo="32" yo="32" id="10006465" name="inst_AE711743" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="96" y="224" w="32" h="32" xo="0" yo="32" id="10006466" name="inst_A812004A" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="320" y="480" w="32" h="32" xo="32" yo="0" id="10006467" name="inst_01E103E8" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage05Number" x="352" y="512" w="54" h="96" xo="0" yo="0" id="10013581" name="inst_36AA79AB" depth="7" locked="-1" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage05Number" x="384" y="512" w="54" h="96" xo="108" yo="0" id="10013582" name="inst_FA5D0917" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

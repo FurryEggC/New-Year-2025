@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -27,8 +27,8 @@ with (objWalljumpR) {sprite_index = spr16VineR;}</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -37,9 +37,9 @@ with (objWalljumpR) {sprite_index = spr16VineR;}</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>26</xoffset>
-    <yoffset>-101</yoffset>
+    <page>2</page>
+    <xoffset>-60</xoffset>
+    <yoffset>-24</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background53" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
@@ -279,6 +279,8 @@ with (objWalljumpR) {sprite_index = spr16VineR;}</code>
     <tile bgName="bStage16" x="224" y="32" w="32" h="32" xo="0" yo="0" id="10013353" name="inst_B2EFACA3" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage16" x="224" y="64" w="32" h="32" xo="0" yo="0" id="10013354" name="inst_D5CE40E2" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage16" x="256" y="160" w="32" h="32" xo="0" yo="0" id="10013355" name="inst_BFE5F7EB" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage16Number" x="56" y="32" w="37" h="96" xo="2" yo="0" id="10013658" name="inst_B67C1157" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage16Number" x="96" y="32" w="37" h="96" xo="116" yo="0" id="10013659" name="inst_063892AB" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

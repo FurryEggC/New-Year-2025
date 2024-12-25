@@ -37,7 +37,7 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
+    <page>2</page>
     <xoffset>-49</xoffset>
     <yoffset>-43</yoffset>
   </makerSettings>
@@ -361,6 +361,7 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <tile bgName="bStage06" x="400" y="448" w="32" h="32" xo="0" yo="0" id="10006803" name="inst_5F009018" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="" x="624" y="16" w="16" h="16" xo="0" yo="0" id="10006804" name="inst_A5761E86" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background25" x="0" y="0" w="128" h="128" xo="0" yo="0" id="10006889" name="inst_02B1BB1B" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage06Number" x="592" y="16" w="96" h="96" xo="0" yo="0" id="10013587" name="inst_22CB5ED0" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

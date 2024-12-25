@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -29,8 +29,8 @@ if global.max_jump != 1 {global.max_jump = 1;}
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -39,9 +39,9 @@ if global.max_jump != 1 {global.max_jump = 1;}
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>1</page>
-    <xoffset>-41</xoffset>
-    <yoffset>-38</yoffset>
+    <page>2</page>
+    <xoffset>-79</xoffset>
+    <yoffset>-18</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -413,6 +413,8 @@ if global.max_jump != 1 {global.max_jump = 1;}
     <tile bgName="bStage07" x="784" y="512" w="32" h="32" xo="0" yo="0" id="10007477" name="inst_8A6375E7" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage07" x="784" y="544" w="32" h="32" xo="0" yo="0" id="10007480" name="inst_88CA8FFF" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage07" x="784" y="576" w="32" h="32" xo="0" yo="0" id="10007481" name="inst_640E68BD" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage07Number" x="40" y="32" w="44" h="96" xo="0" yo="0" id="10013592" name="inst_90980126" depth="-100" locked="-1" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage07Number" x="72" y="32" w="44" h="96" xo="44" yo="0" id="10013593" name="inst_9533A34A" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

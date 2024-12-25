@@ -38,8 +38,8 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>164</xoffset>
-    <yoffset>-82</yoffset>
+    <xoffset>54</xoffset>
+    <yoffset>-44</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background22" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -151,8 +151,8 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <instance objName="objBetterBlock" x="480" y="256" name="inst_B69BCC33" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="768" y="368" name="inst_43FB787C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="720" y="480" name="inst_90CD92AD" locked="0" code="" scaleX="3" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeLeft" x="576" y="256" name="inst_3427D941" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="512" y="256" name="inst_67AFA12F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeLeft" x="576" y="240" name="inst_3427D941" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="496" y="256" name="inst_67AFA12F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="432" y="80" name="inst_467571A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="432" y="112" name="inst_E87B46BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objTrippleJump" x="464" y="80" name="inst_7D5F52DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -382,6 +382,7 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <tile bgName="bStage06" x="768" y="192" w="32" h="32" xo="0" yo="0" id="10007010" name="inst_DF8D2EAA" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage06" x="768" y="224" w="32" h="32" xo="0" yo="0" id="10007011" name="inst_5CF46D80" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage06" x="768" y="256" w="32" h="32" xo="0" yo="0" id="10007012" name="inst_8E53AB54" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage06Number" x="512" y="256" w="96" h="96" xo="96" yo="0" id="10013588" name="inst_85EBC8B7" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

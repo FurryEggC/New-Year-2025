@@ -40,9 +40,9 @@ if instance_exists(objWater2) {objWater2.depth = -7;}</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>1</page>
-    <xoffset>75</xoffset>
-    <yoffset>-47</yoffset>
+    <page>2</page>
+    <xoffset>-42</xoffset>
+    <yoffset>-40</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background21" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -167,6 +167,8 @@ if instance_exists(objWater2) {objWater2.depth = -7;}</code>
   <tiles>
     <tile bgName="bStage05" x="160" y="128" w="32" h="32" xo="0" yo="32" id="10006480" name="inst_98DA846F" depth="8" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="608" y="336" w="32" h="32" xo="0" yo="32" id="10006492" name="inst_1E591286" depth="8" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage05Number" x="704" y="144" w="54" h="96" xo="0" yo="0" id="10013583" name="inst_93B407F8" depth="8" locked="-1" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage05Number" x="736" y="144" w="54" h="96" xo="162" yo="0" id="10013584" name="inst_771B0A1F" depth="8" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="96" y="480" w="32" h="32" xo="0" yo="0" id="10006244" name="inst_6001232C" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="96" y="352" w="32" h="32" xo="0" yo="0" id="10006468" name="inst_614FF1B8" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="160" y="352" w="32" h="32" xo="0" yo="0" id="10006469" name="inst_49A19880" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

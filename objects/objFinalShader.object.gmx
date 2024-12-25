@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var surf = surface_create(800,600);
+            <string>var surf = surface_create(800,608);
 surface_copy(surf,0,0,application_surface);
 draw_clear_alpha(c_gray,0);
 shader_set(sdrFinalColor);

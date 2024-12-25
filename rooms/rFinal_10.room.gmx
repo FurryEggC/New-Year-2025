@@ -34,8 +34,8 @@ if instance_exists(objKillerBlock){objKillerBlock.sprite_index = spr10Killer;}</
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1296</w>
-    <h>768</h>
+    <w>1008</w>
+    <h>600</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -236,6 +236,7 @@ if instance_exists(objKillerBlock){objKillerBlock.sprite_index = spr10Killer;}</
     <tile bgName="bStage10" x="416" y="512" w="32" h="32" xo="0" yo="0" id="10009363" name="inst_8DBECF8E" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage10" x="416" y="544" w="32" h="32" xo="0" yo="0" id="10009364" name="inst_4901E485" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage10" x="416" y="576" w="32" h="32" xo="0" yo="0" id="10009365" name="inst_0D9710E2" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage10Number" x="128" y="128" w="96" h="96" xo="96" yo="0" id="10013615" name="inst_53CB3520" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

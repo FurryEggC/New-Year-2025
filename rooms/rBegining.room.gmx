@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1008</w>
-    <h>600</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>2753</xoffset>
-    <yoffset>-152</yoffset>
+    <xoffset>1604</xoffset>
+    <yoffset>-15</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -78,6 +78,11 @@
     <instance objName="objBetterBlock" x="2656" y="256" name="inst_D6EFC17C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="-32" y="320" name="inst_539F8E0F" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objRCFadeout" x="3200" y="256" name="inst_675CB6D1" locked="0" code="roomTo=rStage01_1;&#xA;transc=c_white&#xA;" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objBeginSign" x="512" y="288" name="inst_15E3DC3D" locked="0" code="signText = &quot;Be bored of those hard game#such as CN2.5, K3, Morining dew.#Currently, the game needs to be easy.&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBeginSign" x="1504" y="256" name="inst_E8D0D205" locked="0" code="signText = &quot;A standard 50F game, Half of 100.#Only 2 month to Chinese new year,#I have no time for finishing the latter.&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBeginSign" x="2080" y="256" name="inst_F94DCA22" locked="0" code="signText = &quot;&lt;Hard&gt; is recommended.#By the way, I have 5 skins for you.#Use 1 and 2 to change your skin.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBeginSign" x="2560" y="256" name="inst_BA5A44BD" locked="0" code="signText = &quot;3 Jumps to start#Good luck#:3&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBeginSign" x="1056" y="256" name="inst_C0D718C6" locked="0" code="signText = &quot;What you are playing now is a easy game#Where &lt;Medium&gt; is about 45#And &lt;Hard&gt; not over 70.&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStart" x="192" y="384" w="32" h="32" xo="0" yo="0" id="10003898" name="inst_4BA3DFB1" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

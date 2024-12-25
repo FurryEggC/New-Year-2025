@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>4</vsnap>
+  <hsnap>4</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -27,8 +27,8 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -37,9 +37,9 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>1</page>
-    <xoffset>8</xoffset>
-    <yoffset>-15</yoffset>
+    <page>2</page>
+    <xoffset>-49</xoffset>
+    <yoffset>-8</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="6" vspeed="0" stretch="0"/>
@@ -405,6 +405,8 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <tile bgName="bStage07s" x="608" y="208" w="16" h="16" xo="16" yo="0" id="10007672" name="inst_D3D49A57" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage07s" x="624" y="256" w="16" h="16" xo="16" yo="0" id="10007673" name="inst_F70D319B" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage07s" x="256" y="176" w="16" h="16" xo="0" yo="0" id="10007674" name="inst_38454BCD" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage07Number" x="24" y="24" w="44" h="96" xo="88" yo="0" id="10013594" name="inst_35BC6091" depth="-100" locked="-1" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage07Number" x="60" y="24" w="44" h="96" xo="132" yo="0" id="10013596" name="inst_432C8022" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

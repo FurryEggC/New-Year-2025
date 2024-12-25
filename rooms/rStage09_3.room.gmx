@@ -39,9 +39,9 @@ if instance_exists(objBlockFake){objBlockFake.sprite_index = sprHidden09Fake;}</
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>237</xoffset>
-    <yoffset>-140</yoffset>
+    <page>2</page>
+    <xoffset>-69</xoffset>
+    <yoffset>-24</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background32" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -170,6 +170,8 @@ if instance_exists(objBlockFake){objBlockFake.sprite_index = sprHidden09Fake;}</
     <tile bgName="bStage09" x="768" y="0" w="32" h="32" xo="0" yo="0" id="10009012" name="inst_C17E06B3" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage09" x="768" y="32" w="32" h="32" xo="0" yo="0" id="10009013" name="inst_E13F327B" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage09" x="736" y="32" w="32" h="32" xo="0" yo="0" id="10009014" name="inst_A2F0ED57" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage09Number" x="0" y="512" w="96" h="96" xo="192" yo="0" id="10013609" name="inst_9F247529" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage09Number" x="800" y="96" w="96" h="96" xo="192" yo="0" id="10013610" name="inst_AC2BFAE1" depth="-100" locked="0" colour="4294967295" scaleX="-1" scaleY="-1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

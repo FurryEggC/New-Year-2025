@@ -31,6 +31,7 @@ if (instance_number(object_index) &gt; 1)
     instance_destroy();
 
 fadeTime = 1000;
+actRestart = 1;
 </string>
           </argument>
         </arguments>
@@ -198,7 +199,7 @@ if (global.gameStarted)
     
     if (!global.gamePaused) //check if the game is currently paused
     {
-        if (scrButtonCheckPressed(global.restartButton))
+        if (scrButtonCheckPressed(global.restartButton) &amp;&amp; actRestart)
         {
             //stop death sound/music
             audio_stop_sound(global.deathSound);

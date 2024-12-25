@@ -34,7 +34,7 @@ with (objSave) {sprite_index = spr15Save;}</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
+    <page>2</page>
     <xoffset>-126</xoffset>
     <yoffset>-38</yoffset>
   </makerSettings>
@@ -241,6 +241,8 @@ with (objSave) {sprite_index = spr15Save;}</code>
     <tile bgName="bStage15" x="224" y="320" w="32" h="32" xo="0" yo="0" id="10012766" name="inst_3E3528F8" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage15" x="256" y="320" w="32" h="32" xo="0" yo="0" id="10012767" name="inst_07FDD316" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage15" x="192" y="144" w="32" h="32" xo="0" yo="0" id="10012768" name="inst_B3F99B9F" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage15Number" x="360" y="464" w="40" h="96" xo="6" yo="0" id="10013651" name="inst_52BDDA57" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage15Number" x="400" y="464" w="40" h="96" xo="6" yo="0" id="10013653" name="inst_B40B6FB1" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

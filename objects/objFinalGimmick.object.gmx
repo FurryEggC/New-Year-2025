@@ -55,7 +55,8 @@ next_room_index = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_restart();
+            <string>with (objWorld) actRestart = 1;
+room_restart();
 </string>
           </argument>
         </arguments>
@@ -113,10 +114,15 @@ else if (room == 74)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>live--;
+            <string>with (objWorld) actRestart = 0;
+live--;
 
-if (live &lt;= 0) exit;
-alarm[0] = 30;
+if (live &lt;= 0) 
+{
+    with (objWorld) actRestart = 1;
+    exit;
+}
+alarm[0] = 50;
 </string>
           </argument>
         </arguments>

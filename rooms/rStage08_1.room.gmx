@@ -27,8 +27,8 @@ if instance_exists(objCherry){objCherry.sprite_index = spr08SpikeF;}</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -37,9 +37,9 @@ if instance_exists(objCherry){objCherry.sprite_index = spr08SpikeF;}</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>1</page>
-    <xoffset>150</xoffset>
-    <yoffset>-37</yoffset>
+    <page>2</page>
+    <xoffset>-112</xoffset>
+    <yoffset>-35</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background29" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -397,6 +397,7 @@ if instance_exists(objCherry){objCherry.sprite_index = spr08SpikeF;}</code>
     <tile bgName="bStage08" x="768" y="320" w="32" h="32" xo="0" yo="0" id="10008141" name="inst_7B3DB967" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage08" x="768" y="352" w="32" h="32" xo="0" yo="0" id="10008142" name="inst_FABF5EF7" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage08" x="768" y="384" w="32" h="32" xo="0" yo="0" id="10008143" name="inst_D6377F2E" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage08Number" x="512" y="0" w="96" h="96" xo="0" yo="0" id="10013602" name="inst_DB07CF0C" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

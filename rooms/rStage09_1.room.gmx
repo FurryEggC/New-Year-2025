@@ -40,9 +40,9 @@ if instance_exists(objWater3){objWater3.sprite_index = spr09Water3;}
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>119</xoffset>
-    <yoffset>-20</yoffset>
+    <page>2</page>
+    <xoffset>-38</xoffset>
+    <yoffset>-56</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background32" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -384,6 +384,7 @@ if instance_exists(objWater3){objWater3.sprite_index = spr09Water3;}
     <tile bgName="bStage09" x="720" y="256" w="32" h="32" xo="0" yo="0" id="10008738" name="inst_C6A9576B" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage09" x="720" y="240" w="32" h="32" xo="0" yo="0" id="10008739" name="inst_29CFC49C" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage09" x="720" y="576" w="32" h="32" xo="0" yo="0" id="10008740" name="inst_A38B623F" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage09Number" x="624" y="0" w="96" h="96" xo="0" yo="0" id="10013607" name="inst_AC5BB801" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

@@ -44,6 +44,7 @@
       <sound>sound\musIntrospection</sound>
       <sound>sound\musVolcano</sound>
       <sound>sound\musStarburnedAndUnkissed</sound>
+      <sound>sound\musUmbrella</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -410,6 +411,57 @@
     <sprites name="oneuse">
       <sprite>sprites\sprStage13Block</sprite>
     </sprites>
+    <sprites name="ed">
+      <sprite>sprites\sprEd01</sprite>
+      <sprite>sprites\sprEd02</sprite>
+      <sprite>sprites\sprEd03</sprite>
+      <sprite>sprites\sprEd04</sprite>
+      <sprite>sprites\sprEd05</sprite>
+      <sprite>sprites\sprEd06</sprite>
+      <sprite>sprites\sprEd07</sprite>
+      <sprite>sprites\sprEd08</sprite>
+      <sprite>sprites\sprEd09</sprite>
+      <sprite>sprites\sprEd10</sprite>
+      <sprite>sprites\sprEd11</sprite>
+      <sprite>sprites\sprEd12</sprite>
+      <sprite>sprites\sprEd13</sprite>
+      <sprite>sprites\sprEd14</sprite>
+      <sprite>sprites\sprEd15</sprite>
+      <sprite>sprites\sprEd16</sprite>
+      <sprite>sprites\sprEd17</sprite>
+      <sprite>sprites\sprEd18</sprite>
+      <sprite>sprites\sprEd19</sprite>
+      <sprite>sprites\sprEd20</sprite>
+      <sprite>sprites\sprEd21</sprite>
+      <sprite>sprites\sprEd22</sprite>
+      <sprite>sprites\sprEd23</sprite>
+      <sprite>sprites\sprEd24</sprite>
+      <sprite>sprites\sprEd25</sprite>
+      <sprite>sprites\sprEd26</sprite>
+      <sprite>sprites\sprEd27</sprite>
+      <sprite>sprites\sprEd28</sprite>
+      <sprite>sprites\sprEd29</sprite>
+      <sprite>sprites\sprEd30</sprite>
+      <sprite>sprites\sprEd31</sprite>
+      <sprite>sprites\sprEd32</sprite>
+      <sprite>sprites\sprEd33</sprite>
+      <sprite>sprites\sprEd34</sprite>
+      <sprite>sprites\sprEd35</sprite>
+      <sprite>sprites\sprEd36</sprite>
+      <sprite>sprites\sprEd37</sprite>
+      <sprite>sprites\sprEd38</sprite>
+      <sprite>sprites\sprEd39</sprite>
+      <sprite>sprites\sprEd40</sprite>
+      <sprite>sprites\sprEd41</sprite>
+      <sprite>sprites\sprEd42</sprite>
+      <sprite>sprites\sprEd43</sprite>
+      <sprite>sprites\sprEd44</sprite>
+      <sprite>sprites\sprEd45</sprite>
+      <sprite>sprites\sprEd46</sprite>
+      <sprite>sprites\sprEd47</sprite>
+      <sprite>sprites\sprEd48</sprite>
+      <sprite>sprites\sprEd49</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bTheGuy</background>
@@ -425,6 +477,18 @@
       <background>background\bStage02Number</background>
       <background>background\bStage03Number</background>
       <background>background\bStage04Number</background>
+      <background>background\bStage05Number</background>
+      <background>background\bStage06Number</background>
+      <background>background\bStage07Number</background>
+      <background>background\bStage08Number</background>
+      <background>background\bStage09Number</background>
+      <background>background\bStage10Number</background>
+      <background>background\bStage11Number</background>
+      <background>background\bStage12Number</background>
+      <background>background\bStage13Number</background>
+      <background>background\bStage14Number</background>
+      <background>background\bStage15Number</background>
+      <background>background\bStage16Number</background>
     </backgrounds>
     <backgrounds name="Blocks">
       <background>background\bStart</background>
@@ -550,9 +614,15 @@
     <font>fonts\fDefault24</font>
     <font>fonts\fDefault18</font>
     <font>fonts\fDefault12</font>
+    <font>fonts\fBeginText</font>
+    <font>fonts\fEDAnimation36</font>
+    <font>fonts\fEDAnimation28</font>
   </fonts>
   <objects name="objects">
     <object>objects\objBetterBlock</object>
+    <object>objects\objEDAnimation</object>
+    <object>objects\objDrawText</object>
+    <object>objects\objDrawSprite</object>
     <object>objects\objSpikeUp</object>
     <object>objects\objSpikeRight</object>
     <object>objects\objSpikeLeft</object>
@@ -561,6 +631,7 @@
     <object>objects\objMiniRight</object>
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
+    <object>objects\objBeginSign</object>
     <object>objects\objKillerBlock</object>
     <object>objects\objTouchMovingPlatform</object>
     <object>objects\objCherry</object>
@@ -721,10 +792,10 @@
       <object>objects\objStage09Pg3Game</object>
       <object>objects\objTelevisionEffect</object>
       <object>objects\objFinalGimmick</object>
-      <object>objects\objFinalShader</object>
     </objects>
     <objects name="shader">
       <object>objects\objCreateShaderBgStage07</object>
+      <object>objects\objFinalShader</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -855,6 +926,9 @@
       <room>rooms\rFinal_14</room>
       <room>rooms\rFinal_15</room>
       <room>rooms\rFinal_16</room>
+    </rooms>
+    <rooms name="ED">
+      <room>rooms\rED</room>
     </rooms>
   </rooms>
   <help>

@@ -34,9 +34,9 @@ if instance_exists(objTouchMovingPlatform){objTouchMovingPlatform.sprite_index =
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>1</page>
-    <xoffset>-57</xoffset>
-    <yoffset>-45</yoffset>
+    <page>2</page>
+    <xoffset>-79</xoffset>
+    <yoffset>-32</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background38" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -416,6 +416,7 @@ if instance_exists(objTouchMovingPlatform){objTouchMovingPlatform.sprite_index =
     <tile bgName="bStage11" x="704" y="576" w="32" h="32" xo="32" yo="32" id="10009932" name="inst_EB83E6B4" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage11" x="736" y="576" w="32" h="32" xo="32" yo="32" id="10009933" name="inst_1E575340" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage11" x="768" y="576" w="32" h="32" xo="32" yo="32" id="10009934" name="inst_8D1D3A73" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage11Number" x="672" y="512" w="139" h="96" xo="0" yo="0" id="10013616" name="inst_982DB886" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

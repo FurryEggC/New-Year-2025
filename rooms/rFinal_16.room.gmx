@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -38,8 +38,8 @@ with (objWalljumpR) {sprite_index = spr16VineR;}</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-55</xoffset>
-    <yoffset>-46</yoffset>
+    <xoffset>25</xoffset>
+    <yoffset>-213</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background53" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
@@ -75,6 +75,7 @@ with (objWalljumpR) {sprite_index = spr16VineR;}</code>
     <instance objName="objPlayerStart" x="384" y="560" name="inst_3BEB5262" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objTouchMovingPlatform" x="384" y="592" name="inst_911E3684" locked="0" code="vspd = -2;&#xA;hspd = 0;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objFinalShader" x="0" y="0" name="inst_53C53BC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRCFadeout" x="352" y="-32" name="inst_8664CB67" locked="0" code="roomTo = rED;&#xA;" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage16" x="192" y="320" w="32" h="32" xo="0" yo="0" id="10013244" name="inst_E3F23865" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -249,6 +250,8 @@ with (objWalljumpR) {sprite_index = spr16VineR;}</code>
     <tile bgName="bStage16" x="512" y="192" w="32" h="32" xo="0" yo="0" id="10013504" name="inst_8F72DBA9" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage16" x="512" y="160" w="32" h="32" xo="0" yo="0" id="10013505" name="inst_41380807" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage16" x="512" y="128" w="32" h="32" xo="0" yo="0" id="10013506" name="inst_029C8A93" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage16Number" x="56" y="32" w="37" h="96" xo="2" yo="0" id="10013663" name="inst_D067C0F8" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage16Number" x="96" y="32" w="37" h="96" xo="154" yo="0" id="10013664" name="inst_2AB65418" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

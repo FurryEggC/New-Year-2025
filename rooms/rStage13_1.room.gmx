@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -30,8 +30,8 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -41,8 +41,8 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>2</page>
-    <xoffset>216</xoffset>
-    <yoffset>31</yoffset>
+    <xoffset>-50</xoffset>
+    <yoffset>-4</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background45" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -421,6 +421,8 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
     <tile bgName="bStage13" x="720" y="160" w="32" h="32" xo="0" yo="0" id="10011177" name="inst_B3AF1CE8" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage13" x="720" y="192" w="32" h="32" xo="0" yo="0" id="10011178" name="inst_59C6455D" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage13" x="768" y="544" w="32" h="32" xo="0" yo="0" id="10011384" name="inst_62C6600F" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage13Number" x="528" y="496" w="50" h="96" xo="9" yo="0" id="10013625" name="inst_CAAB9A92" depth="-100" locked="-1" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bStage13Number" x="568" y="496" w="50" h="96" xo="61" yo="0" id="10013626" name="inst_785FA834" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
