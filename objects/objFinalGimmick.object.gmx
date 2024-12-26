@@ -28,9 +28,9 @@
             <string>live = 1;
 
 room_order = array_create(14);
-for(var i=0;i&lt;14;++i)
+for(var i = 0; i &lt; 14; ++i)
 {
-    room_order[i] = 75+i;
+    room_order[i] = 75 + i;
 }
 next_room_index = 0;
 </string>

@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(musUmbrella,1,0);
+            <string>global.noPause = 1;
+audio_play_sound(musUmbrella,1,0);
 with (objWorld) actRestart = 0;
 t = 0;
 
@@ -82,6 +83,28 @@ pic_array[30] = sprEd46;
 pic_array[31] = sprEd47;
 
 pic_array[32] = sprEd49;
+
+var gt = global.time;
+timeText = string(gt div 3600) + ":";
+gt = gt mod 3600;
+timeText += string(gt div 600);
+gt = gt mod 600;
+timeText += string(gt div 60) + ":";
+gt = gt mod 60;
+timeText += string(gt div 10);
+gt = gt mod 10;
+timeText += string(floor(gt));
+
+difText = "";
+hintText = ":3"
+if (global.difficulty == 0)
+{
+    difText = "Medium";
+    hintText = "Play Hard Mode";
+}
+else if (global.difficulty == 1) difText = "Hard";
+else if (global.difficulty == 2) difText = "Very Hard";
+else if (global.difficulty == 3) difText = "Wait what???";
 </string>
           </argument>
         </arguments>
@@ -142,32 +165,213 @@ else if (t == 269 - 15)
         alarm[0] = -1;
     }
 }
-else if (t == 384 - 1)
-{
-    with(objDrawText) alarm[0] = 1;
-}
-else if (t == 517 - 15)
+else if (t == 384) {scrFadeDraw();}
+
+else if (t == 494 - 15) {scrDrawAttachedText("Stage 01 : Stumble");}
+else if (t == 722 - 30) {scrFadeDraw();}
+else if (t == 722 - 15) {scrDrawAttachedText("bgm : Stumble");}
+
+else if (t == 951 - 30) {scrFadeDraw();}
+else if (t == 951 - 15) {scrDrawAttachedText("Stage 02 : Space");}
+else if (t == 1180 - 30) {scrFadeDraw();}
+else if (t == 1180 - 15) {scrDrawAttachedText("bgm : Obsolete Sky");}
+
+else if (t == 1408 - 30) {scrFadeDraw();}
+
+else if (t == 1580 - 15) {scrDrawAttachedText("Stage 03 : Dew");}
+else if (t == 1580 - 30) {scrFadeDraw();}
+else if (t == 1780 - 15) {scrDrawAttachedText("bgm : Breeze");}
+else if (t == 1780 - 30) {scrFadeDraw();}
+
+else if (t == 2037 - 15) {scrDrawAttachedText("Stage 04 : Duloxetine");}
+else if (t == 2037 - 30) {scrFadeDraw();}
+else if (t == 2230 - 15) {scrDrawAttachedText("bgm : Blues");}
+else if (t == 2230 - 30) {scrFadeDraw();}
+
+else if (t == 2437 - 15) {scrDrawAttachedText("Stage 05 : Linear Algebra");}
+else if (t == 2437 - 30) {scrFadeDraw();}
+else if (t == 2637 - 15) {scrDrawAttachedText("bgm : Decay");}
+else if (t == 2637 - 30) {scrFadeDraw();}
+
+else if (t == 2894 - 15) {scrDrawAttachedText("Stage 06 : Muti Flip Castle");}
+else if (t == 2894 - 30) {scrFadeDraw();}
+else if (t == 3123 - 15) {scrDrawAttachedText("bgm : Intro");}
+else if (t == 3123 - 30) {scrFadeDraw();}
+
+else if (t == 3344 - 15) {scrDrawAttachedText("Stage 07 : Trunk Forest");}
+else if (t == 3344 - 30) {scrFadeDraw();}
+else if (t == 3580 - 15) {scrDrawAttachedText("bgm : Metronome");}
+else if (t == 3580 - 30) {scrFadeDraw();}
+
+else if (t == 3798 - 15) {scrDrawAttachedText("Stage 08 : Shooting Haven");}
+else if (t == 3798 - 30) {scrFadeDraw();}
+else if (t == 4037 - 15) {scrDrawAttachedText("bgm : Please Stay");}
+else if (t == 4037 - 30) {scrFadeDraw();}
+
+else if (t == 4265 - 30) {scrFadeDraw();}
+else if (t == 4365 - 15) 
 {
     with(instance_create(0,0,objDrawText))
     {
-        signText = "Stage 01 : Stumble";
+        signText = "Half of the game#The game is#becoming harder...";
+        target_alpha = 1;
+        draw_font = fEDAnimation36;
+        draw_x = 400;
+        draw_y = 304;
+        alarm[0] = -1;
+    }
+}
+else if (t == 4536 - 30) {scrFadeDraw();}
+
+else if (t == 4608 - 15) {scrDrawAttachedText("Stage 09 : Crying of Platform");}
+else if (t == 4608 - 30) {scrFadeDraw();}
+else if (t == 4837 - 15) {scrDrawAttachedText("bgm : Birthday Resistance");}
+else if (t == 4837 - 30) {scrFadeDraw();}
+
+else if (t == 5087 - 15) {scrDrawAttachedText("Stage 10 : Stiff Dot");}
+else if (t == 5087 - 30) {scrFadeDraw();}
+else if (t == 5287 - 15) {scrDrawAttachedText("bgm : Eve");}
+else if (t == 5287 - 30) {scrFadeDraw();}
+
+else if (t == 5494 - 15) {scrDrawAttachedText("Stage 11 : Dynamic Shooter");}
+else if (t == 5494 - 30) {scrFadeDraw();}
+else if (t == 5723 - 15) {scrDrawAttachedText("bgm : Er");}
+else if (t == 5723 - 30) {scrFadeDraw();}
+
+else if (t == 5951 - 15) {scrDrawAttachedText("Stage 12 : Blandish Moving");}
+else if (t == 5951 - 30) {scrFadeDraw();}
+else if (t == 6208 - 15) {scrDrawAttachedText("bgm : Blossom");}
+else if (t == 6208 - 30) {scrFadeDraw();}
+
+else if (t == 6437 - 15) {scrDrawAttachedText("Stage 13 : Effervescent Trigger");}
+else if (t == 6437 - 30) {scrFadeDraw();}
+else if (t == 6673 - 15) {scrDrawAttachedText("bgm : Ritual");}
+else if (t == 6673 - 30) {scrFadeDraw();}
+
+else if (t == 6894 - 15) {scrDrawAttachedText("Stage 14 : Replace My Jump");}
+else if (t == 6894 - 30) {scrFadeDraw();}
+else if (t == 7123 - 15) {scrDrawAttachedText("bgm : Waiting For Sunrise");}
+else if (t == 7123 - 30) {scrFadeDraw();}
+
+else if (t == 7350 - 15) {scrDrawAttachedText("Stage 15 : The Peace Before Rainstorm");}
+else if (t == 7350 - 30) {scrFadeDraw();}
+else if (t == 7580 - 15) {scrDrawAttachedText("bgm : Introspection");}
+else if (t == 7580 - 30) {scrFadeDraw();}
+
+else if (t == 7808 - 15) {scrDrawAttachedText("Stage 16 : Final Tower");}
+else if (t == 7808 - 30) {scrFadeDraw();}
+else if (t == 8037 - 15) {scrDrawAttachedText("bgm : Volcano");}
+else if (t == 8037 - 30) {scrFadeDraw();}
+
+else if (t == 8265 - 30) {scrFadeDraw();}
+else if (t == 8265 - 15)
+{
+    with(instance_create(0,0,objDrawText))
+    {
+        signText = "Final Trail";
+        target_alpha = 1;
+        draw_font = fEDAnimation36;
+        draw_x = 400;
+        draw_y = 180;
+        alarm[0] = -1;
+    }
+}
+else if (t == 8465 - 15)
+{
+    with(instance_create(0,0,objDrawText))
+    {
+        signText = "bgm : Starburned And Unkissed";
         target_alpha = 1;
         draw_font = fEDAnimation28;
         draw_x = 400;
-        draw_y = 50;
+        draw_y = 425;
         alarm[0] = -1;
     }
-    with(instance_create(400,324,objDrawSprite))
-    {
-        sprite_index = other.pic_array[other.index];
-        alarm[0] = -1;
-        target_alpha = 1;
-    }
-    index++;
 }
-
-
-
+else if (t == 8723 - 30) {scrFadeDraw();}
+else if (t == 8723 - 15)
+{
+    with(instance_create(0,0,objDrawText))
+    {
+        signText = "ED bgm : Umbrella";
+        target_alpha = 1;
+        draw_font = fEDAnimation28;
+        draw_x = 400;
+        draw_y = 304;
+        alarm[0] = -1;
+    }
+}
+else if (t == 8908 - 30) {scrFadeDraw();}
+else if (t == 8908 - 15)
+{
+    with(instance_create(0,0,objDrawText))
+    {
+        signText = "Clear.";
+        target_alpha = 1;
+        draw_font = fEDAnimation36;
+        draw_x = 400;
+        draw_y = 180;
+        alarm[0] = -1;
+    }
+    with(instance_create(0,0,objDrawText))
+    {
+        signText = "Mode : " + other.difText;
+        target_alpha = 1;
+        draw_font = fEDAnimation28;
+        draw_x = 400;
+        draw_y = 375;
+        alarm[0] = -1;
+    }
+    with(instance_create(0,0,objDrawText))
+    {
+        signText = "Time : " + other.timeText;
+        target_alpha = 1;
+        draw_font = fEDAnimation28;
+        draw_x = 400;
+        draw_y = 425;
+        alarm[0] = -1;
+    }
+    with(instance_create(0,0,objDrawText))
+    {
+        signText = "Death : " + string(global.death);
+        target_alpha = 1;
+        draw_font = fEDAnimation28;
+        draw_x = 400;
+        draw_y = 475;
+        alarm[0] = -1;
+    }
+}
+else if (t == 9180 - 30) {scrFadeDraw();}
+else if (t == 9180 - 15)
+{
+    with(instance_create(0,0,objDrawText))
+    {
+        signText = "Thanks for playing";
+        target_alpha = 1;
+        draw_font = fEDAnimation36;
+        draw_x = 400;
+        draw_y = 234;
+        alarm[0] = -1;
+    }
+}
+else if (t == 9480 - 15)
+{
+    with(instance_create(0,0,objDrawText))
+    {
+        signText = other.hintText;
+        target_alpha = 1;
+        draw_font = fEDAnimation36;
+        draw_x = 400;
+        draw_y = 430;
+        alarm[0] = -1;
+    }
+}
+else if (t == 10000)
+{
+    global.noPause = 0;
+    with (objWorld) actRestart = 1;
+    room_goto(rEndRoom);
+} 
 </string>
           </argument>
         </arguments>

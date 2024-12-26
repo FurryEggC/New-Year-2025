@@ -45,6 +45,7 @@
       <sound>sound\musVolcano</sound>
       <sound>sound\musStarburnedAndUnkissed</sound>
       <sound>sound\musUmbrella</sound>
+      <sound>sound\musNull</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -545,6 +546,7 @@
       <background>background\background19</background>
       <background>background\background25</background>
       <background>background\background26</background>
+      <background>background\background74</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths">
@@ -603,6 +605,8 @@
       <script>scripts\scrMakeCircle.gml</script>
       <script>scripts\scrBazierMove.gml</script>
       <script>scripts\array_shuffle.gml</script>
+      <script>scripts\scrDrawAttachedText.gml</script>
+      <script>scripts\scrFadeDraw.gml</script>
     </scripts>
   </scripts>
   <shaders name="shaders">
@@ -620,9 +624,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\objBetterBlock</object>
-    <object>objects\objEDAnimation</object>
-    <object>objects\objDrawText</object>
-    <object>objects\objDrawSprite</object>
+    <object>objects\objLevelSelection</object>
     <object>objects\objSpikeUp</object>
     <object>objects\objSpikeRight</object>
     <object>objects\objSpikeLeft</object>
@@ -644,7 +646,6 @@
     <object>objects\objSave</object>
     <object>objects\objSaveVHard</object>
     <object>objects\objSaveBlocker</object>
-    <object>objects\objFinalWarp</object>
     <object>objects\objWarpAutosaveNext</object>
     <object>objects\objMovingPlatform</object>
     <object>objects\objCoadingConTrigger</object>
@@ -778,6 +779,7 @@
       <object>objects\objWarpStart</object>
       <object>objects\objWarp</object>
       <object>objects\objWarpNext</object>
+      <object>objects\objFinalWarp</object>
     </objects>
     <objects name="items">
       <object>objects\objSecretItem</object>
@@ -792,6 +794,9 @@
       <object>objects\objStage09Pg3Game</object>
       <object>objects\objTelevisionEffect</object>
       <object>objects\objFinalGimmick</object>
+      <object>objects\objEDAnimation</object>
+      <object>objects\objDrawText</object>
+      <object>objects\objDrawSprite</object>
     </objects>
     <objects name="shader">
       <object>objects\objCreateShaderBgStage07</object>
@@ -929,6 +934,8 @@
     </rooms>
     <rooms name="ED">
       <room>rooms\rED</room>
+      <room>rooms\rEndRoom</room>
+      <room>rooms\rLevelSelect</room>
     </rooms>
   </rooms>
   <help>

@@ -109,7 +109,7 @@ switch (room)                       //determines which song to play
         roomSong = musStarburnedAndUnkissed;
         break;
     default:                        //default option in case the room does not have a song set
-        roomSong = -1;
+        roomSong = musNull;
         break;
 }
 

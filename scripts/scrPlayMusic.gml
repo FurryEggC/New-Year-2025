@@ -6,6 +6,7 @@
 var songID = argument0;
 var loopSong = argument1;
 
+
 if (!global.muteMusic)  //check if music is supposed to be muted
 {
     if (global.currentMusicID != songID)  //checks if the song to play is already playing
