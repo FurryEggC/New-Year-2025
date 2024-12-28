@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>4</vsnap>
-  <hsnap>4</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-125</xoffset>
-    <yoffset>27</yoffset>
+    <page>0</page>
+    <xoffset>-232</xoffset>
+    <yoffset>-50</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background13" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -311,6 +311,7 @@
     <instance objName="objUpToward" x="688" y="320" name="inst_0D5BB974" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="688" y="0" name="inst_04CE6C22" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objOutsideRoomChanger" x="800" y="0" name="inst_45216BBC" locked="0" code="roomTo=rStage02_3&#xA;" scaleX="1" scaleY="19" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerStart" x="0" y="96" name="inst_AF5559A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage02" x="96" y="128" w="32" h="32" xo="0" yo="0" id="10004909" name="inst_BF209FD7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

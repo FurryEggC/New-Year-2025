@@ -26,7 +26,7 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
+    <page>0</page>
     <xoffset>-112</xoffset>
     <yoffset>-30</yoffset>
   </makerSettings>
@@ -170,6 +170,7 @@
     <instance objName="objSpikeDown" x="272" y="480" name="inst_C181A288" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="288" y="512" name="inst_705A86D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRCFadeout" x="192" y="608" name="inst_4C067C7D" locked="0" code="roomTo = rStage05_1;" scaleX="3.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerStart" x="32" y="288" name="inst_3EC07FB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage04" x="0" y="192" w="32" h="32" xo="0" yo="0" id="10005969" name="inst_44F926D8" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

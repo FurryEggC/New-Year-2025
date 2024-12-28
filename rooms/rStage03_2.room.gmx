@@ -27,9 +27,9 @@ if instance_exists(objDJumpRefresher){objDJumpRefresher.sprite_index=spr03DJumpR
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-63</xoffset>
-    <yoffset>-42</yoffset>
+    <page>0</page>
+    <xoffset>-92</xoffset>
+    <yoffset>-33</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background14" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -154,6 +154,7 @@ if instance_exists(objDJumpRefresher){objDJumpRefresher.sprite_index=spr03DJumpR
     <instance objName="objSpikeRight" x="400" y="304" name="inst_7F747C19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="672" y="48" name="inst_AB43DBE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="640" y="80" name="inst_647FEFA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerStart" x="752" y="208" name="inst_7F8423A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage03" x="544" y="128" w="32" h="32" xo="0" yo="0" id="10005194" name="inst_C0335DD4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

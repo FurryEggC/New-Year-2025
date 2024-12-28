@@ -50,6 +50,7 @@ if (savePosition)
     }
     
     global.saveGameClear = global.gameClear;
+    global.saveGameBeat = global.gameBeat;
 }
 
 //create a map for save data
@@ -79,6 +80,7 @@ for (var i = 0; i < global.bossItemTotal; i++)
 }
 
 ds_map_add(saveMap,"saveGameClear",global.saveGameClear);
+ds_map_add(saveMap,"saveGameBeat",global.saveGameBeat);
 
 //add md5 hash to verify saves and make them harder to hack
 ds_map_add(saveMap,"mapMd5",md5_string_unicode(json_encode(saveMap)+global.md5StrAdd));

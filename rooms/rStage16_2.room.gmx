@@ -37,9 +37,9 @@ with (objWalljumpR) {sprite_index = spr16VineR;}</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-44</xoffset>
-    <yoffset>-11</yoffset>
+    <page>0</page>
+    <xoffset>0</xoffset>
+    <yoffset>11</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background53" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
@@ -116,8 +116,8 @@ with (objWalljumpR) {sprite_index = spr16VineR;}</code>
     <instance objName="objStage13Trigger" x="472" y="376" name="inst_735E7D72" locked="0" code="kind = 3;&#xA;num = 4;&#xA;obj[1] = inst_73E308F0;&#xA;obj[2] = inst_B2AB4CA5;&#xA;obj[3] = inst_4B560B76;&#xA;obj[4] = inst_8F83D7BF;&#xA;obj[5] = inst_23E4E8F9;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="448" y="288" name="inst_8F83D7BF" locked="0" code="xe = xstart;&#xA;ye = ystart - 32;&#xA;value = 0.10;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="448" y="256" name="inst_4B560B76" locked="0" code="xe = xstart;&#xA;ye = ystart - 32;&#xA;value = 0.10;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSaveMedium" x="256" y="320" name="inst_4B27BE0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSave" x="352" y="544" name="inst_EBB5DBFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveMedium" x="352" y="544" name="inst_4B27BE0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSave" x="256" y="320" name="inst_EBB5DBFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="400" y="384" name="inst_73E308F0" locked="0" code="xe = xstart + 5.5 * 32;&#xA;ye = ystart;&#xA;value = 0.07;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="400" y="416" name="inst_B2AB4CA5" locked="0" code="xe = xstart + 5.5 * 32;&#xA;ye = ystart;&#xA;value = 0.07;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWater2" x="520" y="384" name="inst_F0F0F3AC" locked="0" code="" scaleX="0.5" scaleY="3.5" colour="4294967295" rotation="0"/>
@@ -166,7 +166,7 @@ with (objWalljumpR) {sprite_index = spr16VineR;}</code>
     <instance objName="objBetterBlock" x="512" y="0" name="inst_19727ABC" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="512" y="48" name="inst_195EAE11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCoadingConTrigger" x="448" y="80" name="inst_6A46172B" locked="0" code="kind = 3;&#xA;mnum = 1;&#xA;mobj[1] = inst_6FE7D3BE;&#xA;snd = 1;" scaleX="1" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="objTrippleJump" x="352" y="544" name="inst_12858961" locked="0" code="visible = 0;&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTrippleJump" x="224" y="544" name="inst_12858961" locked="0" code="visible = 0;&#xA;" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage16" x="192" y="576" w="32" h="32" xo="0" yo="0" id="10013121" name="inst_6F17313E" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

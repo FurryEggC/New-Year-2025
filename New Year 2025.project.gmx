@@ -47,6 +47,9 @@
       <sound>sound\musUmbrella</sound>
       <sound>sound\musNull</sound>
     </sounds>
+    <sounds name="ex">
+      <sound>sound\musLetTheRaversRave</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -624,7 +627,6 @@
   </fonts>
   <objects name="objects">
     <object>objects\objBetterBlock</object>
-    <object>objects\objLevelSelection</object>
     <object>objects\objSpikeUp</object>
     <object>objects\objSpikeRight</object>
     <object>objects\objSpikeLeft</object>
@@ -652,6 +654,19 @@
     <object>objects\objRCFadeout</object>
     <object>objects\objOutsideRoomChanger</object>
     <object>objects\objSkinChanger</object>
+    <objects name="hidden">
+      <object>objects\objHiddenWarp</object>
+      <object>objects\objSecretItem</object>
+      <object>objects\objTriggerOn</object>
+      <object>objects\objTriggerOff</object>
+      <objects name="S01">
+        <object>objects\objH01SetOff</object>
+        <object>objects\objH01Enterance</object>
+        <object>objects\objH01Controller</object>
+        <object>objects\objH01AddPoint</object>
+        <object>objects\objH01StartWarp</object>
+      </objects>
+    </objects>
     <objects name="misc">
       <object>objects\objWater</object>
       <object>objects\sprWater0</object>
@@ -782,11 +797,11 @@
       <object>objects\objFinalWarp</object>
     </objects>
     <objects name="items">
-      <object>objects\objSecretItem</object>
       <object>objects\objSecretIndicator</object>
       <object>objects\objBossItem</object>
       <object>objects\objBossIndicator</object>
       <object>objects\objGameClear</object>
+      <object>objects\objGameBeat</object>
     </objects>
     <objects name="oneuse">
       <object>objects\objFadeIn</object>
@@ -797,6 +812,7 @@
       <object>objects\objEDAnimation</object>
       <object>objects\objDrawText</object>
       <object>objects\objDrawSprite</object>
+      <object>objects\objLevelSelection</object>
     </objects>
     <objects name="shader">
       <object>objects\objCreateShaderBgStage07</object>
@@ -936,6 +952,17 @@
       <room>rooms\rED</room>
       <room>rooms\rEndRoom</room>
       <room>rooms\rLevelSelect</room>
+    </rooms>
+    <rooms name="Hidden">
+      <room>rooms\rHiddenHub</room>
+      <rooms name="S01">
+        <room>rooms\rHidden01_1</room>
+        <room>rooms\rHidden01_2</room>
+        <room>rooms\rHidden01_3</room>
+        <room>rooms\rHidden01_4</room>
+        <room>rooms\rHidden01_5</room>
+        <room>rooms\rHidden01_6</room>
+      </rooms>
     </rooms>
   </rooms>
   <help>

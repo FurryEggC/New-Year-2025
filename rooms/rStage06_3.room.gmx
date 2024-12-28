@@ -37,7 +37,7 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
+    <page>0</page>
     <xoffset>-74</xoffset>
     <yoffset>-31</yoffset>
   </makerSettings>
@@ -189,6 +189,7 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <instance objName="objBetterBlock" x="416" y="160" name="inst_0B4B7C94" locked="0" code="" scaleX="1" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="448" y="240" name="inst_CE138D3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRCFadeout" x="800" y="160" name="inst_54490047" locked="0" code="roomTo = rStage07_1;&#xA;" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerStart" x="32" y="448" name="inst_1180CAA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage06" x="0" y="0" w="32" h="32" xo="0" yo="0" id="10007013" name="inst_7CB3BFA8" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

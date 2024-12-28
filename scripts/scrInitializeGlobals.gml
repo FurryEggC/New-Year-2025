@@ -32,6 +32,8 @@ for (var i = global.bossItemTotal-1; i >= 0; i--)
 
 global.gameClear = false;
 global.saveGameClear = false;
+global.gameBeat = false;
+global.saveGameBeat = false;
 
 for (var i = 99; i >= 0; i--)
 {

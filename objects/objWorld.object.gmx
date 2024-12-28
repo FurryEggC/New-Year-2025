@@ -390,6 +390,44 @@ if (keyboard_check(vk_control) &amp;&amp; keyboard_check_pressed(ord("M")) &amp;
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Beat Game
+if !(global.gameBeat) exit;
+
+if (scrButtonCheckPressed(global.skipButton))
+{
+    if (room &lt;= rEndRoom &amp;&amp; room &gt;= rBegining)
+    {
+        with (objPlayer) instance_destroy();
+        if (room == rED)
+        {
+            room_goto(rEndRoom);
+            global.noPause = 0;
+            with (objWorld) actRestart = 1;
+            audio_stop_all();
+        }
+        else room_goto(rLevelSelect);
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="7" enumb="10">
       <action>

@@ -61,6 +61,7 @@ if (loadFile)
         }
         
         global.saveGameClear = ds_map_find_value(saveMap,"saveGameClear");
+        global.saveGameBeat = ds_map_find_value(saveMap,"saveGameBeat");
         
         //load md5 string from the save map
         var mapMd5 = ds_map_find_value(saveMap,"mapMd5");
@@ -122,6 +123,7 @@ for (var i = 0; i < global.bossItemTotal; i++)
 }
 
 global.gameClear = global.saveGameClear;
+global.gameBeat = global.saveGameBeat;
 
 instance_create(global.savePlayerX,global.savePlayerY,objPlayer);
 
