@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1296</w>
-    <h>768</h>
+    <w>1016</w>
+    <h>600</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-232</xoffset>
-    <yoffset>-50</yoffset>
+    <xoffset>303</xoffset>
+    <yoffset>-68</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background13" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -286,7 +286,7 @@
     <instance objName="objDownToward" x="624" y="224" name="inst_3A13928A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="656" y="224" name="inst_5E4D9665" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="656" y="64" name="inst_984F5A76" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBetterBlock" x="720" y="0" name="inst_287DD57A" locked="0" code="" scaleX="1" scaleY="11" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterBlock" x="720" y="32" name="inst_287DD57A" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="656" y="256" name="inst_A53B1AEE" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objUpToward" x="688" y="128" name="inst_01262A35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objUpToward" x="688" y="160" name="inst_F90FE412" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -312,6 +312,7 @@
     <instance objName="objBetterBlock" x="688" y="0" name="inst_04CE6C22" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objOutsideRoomChanger" x="800" y="0" name="inst_45216BBC" locked="0" code="roomTo=rStage02_3&#xA;" scaleX="1" scaleY="19" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="0" y="96" name="inst_AF5559A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH02Enterance" x="720" y="0" name="inst_27653198" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage02" x="96" y="128" w="32" h="32" xo="0" yo="0" id="10004909" name="inst_BF209FD7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -419,7 +420,6 @@
     <tile bgName="bStage02" x="688" y="0" w="32" h="32" xo="0" yo="0" id="10005031" name="inst_2A425F1A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage02" x="688" y="32" w="32" h="32" xo="0" yo="0" id="10005032" name="inst_A7E03F82" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage02" x="688" y="64" w="32" h="32" xo="0" yo="0" id="10005033" name="inst_15A05580" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage02" x="720" y="0" w="32" h="32" xo="0" yo="0" id="10005035" name="inst_7512A8CA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage02" x="720" y="32" w="32" h="32" xo="0" yo="0" id="10005036" name="inst_E8CC626B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage02" x="720" y="64" w="32" h="32" xo="0" yo="0" id="10005037" name="inst_50B37778" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage02" x="720" y="96" w="32" h="32" xo="0" yo="0" id="10005038" name="inst_5526DAEB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

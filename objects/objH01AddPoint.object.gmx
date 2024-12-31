@@ -58,19 +58,19 @@ y -= 1;
 }
 else if (spike == 2){
     with (objH01Controller) shuriken += other.current_point;
-    current_point *= 1.03;
+    current_point *= 1.05;
     if (x &gt;= 400) x -= 4 * 32;
     else x += 4 * 32;
 }
 else if (spike == 3){
     with (objH01Controller) diamond += other.current_point;
-    current_point *= 1.03;
+    current_point *= 1.07;
     if (x &gt;= 400) x -= 3 * 32;
     else x += 3 * 32;
 }
 else if (spike == 4){
     with (objH01Controller) nine += other.current_point;
-    current_point *= 1.03;
+    current_point *= 1.09;
     if (x &gt;= 400) x -= 4 * 32;
     else x += 4 * 32;
 }

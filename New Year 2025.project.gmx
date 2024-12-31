@@ -49,6 +49,7 @@
     </sounds>
     <sounds name="ex">
       <sound>sound\musLetTheRaversRave</sound>
+      <sound>sound\musHowYouMakeMeFeel</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -156,6 +157,7 @@
         <sprite>sprites\spr03SpikeDS</sprite>
         <sprite>sprites\spr03JumpRefresher</sprite>
         <sprite>sprites\spr03DJumpRefresher</sprite>
+        <sprite>sprites\spr03EJumpRefresher</sprite>
       </sprites>
       <sprites name="Stage05">
         <sprite>sprites\spr05SpikeU</sprite>
@@ -331,6 +333,18 @@
         <sprite>sprites\spr16VineL</sprite>
         <sprite>sprites\spr16VineR</sprite>
       </sprites>
+      <sprites name="Hidden02">
+        <sprite>sprites\sprH02SpikeU</sprite>
+        <sprite>sprites\sprH02SpikeL</sprite>
+        <sprite>sprites\sprH02SpikeR</sprite>
+        <sprite>sprites\sprH02SpikeD</sprite>
+        <sprite>sprites\sprH02SpikeUS</sprite>
+        <sprite>sprites\sprH02SpikeLS</sprite>
+        <sprite>sprites\sprH02SpikeRS</sprite>
+        <sprite>sprites\sprH02SpikeDS</sprite>
+        <sprite>sprites\sprH02SpikeF</sprite>
+        <sprite>sprites\sprH02Refresher</sprite>
+      </sprites>
     </sprites>
     <sprites name="misc">
       <sprite>sprites\sprWater</sprite>
@@ -344,8 +358,13 @@
       <sprite>sprites\sprWalljumpL</sprite>
       <sprite>sprites\sprJumpRefresher</sprite>
       <sprite>sprites\sprDJumpRefresher</sprite>
+      <sprite>sprites\sprEJumpRefresher</sprite>
       <sprite>sprites\sprPined</sprite>
       <sprite>sprites\sprSign</sprite>
+      <sprites name="Float">
+        <sprite>sprites\sprFloat</sprite>
+        <sprite>sprites\sprDeFloat</sprite>
+      </sprites>
       <sprites name="ShootRefresher">
         <sprite>sprites\sprShootRefreshOnceLeft</sprite>
         <sprite>sprites\sprShootRefreshOnceRight</sprite>
@@ -476,6 +495,15 @@
     <background>background\bStars</background>
     <background>background\background5</background>
     <background>background\background6</background>
+    <backgrounds name="HiddenBackgrounds">
+      <background>background\background75</background>
+    </backgrounds>
+    <backgrounds name="HiddenBlocks">
+      <background>background\bHidden02</background>
+      <background>background\bHidden02s</background>
+      <background>background\bHidden03</background>
+      <background>background\bHidden03s</background>
+    </backgrounds>
     <backgrounds name="Number">
       <background>background\bStage01Number</background>
       <background>background\bStage02Number</background>
@@ -550,6 +578,7 @@
       <background>background\background25</background>
       <background>background\background26</background>
       <background>background\background74</background>
+      <background>background\background78</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths">
@@ -624,6 +653,8 @@
     <font>fonts\fBeginText</font>
     <font>fonts\fEDAnimation36</font>
     <font>fonts\fEDAnimation28</font>
+    <font>fonts\fLine36</font>
+    <font>fonts\fLine28</font>
   </fonts>
   <objects name="objects">
     <object>objects\objBetterBlock</object>
@@ -635,7 +666,6 @@
     <object>objects\objMiniRight</object>
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
-    <object>objects\objBeginSign</object>
     <object>objects\objKillerBlock</object>
     <object>objects\objTouchMovingPlatform</object>
     <object>objects\objCherry</object>
@@ -643,6 +673,10 @@
     <object>objects\objWalljumpL</object>
     <object>objects\objWater2</object>
     <object>objects\objWater3</object>
+    <object>objects\objJumpRefresher</object>
+    <object>objects\objDJumpRefresher</object>
+    <object>objects\objDrawDjump</object>
+    <object>objects\objEJumpRefresher</object>
     <object>objects\objPlayerStart</object>
     <object>objects\objSaveMedium</object>
     <object>objects\objSave</object>
@@ -650,6 +684,7 @@
     <object>objects\objSaveBlocker</object>
     <object>objects\objWarpAutosaveNext</object>
     <object>objects\objMovingPlatform</object>
+    <object>objects\objHiddenFadeOut</object>
     <object>objects\objCoadingConTrigger</object>
     <object>objects\objRCFadeout</object>
     <object>objects\objOutsideRoomChanger</object>
@@ -666,16 +701,27 @@
         <object>objects\objH01AddPoint</object>
         <object>objects\objH01StartWarp</object>
       </objects>
+      <objects name="S02">
+        <object>objects\objH02Enterance</object>
+        <object>objects\objRoomFunction01</object>
+        <object>objects\objRoomFunction02</object>
+        <object>objects\objRoomFunction02A</object>
+      </objects>
+      <objects name="S03">
+        <object>objects\objH03SetOff</object>
+        <object>objects\objH03Enterance</object>
+      </objects>
     </objects>
     <objects name="misc">
       <object>objects\objWater</object>
       <object>objects\sprWater0</object>
+      <object>objects\objFloat</object>
+      <object>objects\objDeFloat</object>
       <object>objects\objStage13Trigger</object>
       <object>objects\objPinObject</object>
       <object>objects\objUpToward</object>
       <object>objects\objDownToward</object>
-      <object>objects\objJumpRefresher</object>
-      <object>objects\objDJumpRefresher</object>
+      <object>objects\objBeginSign</object>
       <object>objects\objSign</object>
       <objects name="muti_jumps">
         <object>objects\objSingleJump</object>
@@ -962,6 +1008,16 @@
         <room>rooms\rHidden01_4</room>
         <room>rooms\rHidden01_5</room>
         <room>rooms\rHidden01_6</room>
+      </rooms>
+      <rooms name="S02">
+        <room>rooms\rHidden02_1</room>
+        <room>rooms\rHidden02_2</room>
+        <room>rooms\rHidden02_3</room>
+      </rooms>
+      <rooms name="S03">
+        <room>rooms\rHidden03_1</room>
+        <room>rooms\rHidden03_2</room>
+        <room>rooms\rHidden03_3</room>
       </rooms>
     </rooms>
   </rooms>

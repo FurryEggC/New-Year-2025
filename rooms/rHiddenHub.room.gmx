@@ -63,7 +63,7 @@
     <instance objName="objBetterBlock" x="576" y="96" name="inst_CE7BEF4A" locked="0" code="" scaleX="1" scaleY="15" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="0" y="0" name="inst_8D3A6D6E" locked="0" code="" scaleX="25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="128" y="128" name="inst_C471CEBB" locked="0" code="i = 0;&#xA;roomTo = rStage01_3;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHiddenWarp" x="128" y="256" name="inst_63026304" locked="0" code="i = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHiddenWarp" x="128" y="256" name="inst_63026304" locked="0" code="i = 1;&#xA;roomTo = rStage02_3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="128" y="384" name="inst_78B9E13A" locked="0" code="i = 2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="128" y="512" name="inst_A483C893" locked="0" code="i = 3&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="320" y="512" name="inst_9FAE3D50" locked="0" code="i = 7&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

@@ -116,6 +116,11 @@ switch (room)                       //determines which song to play
     case rHidden01_6:
         roomSong = musLetTheRaversRave;
         break;
+    case rHidden02_1:
+    case rHidden02_2:
+    case rHidden02_3:
+        roomSong = musHowYouMakeMeFeel;
+        break;
     default:                        //default option in case the room does not have a song set
         roomSong = musNull;
         break;

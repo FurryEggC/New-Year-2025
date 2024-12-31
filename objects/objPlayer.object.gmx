@@ -130,6 +130,29 @@ Animation_sliding[4] = sprPlayerSliding5;
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// New Gimmicks
+float = 0;  // The condition of float.
+head_bonk = 0;  // The middle value.
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="3" enumb="2">
       <action>
@@ -307,8 +330,10 @@ else if instance_place(x,y,objDownToward) {gravity = 0.15;}
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Added System
+            <string>/// Added System Before Original
 onBlock = false;
+
+
 </string>
           </argument>
         </arguments>
@@ -633,6 +658,41 @@ if (instance_exists(objSlope) &amp;&amp; hspeed != 0)
     //set xprevious/yprevious coordinates for future solid collisions
     xprevious = x;
     yprevious = y;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Added System After Original
+
+// -------------Float Gimmick-------------
+if (float){
+    if (instance_place(x,y,objWater3)) scrKillPlayer();
+    else if (instance_place(x,y,objWater2)){
+        vspeed = 2 * global.grav;
+        head_bonk = 0;
+    }
+    else { 
+        if instance_place(x,y + vspeed,objBetterBlock) head_bonk = 1;
+        else if (head_bonk) vspeed = -(2.9) * global.grav;
+        else vspeed = max(-(2.9) * global.grav, vspeed - 0.8);
+    }
 }
 </string>
           </argument>
