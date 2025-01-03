@@ -26,8 +26,8 @@ with (objEJumpRefresher) {sprite_index = spr03EJumpRefresher;}</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1208</w>
-    <h>735</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -37,8 +37,8 @@ with (objEJumpRefresher) {sprite_index = spr03EJumpRefresher;}</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-60</xoffset>
-    <yoffset>-26</yoffset>
+    <xoffset>-108</xoffset>
+    <yoffset>-59</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background14" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>

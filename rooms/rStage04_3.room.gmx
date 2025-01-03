@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-112</xoffset>
-    <yoffset>-30</yoffset>
+    <xoffset>-53</xoffset>
+    <yoffset>-79</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -131,12 +131,6 @@
     <instance objName="objSpikeDown" x="288" y="32" name="inst_E9D10564" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="256" y="96" name="inst_6657D725" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="656" y="560" name="inst_F1441244" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMiniDown" x="640" y="32" name="inst_09C23F82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMiniDown" x="592" y="32" name="inst_20526F34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMiniDown" x="624" y="32" name="inst_810042C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMiniDown" x="608" y="32" name="inst_BAD5B099" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMiniDown" x="576" y="32" name="inst_022596E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMiniDown" x="560" y="32" name="inst_A12C96F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="624" y="128" name="inst_99EEA725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="224" y="416" name="inst_EA6BD218" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="336" y="416" name="inst_867422A0" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
@@ -171,6 +165,14 @@
     <instance objName="objSpikeDown" x="288" y="512" name="inst_705A86D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRCFadeout" x="192" y="608" name="inst_4C067C7D" locked="0" code="roomTo = rStage05_1;" scaleX="3.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="32" y="288" name="inst_3EC07FB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH04FakeSpike" x="640" y="32" name="inst_3140CD5D" locked="0" code="pwd = 5;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH04FakeSpike" x="624" y="32" name="inst_A68C4C23" locked="0" code="pwd = 6;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH04FakeSpike" x="608" y="32" name="inst_A90E9EEA" locked="0" code="pwd = 1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH04FakeSpike" x="592" y="32" name="inst_B3D7DEDD" locked="0" code="pwd = 4;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH04FakeSpike" x="576" y="32" name="inst_7FCA8B59" locked="0" code="pwd = 3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH04FakeSpike" x="560" y="32" name="inst_5B2455C0" locked="0" code="pwd = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH04Enterance" x="32" y="312" name="inst_43C7DC3C" locked="0" code="" scaleX="3" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="objH04Controler" x="0" y="0" name="inst_DC9E6C96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage04" x="0" y="192" w="32" h="32" xo="0" yo="0" id="10005969" name="inst_44F926D8" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

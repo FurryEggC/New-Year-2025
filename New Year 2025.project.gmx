@@ -50,6 +50,8 @@
     <sounds name="ex">
       <sound>sound\musLetTheRaversRave</sound>
       <sound>sound\musHowYouMakeMeFeel</sound>
+      <sound>sound\musFlubirds</sound>
+      <sound>sound\musMushroomRadiation</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -345,9 +347,21 @@
         <sprite>sprites\sprH02SpikeF</sprite>
         <sprite>sprites\sprH02Refresher</sprite>
       </sprites>
+      <sprites name="Hidden05">
+        <sprite>sprites\sprH05SpikeF</sprite>
+        <sprite>sprites\sprH05SpikeDS</sprite>
+        <sprite>sprites\sprH05SpikeLS</sprite>
+        <sprite>sprites\sprH05SpikeRS</sprite>
+        <sprite>sprites\sprH05SpikeUS</sprite>
+        <sprite>sprites\sprH05SpikeD</sprite>
+        <sprite>sprites\sprH05SpikeL</sprite>
+        <sprite>sprites\sprH05SpikeR</sprite>
+        <sprite>sprites\sprH05SpikeU</sprite>
+      </sprites>
     </sprites>
     <sprites name="misc">
       <sprite>sprites\sprWater</sprite>
+      <sprite>sprites\sprHotWater</sprite>
       <sprite>sprites\sprWater1</sprite>
       <sprite>sprites\sprWater2</sprite>
       <sprite>sprites\sprWater3</sprite>
@@ -495,14 +509,13 @@
     <background>background\bStars</background>
     <background>background\background5</background>
     <background>background\background6</background>
-    <backgrounds name="HiddenBackgrounds">
-      <background>background\background75</background>
-    </backgrounds>
     <backgrounds name="HiddenBlocks">
       <background>background\bHidden02</background>
       <background>background\bHidden02s</background>
       <background>background\bHidden03</background>
       <background>background\bHidden03s</background>
+      <background>background\bHidden04</background>
+      <background>background\bHidden05s</background>
     </backgrounds>
     <backgrounds name="Number">
       <background>background\bStage01Number</background>
@@ -556,6 +569,10 @@
       <background>background\bStage16s</background>
       <background>background\bStage16Bg</background>
     </backgrounds>
+    <backgrounds name="HiddenBackgrounds">
+      <background>background\background75</background>
+      <background>background\background83</background>
+    </backgrounds>
     <backgrounds name="backgrounds">
       <background>background\background8</background>
       <background>background\background13</background>
@@ -579,6 +596,8 @@
       <background>background\background26</background>
       <background>background\background74</background>
       <background>background\background78</background>
+      <background>background\background81</background>
+      <background>background\background82</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths">
@@ -673,10 +692,17 @@
     <object>objects\objWalljumpL</object>
     <object>objects\objWater2</object>
     <object>objects\objWater3</object>
-    <object>objects\objJumpRefresher</object>
-    <object>objects\objDJumpRefresher</object>
-    <object>objects\objDrawDjump</object>
-    <object>objects\objEJumpRefresher</object>
+    <objects name="bazier">
+      <object>objects\objLetBazierMove</object>
+      <object>objects\scrBazierMoveThing</object>
+      <object>objects\objBazierMoveKiller</object>
+      <object>objects\objBazierSpikeUp</object>
+      <object>objects\objBazierSpikeLeft</object>
+      <object>objects\objBazierSpikeRight</object>
+      <object>objects\objBazierCherry</object>
+      <object>objects\objBazierWater2Cherry</object>
+      <object>objects\objBazierWater3Cherry</object>
+    </objects>
     <object>objects\objPlayerStart</object>
     <object>objects\objSaveMedium</object>
     <object>objects\objSave</object>
@@ -711,12 +737,30 @@
         <object>objects\objH03SetOff</object>
         <object>objects\objH03Enterance</object>
       </objects>
+      <objects name="S04">
+        <object>objects\objH04Controler</object>
+        <object>objects\objH04FakeSpike</object>
+        <object>objects\objH04Enterance</object>
+        <object>objects\objRoomFunction03</object>
+        <object>objects\objRoomFunction04</object>
+      </objects>
+      <objects name="S05">
+        <object>objects\objH05Controller</object>
+        <object>objects\objH05Enterance</object>
+        <object>objects\objH05EnteranceOrder</object>
+      </objects>
     </objects>
     <objects name="misc">
       <object>objects\objWater</object>
+      <object>objects\objHotWater</object>
+      <object>objects\objHotEffect</object>
       <object>objects\sprWater0</object>
       <object>objects\objFloat</object>
       <object>objects\objDeFloat</object>
+      <object>objects\objJumpRefresher</object>
+      <object>objects\objDJumpRefresher</object>
+      <object>objects\objEJumpRefresher</object>
+      <object>objects\objDrawDjump</object>
       <object>objects\objStage13Trigger</object>
       <object>objects\objPinObject</object>
       <object>objects\objUpToward</object>
@@ -809,14 +853,6 @@
       <object>objects\objCherryBounceRandom</object>
       <object>objects\objCherryBounceLat</object>
       <object>objects\objCherryBounceVert</object>
-    </objects>
-    <objects name="bazier">
-      <object>objects\objLetBazierMove</object>
-      <object>objects\scrBazierMoveThing</object>
-      <object>objects\objBazierMoveKiller</object>
-      <object>objects\objBazierSpikeLeft</object>
-      <object>objects\objBazierWater2Cherry</object>
-      <object>objects\objBazierWater3Cherry</object>
     </objects>
     <objects name="triggers">
       <object>objects\objFreeTrigger</object>
@@ -1018,6 +1054,17 @@
         <room>rooms\rHidden03_1</room>
         <room>rooms\rHidden03_2</room>
         <room>rooms\rHidden03_3</room>
+        <room>rooms\rHidden03_4</room>
+      </rooms>
+      <rooms name="S04">
+        <room>rooms\rHidden04_1</room>
+        <room>rooms\rHidden04_2</room>
+        <room>rooms\rHidden04_3</room>
+      </rooms>
+      <rooms name="S05">
+        <room>rooms\rHidden05_1</room>
+        <room>rooms\rHidden05_2</room>
+        <room>rooms\rHidden05_3</room>
       </rooms>
     </rooms>
   </rooms>

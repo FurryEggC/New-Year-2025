@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>i = self; // Set in CC
+            <string>if (room &gt;= rHidden04_1) {visible = 1; depth = 11;}
+
+i = self; // Set in CC
 
 let_move = 0;
 </string>

@@ -35,8 +35,8 @@ if instance_exists(objSave)
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -45,9 +45,9 @@ if instance_exists(objSave)
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-61</xoffset>
-    <yoffset>-30</yoffset>
+    <page>0</page>
+    <xoffset>-158</xoffset>
+    <yoffset>-196</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background21" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -165,11 +165,15 @@ if instance_exists(objSave)
     <instance objName="objBetterBlock" x="224" y="160" name="inst_B752A98A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLetBazierMove" x="224" y="224" name="inst_87AC90D2" locked="0" code="i = inst_C59A29C8;&#xA;" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="544" y="32" name="inst_43EC65C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH05Controller" x="0" y="0" name="inst_E376C475" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH05Enterance" x="448" y="416" name="inst_60D9D377" locked="0" code="" scaleX="0.100000001490116" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH05EnteranceOrder" x="672" y="512" name="inst_869CEC09" locked="0" code="pwd = 1;&#xA;" scaleX="1" scaleY="0.125" colour="4294967295" rotation="0"/>
+    <instance objName="objH05EnteranceOrder" x="96" y="92" name="inst_98C76AAC" locked="0" code="pwd = 2;&#xA;" scaleX="1" scaleY="0.125" colour="4294967295" rotation="0"/>
+    <instance objName="objH05EnteranceOrder" x="220" y="192" name="inst_C4DF597C" locked="0" code="pwd = 3;&#xA;" scaleX="0.125" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage05" x="96" y="480" w="32" h="32" xo="0" yo="0" id="10006244" name="inst_6001232C" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="288" y="96" w="32" h="32" xo="0" yo="0" id="10006363" name="inst_A6C86455" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage05" x="96" y="96" w="32" h="32" xo="0" yo="0" id="10006364" name="inst_F386D92A" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="96" y="272" w="32" h="32" xo="0" yo="0" id="10006365" name="inst_B26368D4" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="160" y="272" w="32" h="32" xo="0" yo="0" id="10006366" name="inst_EFB0ACF5" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="224" y="480" w="32" h="32" xo="0" yo="0" id="10006367" name="inst_7D6F9A3E" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -178,9 +182,7 @@ if instance_exists(objSave)
     <tile bgName="bStage05" x="288" y="480" w="32" h="32" xo="0" yo="0" id="10006370" name="inst_5FF89DE1" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="352" y="480" w="32" h="32" xo="0" yo="0" id="10006371" name="inst_9A4273F6" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="352" y="416" w="32" h="32" xo="0" yo="0" id="10006372" name="inst_832B4B99" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage05" x="416" y="416" w="32" h="32" xo="0" yo="0" id="10006373" name="inst_66A4ADC2" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="416" y="480" w="32" h="32" xo="0" yo="0" id="10006374" name="inst_56FCE51A" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage05" x="672" y="480" w="32" h="32" xo="0" yo="0" id="10006375" name="inst_EB1601D4" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="640" y="144" w="32" h="32" xo="0" yo="0" id="10006376" name="inst_2D1C37D3" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="576" y="96" w="32" h="32" xo="0" yo="0" id="10006379" name="inst_D5087387" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="544" y="96" w="32" h="32" xo="0" yo="0" id="10006380" name="inst_9C7508E3" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -198,7 +200,6 @@ if instance_exists(objSave)
     <tile bgName="bStage05" x="560" y="368" w="32" h="32" xo="0" yo="0" id="10006392" name="inst_8E1B52F3" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="560" y="272" w="32" h="32" xo="0" yo="0" id="10006393" name="inst_C77FD5BA" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="320" y="192" w="32" h="32" xo="0" yo="0" id="10006394" name="inst_EA426476" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage05" x="224" y="192" w="32" h="32" xo="0" yo="0" id="10006395" name="inst_115F0CEF" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="224" y="160" w="32" h="32" xo="0" yo="0" id="10006396" name="inst_4049921D" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="320" y="256" w="32" h="32" xo="0" yo="0" id="10006397" name="inst_00F9A873" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05" x="256" y="192" w="32" h="32" xo="32" yo="0" id="10006398" name="inst_7320E480" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -270,6 +271,10 @@ if instance_exists(objSave)
     <tile bgName="bStage05" x="320" y="480" w="32" h="32" xo="32" yo="0" id="10006467" name="inst_01E103E8" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05Number" x="352" y="512" w="54" h="96" xo="0" yo="0" id="10013581" name="inst_36AA79AB" depth="7" locked="-1" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage05Number" x="384" y="512" w="54" h="96" xo="108" yo="0" id="10013582" name="inst_FA5D0917" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="background82" x="672" y="480" w="32" h="32" xo="0" yo="0" id="10017945" name="inst_6D21E7C0" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="background82" x="96" y="96" w="32" h="32" xo="32" yo="0" id="10017946" name="inst_C8B9520A" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="background82" x="224" y="192" w="32" h="32" xo="0" yo="32" id="10017947" name="inst_499D8C48" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="background82" x="416" y="416" w="32" h="32" xo="32" yo="32" id="10017948" name="inst_D1A484C3" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

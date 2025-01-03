@@ -28,8 +28,8 @@ if instance_exists(objDJumpRefresher){objDJumpRefresher.sprite_index=spr03DJumpR
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-90</xoffset>
-    <yoffset>-39</yoffset>
+    <xoffset>-181</xoffset>
+    <yoffset>90</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background14" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -141,6 +141,7 @@ if instance_exists(objDJumpRefresher){objDJumpRefresher.sprite_index=spr03DJumpR
     <instance objName="objSpikeUp" x="240" y="48" name="inst_50F1BC3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objH03SetOff" x="176" y="72" name="inst_B40D151B" locked="0" code="" scaleX="2" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="objH03Enterance" x="544" y="168" name="inst_0B8B2629" locked="0" code="" scaleX="1.5" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="-8" y="608" name="inst_7A63E0BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage03" x="128" y="384" w="32" h="32" xo="0" yo="0" id="10005106" name="inst_FAA8FB98" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

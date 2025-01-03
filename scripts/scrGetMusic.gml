@@ -10,6 +10,10 @@ switch (room)                       //determines which song to play
     case rDifficultySelect:
         roomSong = -1;
         break;
+    case rEndRoom:
+    case rLevelSelect:
+        roomSong = -2;
+        break;
     case rStage01_1:
     case rStage01_2:
     case rStage01_3:
@@ -120,6 +124,17 @@ switch (room)                       //determines which song to play
     case rHidden02_2:
     case rHidden02_3:
         roomSong = musHowYouMakeMeFeel;
+        break;
+    case rHidden03_1:
+    case rHidden03_2:
+    case rHidden03_3:
+    case rHidden03_4:
+        roomSong = musFlubirds;
+        break;
+    case rHidden04_1:
+    case rHidden04_2:
+    case rHidden04_3:
+        roomSong = musMushroomRadiation;
         break;
     default:                        //default option in case the room does not have a song set
         roomSong = musNull;

@@ -28,6 +28,8 @@
             <string>event_inherited();
 
 objPlayer.djump = global.max_jump;
+objPlayer.hot_cond = 0;
+objPlayer.hot_t = 0;
 </string>
           </argument>
         </arguments>

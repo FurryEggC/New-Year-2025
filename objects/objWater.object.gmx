@@ -29,6 +29,8 @@
 {
     djump = global.max_jump;
     if ((vspeed*global.grav) &gt; 2) {vspeed = 2 * global.grav;}
+    hot_cond = 0;
+    hot_t = 0;
 }
 </string>
           </argument>

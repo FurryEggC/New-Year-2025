@@ -149,6 +149,8 @@ Animation_sliding[4] = sprPlayerSliding5;
             <string>/// New Gimmicks
 float = 0;  // The condition of float.
 head_bonk = 0;  // The middle value.
+hot_cond = 0;  // The condition of hot water.
+hot_t = 0;  // The time of hot water.
 </string>
           </argument>
         </arguments>
@@ -225,6 +227,30 @@ if (global.playerAnimationFix)
     }
 }
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (PvSpd &lt; 0)
+{
+    event_user(1);
+}
 </string>
           </argument>
         </arguments>
@@ -333,7 +359,16 @@ else if instance_place(x,y,objDownToward) {gravity = 0.15;}
             <string>/// Added System Before Original
 onBlock = false;
 
-
+// ------------------Hot Water------------------
+if (hot_cond){
+    hot_t++;
+    repeat(1) instance_create(x,y+10,objHotEffect);
+    if (hot_t &lt; 20) {vspeed = -8.5 * global.grav;}
+    else {
+        hot_t = 0;
+        hot_cond = 0;
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -859,6 +894,33 @@ with (other){
         </arguments>
       </action>
     </event>
+    <event eventtype="7" enumb="11">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Bonk block Action
+
+// ------------------Hot Water------------------
+hot_cond = 0;
+hot_t = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="7" enumb="10">
       <action>
         <libid>1</libid>
@@ -935,7 +997,8 @@ if (global.debugShowHitbox)
           <argument>
             <kind>1</kind>
             <string>/// test
-//draw_text(50,50,string(djump));
+draw_text(50,50,string(hot_cond));
+draw_text(50,80,string(hot_t));
 </string>
           </argument>
         </arguments>
