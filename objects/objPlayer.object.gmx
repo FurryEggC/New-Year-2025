@@ -41,7 +41,6 @@ maxSpeed = 3;   //max horizontal speed
 maxVspeed = 9;  //max vertical speed
 image_speed = 0.2; //initial speed of animation
 onPlatform = false; //sets if player is currently standing on a platform
-onBlock = false; // if on block, can only judged in end step
 
 xScale = 1; //sets the direction the player is facing (1 is facing right, -1 is facing left)
 
@@ -247,30 +246,6 @@ if (global.playerAnimationFix)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (PvSpd &lt; 0)
-{
-    event_user(1);
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>///BetterBlock
 
 //Set up Player variables for objBetterBlock and objBetterMovingPlatform
@@ -357,7 +332,7 @@ else if instance_place(x,y,objDownToward) {gravity = 0.15;}
           <argument>
             <kind>1</kind>
             <string>/// Added System Before Original
-onBlock = false;
+if instance_exists(riding) event_user(0);
 
 // ------------------Hot Water------------------
 if (hot_cond){
@@ -827,8 +802,8 @@ else    //flipped
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (scrIsBetterPlatform(other) || scrIsBetterBlock(other))
-    exit;
+            <string>if (scrIsBetterPlatform(other) || scrIsBetterBlock(other)) exit;
+
 if (!place_free(x+hspeed,y))
 {
     if (global.grav == 1)   //normal
@@ -939,8 +914,12 @@ hot_t = 0;
           <argument>
             <kind>1</kind>
             <string>/// onBlock Action
-onBlock = true;
 djump = global.max_jump;
+
+// --------------Hot Water--------------
+if (instance_place(x,y,objHotWater)){
+    scrKillPlayer();
+}
 </string>
           </argument>
         </arguments>
@@ -997,8 +976,9 @@ if (global.debugShowHitbox)
           <argument>
             <kind>1</kind>
             <string>/// test
-draw_text(50,50,string(hot_cond));
-draw_text(50,80,string(hot_t));
+//draw_text(50,50,string(temp2));
+//draw_text(50,80,string(temp));
+draw_text(50,80,string(riding));
 </string>
           </argument>
         </arguments>

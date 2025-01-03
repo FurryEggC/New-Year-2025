@@ -12,6 +12,8 @@ else if (djump >= 1 || place_meeting(x,y+(global.grav),objWater2) || (global.inf
     
     if (!place_meeting(x,y+(global.grav),objWater3))
         {if (djump > 0) djump -= 1;}  // take away one jump
+    else if (place_meeting(x,y+(global.grav),objHotWater))
+        {hot_cond = 1;}
     else
         djump = global.max_jump;  // refresh jumps
 }

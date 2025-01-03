@@ -685,6 +685,15 @@
     <object>objects\objMiniRight</object>
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
+    <object>objects\objHotWater</object>
+    <objects name="flips">
+      <object>objects\objGravityUp1</object>
+      <object>objects\objGravityDown1</object>
+      <object>objects\objGravityUp2</object>
+      <object>objects\objGravityDown2</object>
+      <object>objects\objGravityUp3</object>
+      <object>objects\objGravityDown3</object>
+    </objects>
     <object>objects\objKillerBlock</object>
     <object>objects\objTouchMovingPlatform</object>
     <object>objects\objCherry</object>
@@ -692,17 +701,6 @@
     <object>objects\objWalljumpL</object>
     <object>objects\objWater2</object>
     <object>objects\objWater3</object>
-    <objects name="bazier">
-      <object>objects\objLetBazierMove</object>
-      <object>objects\scrBazierMoveThing</object>
-      <object>objects\objBazierMoveKiller</object>
-      <object>objects\objBazierSpikeUp</object>
-      <object>objects\objBazierSpikeLeft</object>
-      <object>objects\objBazierSpikeRight</object>
-      <object>objects\objBazierCherry</object>
-      <object>objects\objBazierWater2Cherry</object>
-      <object>objects\objBazierWater3Cherry</object>
-    </objects>
     <object>objects\objPlayerStart</object>
     <object>objects\objSaveMedium</object>
     <object>objects\objSave</object>
@@ -715,6 +713,17 @@
     <object>objects\objRCFadeout</object>
     <object>objects\objOutsideRoomChanger</object>
     <object>objects\objSkinChanger</object>
+    <objects name="bazier">
+      <object>objects\objLetBazierMove</object>
+      <object>objects\scrBazierMoveThing</object>
+      <object>objects\objBazierMoveKiller</object>
+      <object>objects\objBazierSpikeUp</object>
+      <object>objects\objBazierSpikeLeft</object>
+      <object>objects\objBazierSpikeRight</object>
+      <object>objects\objBazierCherry</object>
+      <object>objects\objBazierWater2Cherry</object>
+      <object>objects\objBazierWater3Cherry</object>
+    </objects>
     <objects name="hidden">
       <object>objects\objHiddenWarp</object>
       <object>objects\objSecretItem</object>
@@ -752,7 +761,6 @@
     </objects>
     <objects name="misc">
       <object>objects\objWater</object>
-      <object>objects\objHotWater</object>
       <object>objects\objHotEffect</object>
       <object>objects\sprWater0</object>
       <object>objects\objFloat</object>
@@ -792,14 +800,6 @@
         <object>objects\objWater2Spike</object>
         <object>objects\objWater2Cherry</object>
         <object>objects\objWater3Spike</object>
-      </objects>
-      <objects name="flips">
-        <object>objects\objGravityUp1</object>
-        <object>objects\objGravityDown1</object>
-        <object>objects\objGravityUp2</object>
-        <object>objects\objGravityDown2</object>
-        <object>objects\objGravityUp3</object>
-        <object>objects\objGravityDown3</object>
       </objects>
     </objects>
     <objects name="world">

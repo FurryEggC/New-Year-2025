@@ -229,11 +229,13 @@ with (player){ //Move with the block
             }else{
                 y = other.bbox_top - bottomToOrigin;
                 vspeed = min(0, t_BvSpd, vspeed); //bonk
+                event_user(1);
             }
         }else{
             if (global.grav == 1){
                 y = other.bbox_bottom + 1 + topToOrigin;
                 vspeed = max(0, t_BvSpd, vspeed); //bonk
+                event_user(1);
             }else{
                 y = other.bbox_bottom + 1 + topToOrigin; 
                 vspeed = 0; //stand
