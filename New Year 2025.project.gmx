@@ -52,6 +52,7 @@
       <sound>sound\musHowYouMakeMeFeel</sound>
       <sound>sound\musFlubirds</sound>
       <sound>sound\musMushroomRadiation</sound>
+      <sound>sound\musThroughTheWalls</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -443,6 +444,7 @@
       <sprite>sprites\sprStage07Bg</sprite>
     </sprites>
     <sprites name="hidden">
+      <sprite>sprites\sprHidden06Fake</sprite>
       <sprite>sprites\sprHidden09Fake</sprite>
     </sprites>
     <sprites name="oneuse">
@@ -685,7 +687,12 @@
     <object>objects\objMiniRight</object>
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
-    <object>objects\objHotWater</object>
+    <objects name="muti_jumps">
+      <object>objects\objSingleJump</object>
+      <object>objects\objDoubleJump</object>
+      <object>objects\objTrippleJump</object>
+      <object>objects\objQuarapleJump</object>
+    </objects>
     <objects name="flips">
       <object>objects\objGravityUp1</object>
       <object>objects\objGravityDown1</object>
@@ -757,10 +764,15 @@
         <object>objects\objH05Controller</object>
         <object>objects\objH05Enterance</object>
         <object>objects\objH05EnteranceOrder</object>
+        <object>objects\objRoomFunction05</object>
+      </objects>
+      <objects name="S06">
+        <object>objects\objH06Enterance</object>
       </objects>
     </objects>
     <objects name="misc">
       <object>objects\objWater</object>
+      <object>objects\objHotWater</object>
       <object>objects\objHotEffect</object>
       <object>objects\sprWater0</object>
       <object>objects\objFloat</object>
@@ -775,12 +787,6 @@
       <object>objects\objDownToward</object>
       <object>objects\objBeginSign</object>
       <object>objects\objSign</object>
-      <objects name="muti_jumps">
-        <object>objects\objSingleJump</object>
-        <object>objects\objDoubleJump</object>
-        <object>objects\objTrippleJump</object>
-        <object>objects\objQuarapleJump</object>
-      </objects>
       <objects name="shoot_refresher">
         <object>objects\objShootRefresherOnceL</object>
         <object>objects\objShootRefresherOnceR</object>
@@ -1065,6 +1071,11 @@
         <room>rooms\rHidden05_1</room>
         <room>rooms\rHidden05_2</room>
         <room>rooms\rHidden05_3</room>
+      </rooms>
+      <rooms name="S06">
+        <room>rooms\rHidden06_1</room>
+        <room>rooms\rHidden06_2</room>
+        <room>rooms\rHidden06_3</room>
       </rooms>
     </rooms>
   </rooms>

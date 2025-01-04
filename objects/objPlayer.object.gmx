@@ -978,7 +978,7 @@ if (global.debugShowHitbox)
             <string>/// test
 //draw_text(50,50,string(temp2));
 //draw_text(50,80,string(temp));
-draw_text(50,80,string(riding));
+//draw_text(50,80,string(riding));
 </string>
           </argument>
         </arguments>

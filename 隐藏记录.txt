@@ -5,7 +5,7 @@ https://github.com/FurryEggC/New-Year-2025.git
 02 Pg2右上角的一格缝
 03 Pg1到Pg2在到Pg1偷鸡
 04 Pg3右上角蹭刺输入密码然后到存档处
-05
+05 Pg2有四个缺角的砖，按照顺序把它们触发
 06
 07 Pg3第二档右边的水都只用一次
 08
@@ -22,10 +22,10 @@ https://github.com/FurryEggC/New-Year-2025.git
 01 Jump Master跳刺考试
 02 Float吉米克
 03 Extra Jump吉米克
-04
-05
+04 Bazier Move与少量微小游戏
+05 Hot Water吉米克
 06
-07 一次性水
+07 Water1变Water2，Water2变Water0
 08
 09
 10
@@ -42,8 +42,8 @@ https://github.com/FurryEggC/New-Year-2025.git
 子弹禁止，射击跳变贴墙跳
 子弹静止，碰物体后子弹有速度
 子弹速度为负
-water1里面跳一次变water2
 出藤跳有二段
 一次性虚板，竖起来的板
 O键teleport，先创建影子，再传送
 一次性过刺
+一个物体绕着玩家旋转，控制这个物体不碰到刺
