@@ -28,8 +28,8 @@ global.grav = 1;
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1264</w>
-    <h>756</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -39,8 +39,8 @@ global.grav = 1;
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-58</xoffset>
-    <yoffset>-11</yoffset>
+    <xoffset>-39</xoffset>
+    <yoffset>29</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background22" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -131,6 +131,7 @@ global.grav = 1;
     <instance objName="objSpikeUp" x="160" y="368" name="inst_A8EC2183" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="224" y="448" name="inst_01C3725F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWater2" x="208" y="416" name="inst_15464782" locked="0" code="" scaleX="0.5" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objOutsideRoomChanger" x="800" y="256" name="inst_DF6D2A7C" locked="0" code="roomTo = rHidden06_2;&#xA;" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage06" x="0" y="0" w="32" h="32" xo="0" yo="0" id="10018741" name="inst_6AC66DA6" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -9,6 +9,18 @@ else if (djump >= 1 || place_meeting(x,y+(global.grav),objWater2) || (global.inf
     vspeed = -jump2;
     sprite_index = sprPlayerJump;
     audio_play_sound(sndDJump,0,false);
+
+    if (place_meeting(x,y+(global.grav),objWaterExtraOnce)){
+        if (djump < global.max_jump) djump += 2;
+        else djump = global.max_jump + 1;
+        var ins = instance_place(x,y+(global.grav),objWaterExtraOnce);
+        instance_destroy(ins);
+    }
+    else if (place_meeting(x,y+(global.grav),objWater2Once)){
+        if (djump > 0) djump -= 1;
+        var ins = instance_place(x,y+(global.grav),objWater2Once);
+        instance_destroy(ins);
+    } 
     
     if (!place_meeting(x,y+(global.grav),objWater3))
         {if (djump > 0) djump -= 1;}  // take away one jump

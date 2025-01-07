@@ -27,7 +27,7 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>976</w>
+    <w>1016</w>
     <h>600</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
@@ -38,8 +38,8 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>563</xoffset>
-    <yoffset>124</yoffset>
+    <xoffset>-55</xoffset>
+    <yoffset>-9</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background22" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>

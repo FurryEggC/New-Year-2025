@@ -359,12 +359,25 @@
         <sprite>sprites\sprH05SpikeR</sprite>
         <sprite>sprites\sprH05SpikeU</sprite>
       </sprites>
+      <sprites name="Hidden07">
+        <sprite>sprites\sprH07SpikeF</sprite>
+        <sprite>sprites\sprH07SpikeDS</sprite>
+        <sprite>sprites\sprH07SpikeLS</sprite>
+        <sprite>sprites\sprH07SpikeRS</sprite>
+        <sprite>sprites\sprH07SpikeUS</sprite>
+        <sprite>sprites\sprH07SpikeD</sprite>
+        <sprite>sprites\sprH07SpikeL</sprite>
+        <sprite>sprites\sprH07SpikeR</sprite>
+        <sprite>sprites\sprH07SpikeU</sprite>
+      </sprites>
     </sprites>
     <sprites name="misc">
       <sprite>sprites\sprWater</sprite>
       <sprite>sprites\sprHotWater</sprite>
       <sprite>sprites\sprWater1</sprite>
       <sprite>sprites\sprWater2</sprite>
+      <sprite>sprites\sprWater2Once</sprite>
+      <sprite>sprites\sprWaterExtraOnce</sprite>
       <sprite>sprites\sprWater3</sprite>
       <sprite>sprites\sprUpToward</sprite>
       <sprite>sprites\sprDownToward</sprite>
@@ -518,6 +531,8 @@
       <background>background\bHidden03s</background>
       <background>background\bHidden04</background>
       <background>background\bHidden05s</background>
+      <background>background\bHidden07</background>
+      <background>background\bHidden07s</background>
     </backgrounds>
     <backgrounds name="Number">
       <background>background\bStage01Number</background>
@@ -574,6 +589,7 @@
     <backgrounds name="HiddenBackgrounds">
       <background>background\background75</background>
       <background>background\background83</background>
+      <background>background\background86</background>
     </backgrounds>
     <backgrounds name="backgrounds">
       <background>background\background8</background>
@@ -600,6 +616,7 @@
       <background>background\background78</background>
       <background>background\background81</background>
       <background>background\background82</background>
+      <background>background\background89</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths">
@@ -687,25 +704,15 @@
     <object>objects\objMiniRight</object>
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
-    <objects name="muti_jumps">
-      <object>objects\objSingleJump</object>
-      <object>objects\objDoubleJump</object>
-      <object>objects\objTrippleJump</object>
-      <object>objects\objQuarapleJump</object>
-    </objects>
-    <objects name="flips">
-      <object>objects\objGravityUp1</object>
-      <object>objects\objGravityDown1</object>
-      <object>objects\objGravityUp2</object>
-      <object>objects\objGravityDown2</object>
-      <object>objects\objGravityUp3</object>
-      <object>objects\objGravityDown3</object>
-    </objects>
     <object>objects\objKillerBlock</object>
     <object>objects\objTouchMovingPlatform</object>
     <object>objects\objCherry</object>
     <object>objects\objWalljumpR</object>
     <object>objects\objWalljumpL</object>
+    <object>objects\objWaterOnceTransformer</object>
+    <object>objects\objWaterOnceTransformerL</object>
+    <object>objects\objWater2Once</object>
+    <object>objects\objWaterExtraOnce</object>
     <object>objects\objWater2</object>
     <object>objects\objWater3</object>
     <object>objects\objPlayerStart</object>
@@ -769,6 +776,11 @@
       <objects name="S06">
         <object>objects\objH06Enterance</object>
       </objects>
+      <objects name="S07">
+        <object>objects\objH07EntranceCheck</object>
+        <object>objects\objH07Enterance</object>
+        <object>objects\objRoomFunction06</object>
+      </objects>
     </objects>
     <objects name="misc">
       <object>objects\objWater</object>
@@ -806,6 +818,20 @@
         <object>objects\objWater2Spike</object>
         <object>objects\objWater2Cherry</object>
         <object>objects\objWater3Spike</object>
+      </objects>
+      <objects name="muti_jumps">
+        <object>objects\objSingleJump</object>
+        <object>objects\objDoubleJump</object>
+        <object>objects\objTrippleJump</object>
+        <object>objects\objQuarapleJump</object>
+      </objects>
+      <objects name="flips">
+        <object>objects\objGravityUp1</object>
+        <object>objects\objGravityDown1</object>
+        <object>objects\objGravityUp2</object>
+        <object>objects\objGravityDown2</object>
+        <object>objects\objGravityUp3</object>
+        <object>objects\objGravityDown3</object>
       </objects>
     </objects>
     <objects name="world">
@@ -1076,6 +1102,12 @@
         <room>rooms\rHidden06_1</room>
         <room>rooms\rHidden06_2</room>
         <room>rooms\rHidden06_3</room>
+      </rooms>
+      <rooms name="S07">
+        <room>rooms\rHidden07_1</room>
+        <room>rooms\rHidden07_2</room>
+        <room>rooms\rHidden07_3</room>
+        <room>rooms\rHidden07_4</room>
       </rooms>
     </rooms>
   </rooms>

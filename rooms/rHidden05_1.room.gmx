@@ -37,8 +37,8 @@ global.grav = 1;</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-37</xoffset>
-    <yoffset>-16</yoffset>
+    <xoffset>120</xoffset>
+    <yoffset>-44</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background83" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -124,8 +124,8 @@ global.grav = 1;</code>
     <instance objName="objBetterBlock" x="608" y="384" name="inst_2556C18C" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="560" y="352" name="inst_1480351A" locked="0" code="" scaleX="2.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="576" y="384" name="inst_9ADC14B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="528" y="352" name="inst_E7EE1783" locked="0" code="pth = pD1;&#xA;spd = 3;&#xA;enda = 0;&#xA;scl = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCoadingConTrigger" x="544" y="536" name="inst_4968AB39" locked="0" code="kind = 3;&#xA;num = 1;&#xA;mobj[1] = inst_E7EE1783;&#xA;snd = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="528" y="352" name="inst_E7EE1783" locked="0" code="pth = pD1;&#xA;spd = 3;&#xA;enda = 0;&#xA;scl = 1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCoadingConTrigger" x="544" y="536" name="inst_4968AB39" locked="0" code="kind = 3;&#xA;num = 1;&#xA;mobj[1] = inst_E7EE1783;&#xA;snd = 1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="432" y="192" name="inst_65C021D4" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="496" y="208" name="inst_F7F92DA1" locked="0" code="" scaleX="1" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="464" y="208" name="inst_3609DB1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

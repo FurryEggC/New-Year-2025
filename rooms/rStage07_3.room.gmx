@@ -38,8 +38,8 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-75</xoffset>
-    <yoffset>12</yoffset>
+    <xoffset>167</xoffset>
+    <yoffset>-38</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="6" vspeed="0" stretch="0"/>
@@ -219,6 +219,12 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <instance objName="objSpikeLeft" x="304" y="0" name="inst_24E8BE36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRCFadeout" x="800" y="496" name="inst_0476C83E" locked="0" code="roomTo = rStage08_1;&#xA;" scaleX="1" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="32" y="544" name="inst_973CA2F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH07Enterance" x="608" y="128" name="inst_B23F5356" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objH07EntranceCheck" x="672" y="288" name="inst_F74CAA7D" locked="0" code="" scaleX="0.5" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objH07EntranceCheck" x="720" y="208" name="inst_151F302F" locked="0" code="" scaleX="0.5" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="objH07EntranceCheck" x="672" y="192" name="inst_EB29F670" locked="0" code="" scaleX="0.5" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objH07EntranceCheck" x="720" y="32" name="inst_7A0831C3" locked="0" code="" scaleX="0.5" scaleY="4.5" colour="4294967295" rotation="0"/>
+    <instance objName="objH07EntranceCheck" x="672" y="96" name="inst_684B4B16" locked="0" code="" scaleX="0.5" scaleY="3" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage07" x="0" y="480" w="32" h="32" xo="0" yo="0" id="10007675" name="inst_2F4F38CD" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
