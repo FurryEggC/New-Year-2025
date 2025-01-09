@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -27,8 +27,8 @@ if instance_exists(objCherry){objCherry.sprite_index = spr08SpikeF;}</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -37,9 +37,9 @@ if instance_exists(objCherry){objCherry.sprite_index = spr08SpikeF;}</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-54</xoffset>
-    <yoffset>-34</yoffset>
+    <page>0</page>
+    <xoffset>-52</xoffset>
+    <yoffset>24</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background29" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -190,6 +190,8 @@ if instance_exists(objCherry){objCherry.sprite_index = spr08SpikeF;}</code>
     <instance objName="objSpikeDown" x="704" y="352" name="inst_83945EA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBulletSpeedChange" x="736" y="480" name="inst_32569818" locked="0" code="spd = 16;&#xA;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objRCFadeout" x="800" y="480" name="inst_6D5D32F1" locked="0" code="roomTo = rStage09_1;&#xA;" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objBulletDirChangeR" x="-32" y="288" name="inst_8F08FB2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH08Enterance" x="496" y="480" name="inst_6A6A93D0" locked="0" code="" scaleX="0.5" scaleY="0.25" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage08" x="0" y="416" w="32" h="32" xo="0" yo="0" id="10007918" name="inst_B3A77D6E" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

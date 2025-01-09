@@ -37,9 +37,9 @@ if instance_exists(objCherry){objCherry.sprite_index = spr08SpikeF;}</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-112</xoffset>
-    <yoffset>-35</yoffset>
+    <page>1</page>
+    <xoffset>-58</xoffset>
+    <yoffset>-71</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background29" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>

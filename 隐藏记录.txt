@@ -6,9 +6,9 @@ https://github.com/FurryEggC/New-Year-2025.git
 03 Pg1到Pg2在到Pg1偷鸡
 04 Pg3右上角蹭刺输入密码然后到存档处
 05 Pg2有四个缺角的砖，按照顺序把它们触发
-06
+06 Pg3的最后一跳反重力
 07 Pg3第二档右边的水都只用一次
-08
+08 Pg3到Pg2去拿反重力再通关
 09 Pg2反重力到Pg3
 10
 11 Pg1右下方的洞
@@ -24,12 +24,12 @@ https://github.com/FurryEggC/New-Year-2025.git
 03 Extra Jump吉米克
 04 Bazier Move与少量微小游戏
 05 Hot Water吉米克
-06
-07 Water1变Water2，Water2变Water0
-08
-09
-10
-11
+06 Water2跳一下消失
+07 Water1, Water2消失与替换，Shoot
+08 子弹静止，碰物体后子弹有速度，子弹速度为负
+09 一次性虚板，竖起来的板与多段板（房间纵向排版）
+10 出藤跳有二段
+11 子弹禁止，射击跳变贴墙跳
 12 各种固定路径物体
 13 比较抽象的Trigger
 14
@@ -37,13 +37,8 @@ https://github.com/FurryEggC/New-Year-2025.git
 16
 
 备选吉米克
-
 整个stage的速通
-子弹禁止，射击跳变贴墙跳
-子弹静止，碰物体后子弹有速度
-子弹速度为负
-出藤跳有二段
-一次性虚板，竖起来的板
 O键teleport，先创建影子，再传送
 一次性过刺
 一个物体绕着玩家旋转，控制这个物体不碰到刺
+瞬移，长度可变

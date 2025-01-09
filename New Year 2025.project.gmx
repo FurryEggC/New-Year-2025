@@ -382,6 +382,8 @@
       <sprite>sprites\sprUpToward</sprite>
       <sprite>sprites\sprDownToward</sprite>
       <sprite>sprites\sprBulletSpeedChange</sprite>
+      <sprite>sprites\sprBulletStop</sprite>
+      <sprite>sprites\sprBulletContinue</sprite>
       <sprite>sprites\sprWalljumpR</sprite>
       <sprite>sprites\sprWalljumpL</sprite>
       <sprite>sprites\sprJumpRefresher</sprite>
@@ -533,6 +535,8 @@
       <background>background\bHidden05s</background>
       <background>background\bHidden07</background>
       <background>background\bHidden07s</background>
+      <background>background\bHidden08</background>
+      <background>background\bHidden08s</background>
     </backgrounds>
     <backgrounds name="Number">
       <background>background\bStage01Number</background>
@@ -705,16 +709,31 @@
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
     <object>objects\objKillerBlock</object>
+    <object>objects\objFakePlatform</object>
+    <object>objects\objPlatformOnce</object>
     <object>objects\objTouchMovingPlatform</object>
     <object>objects\objCherry</object>
     <object>objects\objWalljumpR</object>
     <object>objects\objWalljumpL</object>
-    <object>objects\objWaterOnceTransformer</object>
-    <object>objects\objWaterOnceTransformerL</object>
-    <object>objects\objWater2Once</object>
-    <object>objects\objWaterExtraOnce</object>
     <object>objects\objWater2</object>
     <object>objects\objWater3</object>
+    <object>objects\objBulletSpeedChange</object>
+    <object>objects\objBulletStop</object>
+    <object>objects\objBulletContinue</object>
+    <objects name="shoot_refresher">
+      <object>objects\objShootRefresherOnceL</object>
+      <object>objects\objShootRefresherOnceR</object>
+      <object>objects\objShootRefresherTwiceL</object>
+      <object>objects\objShootRefresherTwiceR</object>
+      <object>objects\objShootRefresherFlipL</object>
+      <object>objects\objShootRefresherFlipR</object>
+      <object>objects\objShootRefresherOffL</object>
+      <object>objects\objShootRefresherOffR</object>
+      <object>objects\objShootRefresherOnL</object>
+      <object>objects\objShootRefresherOnR</object>
+      <object>objects\objBulletDirChangeL</object>
+      <object>objects\objBulletDirChangeR</object>
+    </objects>
     <object>objects\objPlayerStart</object>
     <object>objects\objSaveMedium</object>
     <object>objects\objSave</object>
@@ -726,7 +745,6 @@
     <object>objects\objCoadingConTrigger</object>
     <object>objects\objRCFadeout</object>
     <object>objects\objOutsideRoomChanger</object>
-    <object>objects\objSkinChanger</object>
     <objects name="bazier">
       <object>objects\objLetBazierMove</object>
       <object>objects\scrBazierMoveThing</object>
@@ -780,6 +798,11 @@
         <object>objects\objH07EntranceCheck</object>
         <object>objects\objH07Enterance</object>
         <object>objects\objRoomFunction06</object>
+        <object>objects\objRoomFunction07</object>
+        <object>objects\objRoomFunction07A</object>
+      </objects>
+      <objects name="S08">
+        <object>objects\objH08Enterance</object>
       </objects>
     </objects>
     <objects name="misc">
@@ -799,20 +822,11 @@
       <object>objects\objDownToward</object>
       <object>objects\objBeginSign</object>
       <object>objects\objSign</object>
-      <objects name="shoot_refresher">
-        <object>objects\objShootRefresherOnceL</object>
-        <object>objects\objShootRefresherOnceR</object>
-        <object>objects\objShootRefresherTwiceL</object>
-        <object>objects\objShootRefresherTwiceR</object>
-        <object>objects\objShootRefresherFlipL</object>
-        <object>objects\objShootRefresherFlipR</object>
-        <object>objects\objShootRefresherOffL</object>
-        <object>objects\objShootRefresherOffR</object>
-        <object>objects\objShootRefresherOnL</object>
-        <object>objects\objShootRefresherOnR</object>
-        <object>objects\objBulletDirChangeL</object>
-        <object>objects\objBulletDirChangeR</object>
-        <object>objects\objBulletSpeedChange</object>
+      <objects name="once_water">
+        <object>objects\objWater2Once</object>
+        <object>objects\objWaterExtraOnce</object>
+        <object>objects\objWaterOnceTransformer</object>
+        <object>objects\objWaterOnceTransformerL</object>
       </objects>
       <objects name="shape_water">
         <object>objects\objWater2Spike</object>
@@ -833,6 +847,7 @@
         <object>objects\objGravityUp3</object>
         <object>objects\objGravityDown3</object>
       </objects>
+      <object>objects\objSkinChanger</object>
     </objects>
     <objects name="world">
       <object>objects\objWorld</object>
@@ -962,6 +977,7 @@
       <room>rooms\rStage15Sample</room>
       <room>rooms\rStage16Sample</room>
     </rooms>
+    <room>rooms\rTestRoom</room>
     <room>rooms\rBegining</room>
     <rooms name="Stage01">
       <room>rooms\rStage01_1</room>
@@ -1108,6 +1124,11 @@
         <room>rooms\rHidden07_2</room>
         <room>rooms\rHidden07_3</room>
         <room>rooms\rHidden07_4</room>
+      </rooms>
+      <rooms name="S08">
+        <room>rooms\rHidden08_1</room>
+        <room>rooms\rHidden08_2</room>
+        <room>rooms\rHidden08_3</room>
       </rooms>
     </rooms>
   </rooms>

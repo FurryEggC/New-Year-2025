@@ -27,8 +27,8 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1288</w>
-    <h>765</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -37,9 +37,9 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>1</page>
-    <xoffset>-70</xoffset>
-    <yoffset>-42</yoffset>
+    <page>0</page>
+    <xoffset>103</xoffset>
+    <yoffset>-13</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background22" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -222,7 +222,7 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <instance objName="objSpikeUp" x="688" y="512" name="inst_82D2FD51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWaterExtraOnce" x="336" y="384" name="inst_A3D34EB6" locked="0" code="" scaleX="2" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objDoubleJump" x="768" y="448" name="inst_B35EF626" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHiddenFadeOut" x="800" y="448" name="inst_79E67794" locked="0" code="warpX = 240;&#xA;warpY = 304;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHiddenFadeOut" x="800" y="448" name="inst_79E67794" locked="0" code="warpX = 240;&#xA;warpY = 304;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="720" y="240" name="inst_7B471EBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="736" y="336" name="inst_2B7879E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="704" y="272" name="inst_77A2EE7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

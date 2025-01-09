@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>35</xoffset>
-    <yoffset>13</yoffset>
+    <xoffset>-44</xoffset>
+    <yoffset>-12</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -67,8 +67,8 @@
     <instance objName="objHiddenWarp" x="128" y="384" name="inst_78B9E13A" locked="0" code="i = 2;&#xA;roomTo = rStage03_1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="128" y="512" name="inst_A483C893" locked="0" code="i = 3;&#xA;roomTo = rStage04_3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="320" y="512" name="inst_9FAE3D50" locked="0" code="i = 7&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHiddenWarp" x="320" y="384" name="inst_879B4536" locked="0" code="i = 6&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHiddenWarp" x="320" y="256" name="inst_BC876F2A" locked="0" code="i = 5;&#xA;roomTo = rStage06_3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHiddenWarp" x="320" y="384" name="inst_879B4536" locked="0" code="i = 6;&#xA;roomTo = rStage07_3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHiddenWarp" x="320" y="256" name="inst_BC876F2A" locked="0" code="i = 5;&#xA;roomTo = rStage06_3;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="320" y="128" name="inst_0AC75EB9" locked="0" code="i = 4;&#xA;roomTo = rStage05_2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="512" y="128" name="inst_DCAA4D5B" locked="0" code="i = 8&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="512" y="256" name="inst_784D91C3" locked="0" code="i = 9&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
