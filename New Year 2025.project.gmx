@@ -128,6 +128,8 @@
     <sprites name="platforms">
       <sprite>sprites\sprPlatform</sprite>
       <sprite>sprites\sprMovingPlatform</sprite>
+      <sprite>sprites\sprPlatformOnce</sprite>
+      <sprite>sprites\sprPlatformTriple</sprite>
     </sprites>
     <sprites name="killers">
       <sprite>sprites\sprSpikeUp</sprite>
@@ -709,30 +711,19 @@
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
     <object>objects\objKillerBlock</object>
-    <object>objects\objFakePlatform</object>
-    <object>objects\objPlatformOnce</object>
+    <object>objects\objPlatformTriple</object>
     <object>objects\objTouchMovingPlatform</object>
     <object>objects\objCherry</object>
     <object>objects\objWalljumpR</object>
     <object>objects\objWalljumpL</object>
     <object>objects\objWater2</object>
     <object>objects\objWater3</object>
-    <object>objects\objBulletSpeedChange</object>
-    <object>objects\objBulletStop</object>
-    <object>objects\objBulletContinue</object>
-    <objects name="shoot_refresher">
-      <object>objects\objShootRefresherOnceL</object>
-      <object>objects\objShootRefresherOnceR</object>
-      <object>objects\objShootRefresherTwiceL</object>
-      <object>objects\objShootRefresherTwiceR</object>
-      <object>objects\objShootRefresherFlipL</object>
-      <object>objects\objShootRefresherFlipR</object>
-      <object>objects\objShootRefresherOffL</object>
-      <object>objects\objShootRefresherOffR</object>
-      <object>objects\objShootRefresherOnL</object>
-      <object>objects\objShootRefresherOnR</object>
-      <object>objects\objBulletDirChangeL</object>
-      <object>objects\objBulletDirChangeR</object>
+    <objects name="platform">
+      <object>objects\objFakePlatform</object>
+      <object>objects\objPlatformOneJump</object>
+      <object>objects\objPlatformTripple</object>
+      <object>objects\objPlatformOnce</object>
+      <object>objects\objOncePlatformSprite</object>
     </objects>
     <object>objects\objPlayerStart</object>
     <object>objects\objSaveMedium</object>
@@ -822,6 +813,23 @@
       <object>objects\objDownToward</object>
       <object>objects\objBeginSign</object>
       <object>objects\objSign</object>
+      <objects name="shoot_refresher">
+        <object>objects\objShootRefresherOnceL</object>
+        <object>objects\objShootRefresherOnceR</object>
+        <object>objects\objShootRefresherTwiceL</object>
+        <object>objects\objShootRefresherTwiceR</object>
+        <object>objects\objShootRefresherFlipL</object>
+        <object>objects\objShootRefresherFlipR</object>
+        <object>objects\objShootRefresherOffL</object>
+        <object>objects\objShootRefresherOffR</object>
+        <object>objects\objShootRefresherOnL</object>
+        <object>objects\objShootRefresherOnR</object>
+        <object>objects\objBulletDirChangeL</object>
+        <object>objects\objBulletDirChangeR</object>
+        <object>objects\objBulletSpeedChange</object>
+        <object>objects\objBulletStop</object>
+        <object>objects\objBulletContinue</object>
+      </objects>
       <objects name="once_water">
         <object>objects\objWater2Once</object>
         <object>objects\objWaterExtraOnce</object>
@@ -1129,6 +1137,9 @@
         <room>rooms\rHidden08_1</room>
         <room>rooms\rHidden08_2</room>
         <room>rooms\rHidden08_3</room>
+      </rooms>
+      <rooms name="S09">
+        <room>rooms\rHidden09_1</room>
       </rooms>
     </rooms>
   </rooms>

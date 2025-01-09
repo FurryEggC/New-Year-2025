@@ -8,7 +8,7 @@
   <parentName>objBlock</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="7" enumb="10">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,9 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();
-instance_create(x,y,objOncePlatformSprite);
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>

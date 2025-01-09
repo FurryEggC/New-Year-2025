@@ -1,7 +1,12 @@
 if (place_meeting(x,y+(global.grav),objBlock) || onPlatform || place_meeting(x,y+(global.grav),objWater))
 {
+    if place_meeting(x,y+(global.grav),objPlatformOnce){
+        with instance_place(x,y+(global.grav),objPlatformOnce) event_user(0);
+    }
     vspeed = -jump;
-    djump = global.max_jump;
+    if place_meeting(x,y+(global.grav),objPlatformOneJump){djump = 0;}
+    else if place_meeting(x,y+(global.grav),objPlatformTripple){djump = 2;}
+    else djump = global.max_jump;
     audio_play_sound(sndJump,0,false);
 }
 else if (djump >= 1 || place_meeting(x,y+(global.grav),objWater2) || (global.infJump || global.debugInfJump))
