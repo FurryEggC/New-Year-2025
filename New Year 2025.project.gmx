@@ -372,6 +372,10 @@
         <sprite>sprites\sprH07SpikeR</sprite>
         <sprite>sprites\sprH07SpikeU</sprite>
       </sprites>
+      <sprites name="Hidden09">
+        <sprite>sprites\spr09PlatformJumpOnce</sprite>
+        <sprite>sprites\spr09PlatformJumpTripple</sprite>
+      </sprites>
     </sprites>
     <sprites name="misc">
       <sprite>sprites\sprWater</sprite>
@@ -539,6 +543,8 @@
       <background>background\bHidden07s</background>
       <background>background\bHidden08</background>
       <background>background\bHidden08s</background>
+      <background>background\bHidden09</background>
+      <background>background\bHidden09s</background>
     </backgrounds>
     <backgrounds name="Number">
       <background>background\bStage01Number</background>
@@ -711,7 +717,10 @@
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
     <object>objects\objKillerBlock</object>
-    <object>objects\objPlatformTriple</object>
+    <object>objects\objFakePlatform</object>
+    <object>objects\objPlatformOneJump</object>
+    <object>objects\objPlatformTripple</object>
+    <object>objects\objPlatformOnce</object>
     <object>objects\objTouchMovingPlatform</object>
     <object>objects\objCherry</object>
     <object>objects\objWalljumpR</object>
@@ -719,10 +728,6 @@
     <object>objects\objWater2</object>
     <object>objects\objWater3</object>
     <objects name="platform">
-      <object>objects\objFakePlatform</object>
-      <object>objects\objPlatformOneJump</object>
-      <object>objects\objPlatformTripple</object>
-      <object>objects\objPlatformOnce</object>
       <object>objects\objOncePlatformSprite</object>
     </objects>
     <object>objects\objPlayerStart</object>
@@ -794,6 +799,9 @@
       </objects>
       <objects name="S08">
         <object>objects\objH08Enterance</object>
+      </objects>
+      <objects name="S09">
+        <object>objects\objH09Enterance</object>
       </objects>
     </objects>
     <objects name="misc">
@@ -1140,6 +1148,8 @@
       </rooms>
       <rooms name="S09">
         <room>rooms\rHidden09_1</room>
+        <room>rooms\rHidden09_2</room>
+        <room>rooms\rHidden09_3</room>
       </rooms>
     </rooms>
   </rooms>
