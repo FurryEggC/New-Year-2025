@@ -376,6 +376,20 @@
         <sprite>sprites\spr09PlatformJumpOnce</sprite>
         <sprite>sprites\spr09PlatformJumpTripple</sprite>
       </sprites>
+      <sprites name="Hidden10">
+        <sprite>sprites\sprH10SpikeDS</sprite>
+        <sprite>sprites\sprH10SpikeLS</sprite>
+        <sprite>sprites\sprH10SpikeRS</sprite>
+        <sprite>sprites\sprH10SpikeUS</sprite>
+        <sprite>sprites\sprH10Platform</sprite>
+        <sprite>sprites\sprH10Save</sprite>
+        <sprite>sprites\sprH10SpikeD</sprite>
+        <sprite>sprites\sprH10SpikeL</sprite>
+        <sprite>sprites\sprH10SpikeR</sprite>
+        <sprite>sprites\sprH10SpikeU</sprite>
+        <sprite>sprites\sprH10VineL</sprite>
+        <sprite>sprites\sprH10VineR</sprite>
+      </sprites>
     </sprites>
     <sprites name="misc">
       <sprite>sprites\sprWater</sprite>
@@ -391,7 +405,9 @@
       <sprite>sprites\sprBulletStop</sprite>
       <sprite>sprites\sprBulletContinue</sprite>
       <sprite>sprites\sprWalljumpR</sprite>
+      <sprite>sprites\sprWalljumpExtraR</sprite>
       <sprite>sprites\sprWalljumpL</sprite>
+      <sprite>sprites\sprWalljumpExtraL</sprite>
       <sprite>sprites\sprJumpRefresher</sprite>
       <sprite>sprites\sprDJumpRefresher</sprite>
       <sprite>sprites\sprEJumpRefresher</sprite>
@@ -545,6 +561,8 @@
       <background>background\bHidden08s</background>
       <background>background\bHidden09</background>
       <background>background\bHidden09s</background>
+      <background>background\bHidden10</background>
+      <background>background\bHidden10s</background>
     </backgrounds>
     <backgrounds name="Number">
       <background>background\bStage01Number</background>
@@ -717,19 +735,17 @@
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
     <object>objects\objKillerBlock</object>
-    <object>objects\objFakePlatform</object>
-    <object>objects\objPlatformOneJump</object>
-    <object>objects\objPlatformTripple</object>
-    <object>objects\objPlatformOnce</object>
-    <object>objects\objTouchMovingPlatform</object>
     <object>objects\objCherry</object>
-    <object>objects\objWalljumpR</object>
+    <object>objects\objWalljumpExtraOnceL</object>
+    <object>objects\objWalljumpExtraOnceR</object>
+    <object>objects\objWalljumpExtraL</object>
+    <object>objects\objWalljumpExtraR</object>
     <object>objects\objWalljumpL</object>
+    <object>objects\objWalljumpR</object>
+    <object>objects\objOnceVineSpriteL</object>
+    <object>objects\objOnceVineSpriteR</object>
     <object>objects\objWater2</object>
     <object>objects\objWater3</object>
-    <objects name="platform">
-      <object>objects\objOncePlatformSprite</object>
-    </objects>
     <object>objects\objPlayerStart</object>
     <object>objects\objSaveMedium</object>
     <object>objects\objSave</object>
@@ -741,17 +757,6 @@
     <object>objects\objCoadingConTrigger</object>
     <object>objects\objRCFadeout</object>
     <object>objects\objOutsideRoomChanger</object>
-    <objects name="bazier">
-      <object>objects\objLetBazierMove</object>
-      <object>objects\scrBazierMoveThing</object>
-      <object>objects\objBazierMoveKiller</object>
-      <object>objects\objBazierSpikeUp</object>
-      <object>objects\objBazierSpikeLeft</object>
-      <object>objects\objBazierSpikeRight</object>
-      <object>objects\objBazierCherry</object>
-      <object>objects\objBazierWater2Cherry</object>
-      <object>objects\objBazierWater3Cherry</object>
-    </objects>
     <objects name="hidden">
       <object>objects\objHiddenWarp</object>
       <object>objects\objSecretItem</object>
@@ -803,6 +808,22 @@
       <objects name="S09">
         <object>objects\objH09Enterance</object>
       </objects>
+      <objects name="S10">
+        <object>objects\objH10Enterance</object>
+        <object>objects\objH10EnteranceA</object>
+        <object>objects\objH10EnteranceB</object>
+      </objects>
+    </objects>
+    <objects name="bazier">
+      <object>objects\objLetBazierMove</object>
+      <object>objects\scrBazierMoveThing</object>
+      <object>objects\objBazierMoveKiller</object>
+      <object>objects\objBazierSpikeUp</object>
+      <object>objects\objBazierSpikeLeft</object>
+      <object>objects\objBazierSpikeRight</object>
+      <object>objects\objBazierCherry</object>
+      <object>objects\objBazierWater2Cherry</object>
+      <object>objects\objBazierWater3Cherry</object>
     </objects>
     <objects name="misc">
       <object>objects\objWater</object>
@@ -821,6 +842,14 @@
       <object>objects\objDownToward</object>
       <object>objects\objBeginSign</object>
       <object>objects\objSign</object>
+      <objects name="platform">
+        <object>objects\objFakePlatform</object>
+        <object>objects\objPlatformOneJump</object>
+        <object>objects\objPlatformTripple</object>
+        <object>objects\objPlatformOnce</object>
+        <object>objects\objTouchMovingPlatform</object>
+        <object>objects\objOncePlatformSprite</object>
+      </objects>
       <objects name="shoot_refresher">
         <object>objects\objShootRefresherOnceL</object>
         <object>objects\objShootRefresherOnceR</object>
@@ -1150,6 +1179,11 @@
         <room>rooms\rHidden09_1</room>
         <room>rooms\rHidden09_2</room>
         <room>rooms\rHidden09_3</room>
+      </rooms>
+      <rooms name="S10">
+        <room>rooms\rHidden10_1</room>
+        <room>rooms\rHidden10_2</room>
+        <room>rooms\rHidden10_3</room>
       </rooms>
     </rooms>
   </rooms>

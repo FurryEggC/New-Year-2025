@@ -46,7 +46,7 @@ if instance_exists(objKillerBlock){objKillerBlock.sprite_index = spr10Killer;}</
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>2</page>
     <xoffset>-78</xoffset>
-    <yoffset>-49</yoffset>
+    <yoffset>-68</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background36" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>

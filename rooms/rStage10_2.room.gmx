@@ -34,8 +34,8 @@ if instance_exists(objKillerBlock){objKillerBlock.sprite_index = spr10Killer;}</
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -44,9 +44,9 @@ if instance_exists(objKillerBlock){objKillerBlock.sprite_index = spr10Killer;}</
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-66</xoffset>
-    <yoffset>-42</yoffset>
+    <page>0</page>
+    <xoffset>-37</xoffset>
+    <yoffset>-61</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background36" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -209,6 +209,9 @@ if instance_exists(objKillerBlock){objKillerBlock.sprite_index = spr10Killer;}</
     <instance objName="objOutsideRoomChanger" x="800" y="128" name="inst_1B5AEB4E" locked="0" code="roomTo = rStage10_3;&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="752" y="160" name="inst_8DB1FC12" locked="0" code="image_speed = 1/25;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="656" y="128" name="inst_E4893502" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH10Enterance" x="176" y="208" name="inst_A82B60D1" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objH10EnteranceA" x="152" y="256" name="inst_7945D90B" locked="0" code="" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objH10EnteranceB" x="152" y="320" name="inst_C7A1BB1F" locked="0" code="" scaleX="0.5" scaleY="9" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage10" x="0" y="544" w="32" h="32" xo="0" yo="0" id="10009015" name="inst_9CC5A00C" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -385,6 +385,7 @@ var slipBlockTouching = instance_place(x,y+(1*global.grav),objSlipBlock);   //ch
 var notOnBlock = (place_free(x,y+(global.grav)) &amp;&amp; !instance_exists(riding));
 var onVineL = (place_meeting(x-1,y,objWalljumpL) &amp;&amp; notOnBlock);
 var onVineR = (place_meeting(x+1,y,objWalljumpR) &amp;&amp; notOnBlock);
+var extraVineJump = (place_meeting(x-1,y,objWalljumpExtraL) || place_meeting(x+1,y,objWalljumpExtraR) &amp;&amp; notOnBlock);
 
 if (h != 0)  //player is moving
 {
@@ -497,6 +498,8 @@ if (onVineL || onVineR)
                 hspeed = 15;
             
             vspeed = -9 * global.grav;
+            if (extraVineJump) djump = min(djump + 1, global.max_jump);
+            with (instance_place(x-1,y,objWalljumpExtraOnceL) + instance_place(x+1,y,objWalljumpExtraOnceR) - noone) event_user(0);
             audio_play_sound(sndWallJump,0,false);
             sprite_index = sprPlayerJump;
         }

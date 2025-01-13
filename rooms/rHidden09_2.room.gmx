@@ -22,7 +22,6 @@ if instance_exists(objWalljumpL){objWalljumpL.sprite_index = spr09VineL;}
 if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr09VineR;}
 if instance_exists(objWater2){objWater2.sprite_index = spr09Water2;}
 if instance_exists(objWater3){objWater3.sprite_index = spr09Water3;}
-with (objPlatform) {sprite_index = spr09Platform;}
 with (objPlatformOnce) {sprite_index = spr09Platform;}
 with (objFakePlatform) {sprite_index = spr09Platform;}
 with (objPlatformOneJump) {sprite_index = spr09PlatformJumpOnce;}
@@ -43,8 +42,8 @@ with (objPlatformTripple) {sprite_index = spr09PlatformJumpTripple;}</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>5</xoffset>
-    <yoffset>-142</yoffset>
+    <xoffset>10</xoffset>
+    <yoffset>-129</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background32" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -127,11 +126,6 @@ with (objPlatformTripple) {sprite_index = spr09PlatformJumpTripple;}</code>
     <instance objName="objSpikeRight" x="576" y="128" name="inst_4A27CE4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="512" y="64" name="inst_3F951230" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="544" y="64" name="inst_315F00BE" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeUp" x="576" y="240" name="inst_FBB11843" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeUp" x="544" y="240" name="inst_C2DF3181" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeUp" x="512" y="240" name="inst_038991AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="544" y="160" name="inst_79748364" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="512" y="160" name="inst_F09A1C27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWater2" x="592" y="96" name="inst_971776CD" locked="0" code="" scaleX="0.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="448" y="240" name="inst_523416B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="416" y="240" name="inst_76E04A25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -143,9 +137,9 @@ with (objPlatformTripple) {sprite_index = spr09PlatformJumpTripple;}</code>
     <instance objName="objBetterBlock" x="320" y="448" name="inst_F76A12E1" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="352" y="448" name="inst_8A8319C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="384" y="464" name="inst_C064AD4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeUp" x="288" y="352" name="inst_764778A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="288" y="336" name="inst_764778A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="320" y="416" name="inst_087DC611" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBetterBlock" x="288" y="384" name="inst_E3A54780" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterBlock" x="288" y="368" name="inst_E3A54780" locked="0" code="" scaleX="1" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="288" y="480" name="inst_28BF7554" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="384" y="496" name="inst_FA6CB35F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlatformTripple" x="384" y="528" name="inst_9D985C22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -215,6 +209,15 @@ with (objPlatformTripple) {sprite_index = spr09PlatformJumpTripple;}</code>
     <instance objName="objMiniDown" x="448" y="32" name="inst_68DAB005" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="192" y="288" name="inst_71E03179" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="640" y="0" name="inst_C7DC7E7B" locked="0" code="" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objMiniUp" x="560" y="256" name="inst_52DD8417" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMiniUp" x="544" y="256" name="inst_7657E715" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMiniUp" x="528" y="256" name="inst_4186D3EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMiniUp" x="512" y="256" name="inst_5AF8124F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMiniDown" x="560" y="160" name="inst_A4249FE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMiniDown" x="544" y="160" name="inst_4E819ED5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMiniDown" x="512" y="160" name="inst_DB81FF62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMiniDown" x="528" y="160" name="inst_C0072B0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="576" y="240" name="inst_0ECE0454" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage09" x="0" y="544" w="32" h="32" xo="0" yo="0" id="10008566" name="inst_76B01EA1" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -402,6 +405,7 @@ with (objPlatformTripple) {sprite_index = spr09PlatformJumpTripple;}</code>
     <tile bgName="bHidden09" x="704" y="0" w="32" h="32" xo="0" yo="0" id="10021706" name="inst_A35538D9" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bHidden09" x="736" y="0" w="32" h="32" xo="0" yo="0" id="10021707" name="inst_4208465D" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bHidden09" x="768" y="0" w="32" h="32" xo="0" yo="0" id="10021708" name="inst_C8ADB6C3" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bHidden09" x="288" y="368" w="32" h="32" xo="0" yo="0" id="10022044" name="inst_2D92C38A" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
