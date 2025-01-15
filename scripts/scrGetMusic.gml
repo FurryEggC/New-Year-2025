@@ -141,6 +141,40 @@ switch (room)                       //determines which song to play
     case rHidden05_3:
         roomSong = musThroughTheWalls;
         break;
+    case rHidden06_1:
+    case rHidden06_2:
+    case rHidden06_3:
+        roomSong = musUntilTheShadows;
+        break;
+    case rHidden07_1:
+    case rHidden07_2:
+    case rHidden07_3:
+    case rHidden07_4:
+        roomSong = musALongLostSilence;
+        break;
+    case rHidden08_1:
+    case rHidden08_2:
+    case rHidden08_3:
+        roomSong = musThanatos;
+        break;
+    case rHidden09_1:
+    case rHidden09_2:
+    case rHidden09_3:
+        roomSong = musGirls;
+        break;
+    case rHidden10_1:
+    case rHidden10_2:
+    case rHidden10_3:
+        roomSong = musWolfDrawn;
+        break;
+    case rHidden11_1:
+    case rHidden11_2:
+    case rHidden11_3:
+    case rHidden11_4:
+    case rHidden11_5:
+    case rHidden11_6:
+        roomSong = musCallOfTheAbyss;
+        break;
     default:                        //default option in case the room does not have a song set
         roomSong = musNull;
         break;

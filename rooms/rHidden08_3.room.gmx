@@ -23,14 +23,14 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr08VineR;}
 if instance_exists(objBetterMovingPlatform){objBetterMovingPlatform.sprite_index = spr08Platform;}
 if instance_exists(objCherry){objCherry.sprite_index = spr08SpikeF;}
 
-with objBlock visible = 1;</code>
+// with objBlock visible = 1;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1296</w>
-    <h>768</h>
+    <w>1016</w>
+    <h>600</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -39,7 +39,7 @@ with objBlock visible = 1;</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
+    <page>1</page>
     <xoffset>93</xoffset>
     <yoffset>57</yoffset>
   </makerSettings>

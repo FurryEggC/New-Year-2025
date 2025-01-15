@@ -39,9 +39,9 @@ if instance_exists(objWater2){objWater2.sprite_index = spr12Water2;}</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-79</xoffset>
-    <yoffset>-43</yoffset>
+    <page>0</page>
+    <xoffset>-10</xoffset>
+    <yoffset>133</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background41" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -219,6 +219,8 @@ if instance_exists(objWater2){objWater2.sprite_index = spr12Water2;}</code>
     <instance objName="objBetterBlock" x="672" y="512" name="inst_03F8AE62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="32" y="576" name="inst_096CD7FA" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRCFadeout" x="800" y="400" name="inst_79B389E3" locked="0" code="roomTo = rStage13_1;&#xA;" scaleX="1" scaleY="4.5" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterBlock" x="96" y="608" name="inst_1939179D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH12Enterance" x="96" y="600" name="inst_A0A1BA16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage12" x="0" y="336" w="32" h="32" xo="0" yo="0" id="10010750" name="inst_FBEC16B3" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

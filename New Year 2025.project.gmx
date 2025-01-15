@@ -53,6 +53,12 @@
       <sound>sound\musFlubirds</sound>
       <sound>sound\musMushroomRadiation</sound>
       <sound>sound\musThroughTheWalls</sound>
+      <sound>sound\musUntilTheShadows</sound>
+      <sound>sound\musALongLostSilence</sound>
+      <sound>sound\musThanatos</sound>
+      <sound>sound\musGirls</sound>
+      <sound>sound\musWolfDrawn</sound>
+      <sound>sound\musCallOfTheAbyss</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -390,6 +396,9 @@
         <sprite>sprites\sprH10VineL</sprite>
         <sprite>sprites\sprH10VineR</sprite>
       </sprites>
+      <sprites name="Hidden11">
+        <sprite>sprites\sprH11SpikeF</sprite>
+      </sprites>
     </sprites>
     <sprites name="misc">
       <sprite>sprites\sprWater</sprite>
@@ -412,6 +421,8 @@
       <sprite>sprites\sprDJumpRefresher</sprite>
       <sprite>sprites\sprEJumpRefresher</sprite>
       <sprite>sprites\sprPined</sprite>
+      <sprite>sprites\sprTouchLHitBox</sprite>
+      <sprite>sprites\sprTouchRHitBox</sprite>
       <sprite>sprites\sprSign</sprite>
       <sprites name="Float">
         <sprite>sprites\sprFloat</sprite>
@@ -563,6 +574,8 @@
       <background>background\bHidden09s</background>
       <background>background\bHidden10</background>
       <background>background\bHidden10s</background>
+      <background>background\bHidden11</background>
+      <background>background\bHidden11s</background>
     </backgrounds>
     <backgrounds name="Number">
       <background>background\bStage01Number</background>
@@ -620,6 +633,7 @@
       <background>background\background75</background>
       <background>background\background83</background>
       <background>background\background86</background>
+      <background>background\background88</background>
     </backgrounds>
     <backgrounds name="backgrounds">
       <background>background\background8</background>
@@ -735,15 +749,11 @@
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
     <object>objects\objKillerBlock</object>
+    <object>objects\objPinObjectDirection</object>
+    <object>objects\objPinObjectCircle</object>
     <object>objects\objCherry</object>
-    <object>objects\objWalljumpExtraOnceL</object>
-    <object>objects\objWalljumpExtraOnceR</object>
-    <object>objects\objWalljumpExtraL</object>
-    <object>objects\objWalljumpExtraR</object>
     <object>objects\objWalljumpL</object>
     <object>objects\objWalljumpR</object>
-    <object>objects\objOnceVineSpriteL</object>
-    <object>objects\objOnceVineSpriteR</object>
     <object>objects\objWater2</object>
     <object>objects\objWater3</object>
     <object>objects\objPlayerStart</object>
@@ -813,6 +823,12 @@
         <object>objects\objH10EnteranceA</object>
         <object>objects\objH10EnteranceB</object>
       </objects>
+      <objects name="S11">
+        <object>objects\objH11Enterance</object>
+      </objects>
+      <objects name="S12">
+        <object>objects\objH12Enterance</object>
+      </objects>
     </objects>
     <objects name="bazier">
       <object>objects\objLetBazierMove</object>
@@ -842,6 +858,22 @@
       <object>objects\objDownToward</object>
       <object>objects\objBeginSign</object>
       <object>objects\objSign</object>
+      <objects name="TouchRefresher">
+        <object>objects\objTouchRefresher</object>
+        <object>objects\objTouchRefresherR</object>
+        <object>objects\objTouchRefresherOn</object>
+        <object>objects\objTouchRefresherOnR</object>
+        <object>objects\objTouchRefresherOff</object>
+        <object>objects\objTouchRefresherOffR</object>
+      </objects>
+      <objects name="vines">
+        <object>objects\objWalljumpExtraOnceL</object>
+        <object>objects\objWalljumpExtraOnceR</object>
+        <object>objects\objWalljumpExtraL</object>
+        <object>objects\objWalljumpExtraR</object>
+        <object>objects\objOnceVineSpriteL</object>
+        <object>objects\objOnceVineSpriteR</object>
+      </objects>
       <objects name="platform">
         <object>objects\objFakePlatform</object>
         <object>objects\objPlatformOneJump</object>
@@ -1184,6 +1216,19 @@
         <room>rooms\rHidden10_1</room>
         <room>rooms\rHidden10_2</room>
         <room>rooms\rHidden10_3</room>
+      </rooms>
+      <rooms name="S11">
+        <room>rooms\rHidden11_1</room>
+        <room>rooms\rHidden11_2</room>
+        <room>rooms\rHidden11_3</room>
+        <room>rooms\rHidden11_4</room>
+        <room>rooms\rHidden11_5</room>
+        <room>rooms\rHidden11_6</room>
+      </rooms>
+      <rooms name="S12">
+        <room>rooms\rHidden12_1</room>
+        <room>rooms\rHidden12_2</room>
+        <room>rooms\rHidden12_3</room>
       </rooms>
     </rooms>
   </rooms>

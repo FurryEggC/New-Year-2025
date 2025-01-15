@@ -10,7 +10,7 @@ https://github.com/FurryEggC/New-Year-2025.git
 07 Pg3第二档右边的水都只用一次
 08 Pg3到Pg2去拿反重力再通关
 09 Pg2反重力到Pg3
-10
+10 Pg2反复使用数字下方的藤（绕圈）再到数字下方
 11 Pg1右下方的洞
 12 Pg3开头向左跳
 13 Pg2不使用随机trigger
