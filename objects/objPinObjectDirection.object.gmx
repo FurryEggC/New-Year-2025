@@ -59,8 +59,8 @@ depth = 100;
             <string>if (scrButtonCheck(global.leftButton)) {if (current_pos &gt; 0) current_pos -= spd;}
 if (scrButtonCheck(global.rightButton)) {if (current_pos &lt; len) current_pos += spd;}
 
-ins.x = x + current_pos * (cos(degtorad(dir)));
-ins.y = y + current_pos * (sin(degtorad(dir)));
+ins.x = ins.xstart + current_pos * (cos(degtorad(dir)));
+ins.y = ins.ystart + current_pos * (sin(degtorad(dir)));
 
 if (hue &gt; 255) hue -= 255;
 hue += spd / 10;

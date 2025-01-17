@@ -14,7 +14,7 @@ https://github.com/FurryEggC/New-Year-2025.git
 11 Pg1右下方的洞
 12 Pg3开头向左跳
 13 Pg2不使用随机trigger
-14
+14 Pg1在第二个苹果上方经过存档贴图会改一会儿，这时到存档那边去
 15
 16
 
@@ -32,12 +32,12 @@ https://github.com/FurryEggC/New-Year-2025.git
 11 子弹禁止，射击跳变贴墙跳
 12 各种固定路径物体
 13 比较抽象的Trigger
-14
+14 整个stage的速通
 15
 16
 
 备选吉米克
-整个stage的速通
+
 O键teleport，先创建影子，再传送
 一次性过刺
 一个物体绕着玩家旋转，控制这个物体不碰到刺

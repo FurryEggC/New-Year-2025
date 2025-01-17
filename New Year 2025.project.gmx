@@ -59,6 +59,8 @@
       <sound>sound\musGirls</sound>
       <sound>sound\musWolfDrawn</sound>
       <sound>sound\musCallOfTheAbyss</sound>
+      <sound>sound\musNaturalCause</sound>
+      <sound>sound\musArise</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -749,9 +751,8 @@
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
     <object>objects\objKillerBlock</object>
-    <object>objects\objPinObjectDirection</object>
-    <object>objects\objPinObjectCircle</object>
     <object>objects\objCherry</object>
+    <object>objects\objStage13Trigger</object>
     <object>objects\objWalljumpL</object>
     <object>objects\objWalljumpR</object>
     <object>objects\objWater2</object>
@@ -769,6 +770,7 @@
     <object>objects\objOutsideRoomChanger</object>
     <objects name="hidden">
       <object>objects\objHiddenWarp</object>
+      <object>objects\objFinalHiddenWarp</object>
       <object>objects\objSecretItem</object>
       <object>objects\objTriggerOn</object>
       <object>objects\objTriggerOff</object>
@@ -828,6 +830,15 @@
       </objects>
       <objects name="S12">
         <object>objects\objH12Enterance</object>
+        <object>objects\objRoomFunction08</object>
+        <object>objects\objRoomFunction08A</object>
+        <object>objects\objRoomFunction09</object>
+        <object>objects\objRoomFunction09A</object>
+      </objects>
+      <objects name="S13">
+        <object>objects\objH13Controller</object>
+        <object>objects\objH13Enterance</object>
+        <object>objects\objRoomFunction10</object>
       </objects>
     </objects>
     <objects name="bazier">
@@ -852,8 +863,9 @@
       <object>objects\objDJumpRefresher</object>
       <object>objects\objEJumpRefresher</object>
       <object>objects\objDrawDjump</object>
-      <object>objects\objStage13Trigger</object>
       <object>objects\objPinObject</object>
+      <object>objects\objPinObjectDirection</object>
+      <object>objects\objPinObjectCircle</object>
       <object>objects\objUpToward</object>
       <object>objects\objDownToward</object>
       <object>objects\objBeginSign</object>
@@ -1229,6 +1241,11 @@
         <room>rooms\rHidden12_1</room>
         <room>rooms\rHidden12_2</room>
         <room>rooms\rHidden12_3</room>
+      </rooms>
+      <rooms name="S13">
+        <room>rooms\rHidden13_1</room>
+        <room>rooms\rHidden13_2</room>
+        <room>rooms\rHidden13_3</room>
       </rooms>
     </rooms>
   </rooms>

@@ -72,12 +72,12 @@
     <instance objName="objHiddenWarp" x="320" y="128" name="inst_0AC75EB9" locked="0" code="i = 4;&#xA;roomTo = rStage05_2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="512" y="128" name="inst_DCAA4D5B" locked="0" code="i = 8;&#xA;roomTo = rStage09_3;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="512" y="256" name="inst_784D91C3" locked="0" code="i = 9;&#xA;roomTo = rStage10_2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHiddenWarp" x="512" y="512" name="inst_4158BEB7" locked="0" code="i = 11&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHiddenWarp" x="512" y="512" name="inst_4158BEB7" locked="0" code="i = 11;&#xA;roomTo = rStage12_3;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="704" y="512" name="inst_20EF741B" locked="0" code="i = 15&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="704" y="384" name="inst_FEB94293" locked="0" code="i = 14&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHiddenWarp" x="512" y="384" name="inst_46D97B4C" locked="0" code="i = 10;&#xA;roomTo = rStage11_1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHiddenWarp" x="512" y="384" name="inst_46D97B4C" locked="0" code="i = 10;&#xA;roomTo = rStage11_1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="704" y="256" name="inst_015B59C8" locked="0" code="i = 13&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHiddenWarp" x="704" y="128" name="inst_D16F18D3" locked="0" code="i = 12&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHiddenWarp" x="704" y="128" name="inst_D16F18D3" locked="0" code="i = 12;&#xA;roomTo = rStage13_2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSecretItem" x="64" y="128" name="inst_3A272EC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSecretItem" x="64" y="256" name="inst_61E45249" locked="0" code="itemNum = 1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSecretItem" x="64" y="384" name="inst_909F5203" locked="0" code="itemNum = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

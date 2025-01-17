@@ -30,8 +30,8 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1296</w>
-    <h>768</h>
+    <w>1016</w>
+    <h>600</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -41,8 +41,8 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>3430</xoffset>
-    <yoffset>1759</yoffset>
+    <xoffset>259</xoffset>
+    <yoffset>-93</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background45" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>

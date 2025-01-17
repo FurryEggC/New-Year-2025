@@ -30,8 +30,8 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1296</w>
-    <h>768</h>
+    <w>1288</w>
+    <h>765</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -40,9 +40,9 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>116</xoffset>
-    <yoffset>-10</yoffset>
+    <page>0</page>
+    <xoffset>-338</xoffset>
+    <yoffset>-120</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background45" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -167,7 +167,7 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
     <instance objName="objSpikeDown" x="224" y="128" name="inst_0A9A0C6A" locked="0" code="xe = xstart;&#xA;ye = ystart - 1 * 32;&#xA;value = 0.10;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="192" y="128" name="inst_E1B58688" locked="0" code="xe = xstart;&#xA;ye = ystart - 1 * 32;&#xA;value = 0.10;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWater3" x="352" y="304" name="inst_8789C5A0" locked="0" code="xse = 0.5;&#xA;xs = 0;&#xA;yse = 5.5;&#xA;ys = 0.2;" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="objStage13Trigger" x="208" y="48" name="inst_B57EC420" locked="0" code="kind = 4;&#xA;snd = 0;&#xA;&#xA;num = 1;&#xA;&#xA;obj[1] = inst_8789C5A0;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStage13Trigger" x="208" y="48" name="inst_B57EC420" locked="0" code="kind = 4;&#xA;snd = 0;&#xA;&#xA;num = 1;&#xA;&#xA;obj[1] = inst_8789C5A0;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="496" y="240" name="inst_4B6E4488" locked="0" code="xe = xstart;&#xA;ye = ystart + 1 * 32;&#xA;value = 0.10;&#xA;&#xA;depth = 11;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objStage13Trigger" x="480" y="128" name="inst_9A09475C" locked="0" code="kind = 3;&#xA;num = 1;&#xA;obj[1] = choose(inst_33A0255E,inst_EF42612B,inst_1F73F295);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveMedium" x="352" y="64" name="inst_A507635F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -224,6 +224,8 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
     <instance objName="objOutsideRoomChanger" x="800" y="320" name="inst_9263A9C7" locked="0" code="roomTo = rStage13_3;&#xA;" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="0" y="576" name="inst_46DCA093" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="-32" y="544" name="inst_673FC2B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH13Controller" x="0" y="0" name="inst_05CFB8AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH13Enterance" x="592" y="208" name="inst_55038EF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage13" x="64" y="576" w="32" h="32" xo="0" yo="0" id="10010957" name="inst_D89E131B" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

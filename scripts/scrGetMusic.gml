@@ -175,6 +175,16 @@ switch (room)                       //determines which song to play
     case rHidden11_6:
         roomSong = musCallOfTheAbyss;
         break;
+    case rHidden12_1:
+    case rHidden12_2:
+    case rHidden12_3:
+        roomSong = musNaturalCause;
+        break;
+    case rHidden13_1:
+    case rHidden13_2:
+    case rHidden13_3:
+        roomSong = musArise;
+        break;
     default:                        //default option in case the room does not have a song set
         roomSong = musNull;
         break;
