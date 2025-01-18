@@ -34,9 +34,9 @@ with (objSave) {sprite_index = spr15Save;}</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-109</xoffset>
-    <yoffset>-36</yoffset>
+    <page>0</page>
+    <xoffset>-69</xoffset>
+    <yoffset>-28</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background50" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
@@ -217,6 +217,9 @@ with (objSave) {sprite_index = spr15Save;}</code>
     <instance objName="objSpikeRight" x="688" y="576" name="inst_CBFE0572" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="592" y="392" name="inst_F793A5E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="608" y="320" name="inst_771E312E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH15Enterance" x="784" y="512" name="inst_4623BF66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH15TriggerOff" x="736" y="256" name="inst_F96B888B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH15TriggerOn" x="0" y="368" name="inst_876FBA0E" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage15" x="0" y="432" w="32" h="32" xo="0" yo="0" id="10012562" name="inst_3704F748" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

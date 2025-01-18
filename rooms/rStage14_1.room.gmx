@@ -38,9 +38,9 @@ with (objSave) {sprite_index = spr14Save;}</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-75</xoffset>
-    <yoffset>-27</yoffset>
+    <page>0</page>
+    <xoffset>-107</xoffset>
+    <yoffset>-54</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background49" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
@@ -204,6 +204,8 @@ with (objSave) {sprite_index = spr14Save;}</code>
     <instance objName="objSaveBlocker" x="272" y="64" name="inst_3168DC2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="672" y="544" name="inst_F3749FD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="608" y="544" name="inst_150C470C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objH14TriggerOn" x="424" y="224" name="inst_67E7E68C" locked="0" code="" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objH14Enterance" x="32" y="128" name="inst_4D9188EA" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage14" x="0" y="544" w="32" h="32" xo="0" yo="0" id="10011580" name="inst_CE12D4D4" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

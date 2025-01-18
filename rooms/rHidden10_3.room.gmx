@@ -27,8 +27,8 @@ with (objSave) sprite_index = sprH10Save;</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -38,8 +38,8 @@ with (objSave) sprite_index = sprH10Save;</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>380</xoffset>
-    <yoffset>-14</yoffset>
+    <xoffset>-130</xoffset>
+    <yoffset>56</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background36" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -288,7 +288,6 @@ with (objSave) sprite_index = sprH10Save;</code>
     <tile bgName="bHidden10" x="144" y="240" w="32" h="32" xo="32" yo="0" id="10022638" name="inst_A33C533B" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bHidden10" x="160" y="496" w="32" h="32" xo="32" yo="0" id="10022639" name="inst_561E8E60" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bHidden10" x="64" y="384" w="32" h="32" xo="32" yo="0" id="10022640" name="inst_AFE74CB3" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bHidden10" x="0" y="384" w="32" h="32" xo="32" yo="0" id="10022641" name="inst_AA7E2114" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bHidden10" x="384" y="384" w="32" h="32" xo="0" yo="0" id="10022643" name="inst_FEBD2CB6" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bHidden10" x="384" y="352" w="32" h="32" xo="0" yo="32" id="10022644" name="inst_DDECBA5D" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bHidden10" x="432" y="288" w="32" h="32" xo="0" yo="32" id="10022646" name="inst_1AB77891" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -424,6 +423,7 @@ with (objSave) sprite_index = sprH10Save;</code>
     <tile bgName="bHidden10s" x="304" y="144" w="16" h="16" xo="16" yo="16" id="10022782" name="inst_591AF64C" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bHidden10s" x="304" y="128" w="16" h="16" xo="16" yo="0" id="10022783" name="inst_3DEFF288" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bHidden10" x="432" y="272" w="32" h="32" xo="0" yo="32" id="10022784" name="inst_35F94E65" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bHidden10" x="0" y="384" w="32" h="32" xo="0" yo="0" id="10025691" name="inst_005ACC10" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

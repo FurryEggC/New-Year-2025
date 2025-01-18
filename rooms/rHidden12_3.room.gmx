@@ -27,8 +27,8 @@ if instance_exists(objCherry){objCherry.sprite_index = spr12SpikeF;}</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -38,8 +38,8 @@ if instance_exists(objCherry){objCherry.sprite_index = spr12SpikeF;}</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>236</xoffset>
-    <yoffset>-12</yoffset>
+    <xoffset>65</xoffset>
+    <yoffset>-3</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background41" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>

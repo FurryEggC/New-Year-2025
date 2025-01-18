@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1008</w>
-    <h>600</h>
+    <w>1288</w>
+    <h>765</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>1337</xoffset>
-    <yoffset>1865</yoffset>
+    <xoffset>306</xoffset>
+    <yoffset>-38</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -82,7 +82,7 @@
     <instance objName="objBeginSign" x="1504" y="256" name="inst_E8D0D205" locked="0" code="signText = &quot;A standard 50F game, Half of 100.#Only 2 month to Chinese new year,#I have no time for finishing the latter.&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBeginSign" x="2080" y="256" name="inst_F94DCA22" locked="0" code="signText = &quot;&lt;Hard&gt; is recommended.#By the way, I have 5 skins for you.#Use 1 and 2 to change your skin.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBeginSign" x="2560" y="256" name="inst_BA5A44BD" locked="0" code="signText = &quot;3 Jumps to start#Good luck#:3&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBeginSign" x="1056" y="256" name="inst_C0D718C6" locked="0" code="signText = &quot;What you are playing now is a easy game#Where &lt;Medium&gt; is about 45#And &lt;Hard&gt; not over 70.&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBeginSign" x="1056" y="256" name="inst_C0D718C6" locked="0" code="signText = &quot;What you are playing now is a easy game#Where &lt;Medium&gt; is about 45#And &lt;Hard&gt; (main road) not over 70.&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStart" x="192" y="384" w="32" h="32" xo="0" yo="0" id="10003898" name="inst_4BA3DFB1" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

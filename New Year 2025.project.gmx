@@ -61,6 +61,8 @@
       <sound>sound\musCallOfTheAbyss</sound>
       <sound>sound\musNaturalCause</sound>
       <sound>sound\musArise</sound>
+      <sound>sound\musRottingHills</sound>
+      <sound>sound\musHolySmoke</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -401,6 +403,16 @@
       <sprites name="Hidden11">
         <sprite>sprites\sprH11SpikeF</sprite>
       </sprites>
+      <sprites name="Hidden15">
+        <sprite>sprites\sprH15SpikeDS</sprite>
+        <sprite>sprites\sprH15SpikeLS</sprite>
+        <sprite>sprites\sprH15SpikeRS</sprite>
+        <sprite>sprites\sprH15SpikeUS</sprite>
+        <sprite>sprites\sprH15SpikeD</sprite>
+        <sprite>sprites\sprH15SpikeL</sprite>
+        <sprite>sprites\sprH15SpikeR</sprite>
+        <sprite>sprites\sprH15SpikeU</sprite>
+      </sprites>
     </sprites>
     <sprites name="misc">
       <sprite>sprites\sprWater</sprite>
@@ -496,6 +508,7 @@
     <sprites name="hidden">
       <sprite>sprites\sprHidden06Fake</sprite>
       <sprite>sprites\sprHidden09Fake</sprite>
+      <sprite>sprites\sprH15Cat</sprite>
     </sprites>
     <sprites name="oneuse">
       <sprite>sprites\sprStage13Block</sprite>
@@ -578,6 +591,8 @@
       <background>background\bHidden10s</background>
       <background>background\bHidden11</background>
       <background>background\bHidden11s</background>
+      <background>background\bHidden15</background>
+      <background>background\bHidden15s</background>
     </backgrounds>
     <backgrounds name="Number">
       <background>background\bStage01Number</background>
@@ -636,6 +651,7 @@
       <background>background\background83</background>
       <background>background\background86</background>
       <background>background\background88</background>
+      <background>background\background99</background>
     </backgrounds>
     <backgrounds name="backgrounds">
       <background>background\background8</background>
@@ -663,6 +679,9 @@
       <background>background\background81</background>
       <background>background\background82</background>
       <background>background\background89</background>
+      <background>background\background102</background>
+      <background>background\background103</background>
+      <background>background\background104</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths">
@@ -752,11 +771,15 @@
     <object>objects\objMiniDown</object>
     <object>objects\objKillerBlock</object>
     <object>objects\objCherry</object>
-    <object>objects\objStage13Trigger</object>
     <object>objects\objWalljumpL</object>
     <object>objects\objWalljumpR</object>
     <object>objects\objWater2</object>
     <object>objects\objWater3</object>
+    <object>objects\objCatBundler</object>
+    <object>objects\objCatBundle</object>
+    <object>objects\objNoneSwapZone</object>
+    <object>objects\objSetNoSwap</object>
+    <object>objects\objSetSwap</object>
     <object>objects\objPlayerStart</object>
     <object>objects\objSaveMedium</object>
     <object>objects\objSave</object>
@@ -840,6 +863,18 @@
         <object>objects\objH13Enterance</object>
         <object>objects\objRoomFunction10</object>
       </objects>
+      <objects name="S14">
+        <object>objects\objH14Enterance</object>
+        <object>objects\objH14TriggerOn</object>
+        <object>objects\objH14Controller</object>
+        <object>objects\objH14StartWarp</object>
+        <object>objects\objH14EndWarp</object>
+      </objects>
+      <objects name="S15">
+        <object>objects\objH15Enterance</object>
+        <object>objects\objH15TriggerOff</object>
+        <object>objects\objH15TriggerOn</object>
+      </objects>
     </objects>
     <objects name="bazier">
       <object>objects\objLetBazierMove</object>
@@ -859,6 +894,7 @@
       <object>objects\sprWater0</object>
       <object>objects\objFloat</object>
       <object>objects\objDeFloat</object>
+      <object>objects\objStage13Trigger</object>
       <object>objects\objJumpRefresher</object>
       <object>objects\objDJumpRefresher</object>
       <object>objects\objEJumpRefresher</object>
@@ -1246,6 +1282,19 @@
         <room>rooms\rHidden13_1</room>
         <room>rooms\rHidden13_2</room>
         <room>rooms\rHidden13_3</room>
+      </rooms>
+      <rooms name="S14">
+        <room>rooms\rHidden14_1</room>
+        <room>rooms\rHidden14_2</room>
+        <room>rooms\rHidden14_3</room>
+        <room>rooms\rHidden14_4</room>
+      </rooms>
+      <rooms name="S15">
+        <room>rooms\rHidden15_1</room>
+        <room>rooms\rHidden15_2</room>
+        <room>rooms\rHidden15_3</room>
+        <room>rooms\rHidden15_4</room>
+        <room>rooms\rHidden15_5</room>
       </rooms>
     </rooms>
   </rooms>
