@@ -63,6 +63,9 @@
       <sound>sound\musArise</sound>
       <sound>sound\musRottingHills</sound>
       <sound>sound\musHolySmoke</sound>
+      <sound>sound\musSunAndMoon</sound>
+      <sound>sound\musCreditsEX</sound>
+      <sound>sound\musPeakMagic</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -413,6 +416,20 @@
         <sprite>sprites\sprH15SpikeR</sprite>
         <sprite>sprites\sprH15SpikeU</sprite>
       </sprites>
+      <sprites name="Hidden16">
+        <sprite>sprites\sprH16SpikeF</sprite>
+        <sprite>sprites\sprH16SpikeDS</sprite>
+        <sprite>sprites\sprH16SpikeLS</sprite>
+        <sprite>sprites\sprH16SpikeRS</sprite>
+        <sprite>sprites\sprH16SpikeUS</sprite>
+        <sprite>sprites\sprH16Platform</sprite>
+        <sprite>sprites\sprH16SpikeD</sprite>
+        <sprite>sprites\sprH16SpikeL</sprite>
+        <sprite>sprites\sprH16SpikeR</sprite>
+        <sprite>sprites\sprH16SpikeU</sprite>
+        <sprite>sprites\sprH16VineL</sprite>
+        <sprite>sprites\sprH16VineR</sprite>
+      </sprites>
     </sprites>
     <sprites name="misc">
       <sprite>sprites\sprWater</sprite>
@@ -509,6 +526,7 @@
       <sprite>sprites\sprHidden06Fake</sprite>
       <sprite>sprites\sprHidden09Fake</sprite>
       <sprite>sprites\sprH15Cat</sprite>
+      <sprite>sprites\sprH15Hint</sprite>
     </sprites>
     <sprites name="oneuse">
       <sprite>sprites\sprStage13Block</sprite>
@@ -564,6 +582,9 @@
       <sprite>sprites\sprEd48</sprite>
       <sprite>sprites\sprEd49</sprite>
     </sprites>
+    <sprites name="avoidance">
+      <sprite>sprites\sprAvoidanceBullets</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bTheGuy</background>
@@ -593,6 +614,8 @@
       <background>background\bHidden11s</background>
       <background>background\bHidden15</background>
       <background>background\bHidden15s</background>
+      <background>background\bHidden16</background>
+      <background>background\bHidden16s</background>
     </backgrounds>
     <backgrounds name="Number">
       <background>background\bStage01Number</background>
@@ -652,6 +675,7 @@
       <background>background\background86</background>
       <background>background\background88</background>
       <background>background\background99</background>
+      <background>background\background109</background>
     </backgrounds>
     <backgrounds name="backgrounds">
       <background>background\background8</background>
@@ -682,6 +706,13 @@
       <background>background\background102</background>
       <background>background\background103</background>
       <background>background\background104</background>
+      <background>background\background105</background>
+      <background>background\background106</background>
+      <background>background\background107</background>
+      <background>background\background108</background>
+      <background>background\background112</background>
+      <background>background\background113</background>
+      <background>background\background116</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths">
@@ -769,17 +800,13 @@
     <object>objects\objMiniRight</object>
     <object>objects\objMiniLeft</object>
     <object>objects\objMiniDown</object>
+    <object>objects\objEXSelectionWarp</object>
     <object>objects\objKillerBlock</object>
     <object>objects\objCherry</object>
     <object>objects\objWalljumpL</object>
     <object>objects\objWalljumpR</object>
     <object>objects\objWater2</object>
     <object>objects\objWater3</object>
-    <object>objects\objCatBundler</object>
-    <object>objects\objCatBundle</object>
-    <object>objects\objNoneSwapZone</object>
-    <object>objects\objSetNoSwap</object>
-    <object>objects\objSetSwap</object>
     <object>objects\objPlayerStart</object>
     <object>objects\objSaveMedium</object>
     <object>objects\objSave</object>
@@ -874,6 +901,13 @@
         <object>objects\objH15Enterance</object>
         <object>objects\objH15TriggerOff</object>
         <object>objects\objH15TriggerOn</object>
+        <object>objects\objRoomFunction11</object>
+        <object>objects\objAvoidanceBullet</object>
+        <object>objects\objH15Hint</object>
+      </objects>
+      <objects name="S16">
+        <object>objects\objH16Controller</object>
+        <object>objects\objH16Enterance</object>
       </objects>
     </objects>
     <objects name="bazier">
@@ -906,7 +940,14 @@
       <object>objects\objDownToward</object>
       <object>objects\objBeginSign</object>
       <object>objects\objSign</object>
-      <objects name="TouchRefresher">
+      <objects name="cat_bundle">
+        <object>objects\objCatBundler</object>
+        <object>objects\objCatBundle</object>
+        <object>objects\objNoneSwapZone</object>
+        <object>objects\objSetNoSwap</object>
+        <object>objects\objSetSwap</object>
+      </objects>
+      <objects name="touch_refresher">
         <object>objects\objTouchRefresher</object>
         <object>objects\objTouchRefresherR</object>
         <object>objects\objTouchRefresherOn</object>
@@ -1067,6 +1108,9 @@
       <object>objects\objDrawText</object>
       <object>objects\objDrawSprite</object>
       <object>objects\objLevelSelection</object>
+      <object>objects\objToHiddenRoom</object>
+      <object>objects\objSpeedRunCheck</object>
+      <object>objects\objDrawTimeDeath</object>
     </objects>
     <objects name="shader">
       <object>objects\objCreateShaderBgStage07</object>
@@ -1296,7 +1340,22 @@
         <room>rooms\rHidden15_4</room>
         <room>rooms\rHidden15_5</room>
       </rooms>
+      <rooms name="S16">
+        <room>rooms\rHidden16_1</room>
+        <room>rooms\rHidden16_2</room>
+        <room>rooms\rHidden16_3</room>
+      </rooms>
     </rooms>
+    <rooms name="EXStage">
+      <room>rooms\rEX_1</room>
+      <room>rooms\rEX_2</room>
+      <room>rooms\rEX_3</room>
+      <room>rooms\rEX_4</room>
+      <room>rooms\rEX_5</room>
+      <room>rooms\rEX_6</room>
+    </rooms>
+    <room>rooms\rReturning</room>
+    <room>rooms\rEXEnd</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

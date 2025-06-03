@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -28,8 +28,8 @@ with (objSave) {sprite_index = spr14Save;}</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1232</w>
-    <h>744</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -38,9 +38,9 @@ with (objSave) {sprite_index = spr14Save;}</code>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>-23</xoffset>
-    <yoffset>-39</yoffset>
+    <page>2</page>
+    <xoffset>-26</xoffset>
+    <yoffset>-63</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background49" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
@@ -343,15 +343,6 @@ with (objSave) {sprite_index = spr14Save;}</code>
     <tile bgName="bStage14" x="608" y="512" w="32" h="32" xo="0" yo="0" id="10025557" name="inst_8259E1C6" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage14" x="576" y="512" w="32" h="32" xo="0" yo="0" id="10025558" name="inst_0BAC2025" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage14" x="544" y="512" w="32" h="32" xo="0" yo="0" id="10025559" name="inst_56A5BC5B" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage14" x="512" y="512" w="32" h="32" xo="0" yo="0" id="10025560" name="inst_E0DCCB0C" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage14" x="480" y="512" w="32" h="32" xo="0" yo="0" id="10025561" name="inst_DC335855" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage14" x="448" y="512" w="32" h="32" xo="0" yo="0" id="10025562" name="inst_77D5D8B1" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage14" x="416" y="512" w="32" h="32" xo="0" yo="0" id="10025563" name="inst_20F92B77" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage14" x="384" y="512" w="32" h="32" xo="0" yo="0" id="10025564" name="inst_9A3B0C75" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage14" x="352" y="512" w="32" h="32" xo="0" yo="0" id="10025565" name="inst_49058B56" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage14" x="320" y="512" w="32" h="32" xo="0" yo="0" id="10025566" name="inst_968084AF" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage14" x="288" y="512" w="32" h="32" xo="0" yo="0" id="10025567" name="inst_988DDB2F" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bStage14" x="256" y="512" w="32" h="32" xo="0" yo="0" id="10025568" name="inst_61778081" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage14" x="224" y="512" w="32" h="32" xo="0" yo="0" id="10025569" name="inst_4EBBFCC1" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage14" x="192" y="512" w="32" h="32" xo="0" yo="0" id="10025570" name="inst_944515D3" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage14" x="160" y="512" w="32" h="32" xo="0" yo="0" id="10025571" name="inst_617D6C1A" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -470,6 +461,7 @@ with (objSave) {sprite_index = spr14Save;}</code>
     <tile bgName="bStage14" x="512" y="224" w="32" h="32" xo="0" yo="0" id="10025688" name="inst_2CC2C20E" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage14" x="384" y="384" w="32" h="32" xo="0" yo="0" id="10025689" name="inst_739C11B8" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage14" x="384" y="416" w="32" h="32" xo="0" yo="0" id="10025690" name="inst_9750334E" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="background78" x="272" y="512" w="256" h="32" xo="0" yo="0" id="10029995" name="inst_EE7BD7D5" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

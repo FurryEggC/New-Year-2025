@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1296</w>
-    <h>768</h>
+    <w>1016</w>
+    <h>600</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>11</xoffset>
-    <yoffset>-58</yoffset>
+    <xoffset>-13</xoffset>
+    <yoffset>-88</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background8" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="objPlayerStart" x="384" y="544" name="inst_EFE472C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBetterBlock" x="480" y="480" name="inst_DB03D45C" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterBlock" x="480" y="480" name="inst_DB03D45C" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="objOutsideRoomChanger" x="416" y="608" name="inst_B58AB920" locked="0" code="roomTo=rStage01_2&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSave" x="352" y="544" name="inst_27A7E919" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="416" y="352" name="inst_2CCF21BF" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
@@ -159,6 +159,7 @@
     <instance objName="objTriggerOn" x="352" y="0" name="inst_2C345005" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objH01SetOff" x="368" y="112" name="inst_2DBE0552" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objH01SetOff" x="272" y="112" name="inst_6C79FF70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterBlock" x="384" y="608" name="inst_BB723AC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="320" y="544" w="16" h="16" xo="0" yo="0" id="10004504" name="inst_532F7E1D" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

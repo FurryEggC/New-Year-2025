@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -38,8 +38,8 @@ if instance_exists(objCherry){objCherry.sprite_index = spr12SpikeF;}</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>117</xoffset>
-    <yoffset>-34</yoffset>
+    <xoffset>-63</xoffset>
+    <yoffset>-37</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background41" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -206,7 +206,7 @@ if instance_exists(objCherry){objCherry.sprite_index = spr12SpikeF;}</code>
     <instance objName="objSpikeRight" x="640" y="112" name="inst_4C42E183" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="672" y="176" name="inst_C8CA33D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="704" y="192" name="inst_52211275" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeLeft" x="704" y="128" name="inst_C49ED3C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeLeft" x="704" y="120" name="inst_C49ED3C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="736" y="128" name="inst_F42D7164" locked="0" code="" scaleX="2" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="768" y="144" name="inst_CC256789" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="736" y="240" name="inst_49475112" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -214,7 +214,7 @@ if instance_exists(objCherry){objCherry.sprite_index = spr12SpikeF;}</code>
     <instance objName="objOutsideRoomChanger" x="800" y="208" name="inst_6A46922F" locked="0" code="roomTo = rHidden12_2;&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objPinObjectCircle" x="624" y="352" name="inst_3439008F" locked="0" code="ins = inst_8FE7A15C;&#xA;radius = 1;&#xA;spd = 6;&#xA;dir = 90;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPinObjectCircle" x="624" y="352" name="inst_87B9B0EC" locked="0" code="ins = inst_FABDB5A1;&#xA;radius = 1;&#xA;spd = 6;&#xA;dir = 270;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeLeft" x="736" y="144" name="inst_BBE505A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeLeft" x="736" y="136" name="inst_BBE505A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="112" y="512" name="inst_B4CC3944" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

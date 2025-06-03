@@ -198,6 +198,22 @@ switch (room)                       //determines which song to play
     case rHidden15_5:
         roomSong = musHolySmoke;
         break;
+    case rHidden16_1:
+    case rHidden16_2:
+    case rHidden16_3:
+        roomSong = musSunAndMoon;
+        break;
+    case rEX_1:
+    case rEX_2:
+    case rEX_3:
+    case rEX_4:
+    case rEX_5:
+    case rEX_6:
+        roomSong = musCreditsEX;
+        break;
+    case rEXEnd:
+        roomSong = musPeakMagic;
+        break;
     default:                        //default option in case the room does not have a song set
         roomSong = musNull;
         break;

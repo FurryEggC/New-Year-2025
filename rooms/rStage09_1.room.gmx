@@ -40,9 +40,9 @@ if instance_exists(objWater3){objWater3.sprite_index = spr09Water3;}
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>-89</xoffset>
-    <yoffset>-42</yoffset>
+    <page>0</page>
+    <xoffset>-94</xoffset>
+    <yoffset>-40</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background32" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -75,7 +75,7 @@ if instance_exists(objWater3){objWater3.sprite_index = spr09Water3;}
     <instance objName="objSpikeLeft" x="160" y="448" name="inst_56C42C5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="128" y="576" name="inst_043675F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="160" y="576" name="inst_D8661F62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objTouchMovingPlatform" x="160" y="512" name="inst_0BE2CBFA" locked="0" code="hspd = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTouchMovingPlatform" x="160" y="512" name="inst_0BE2CBFA" locked="0" code="hspd = 1;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="192" y="384" name="inst_9C6435CB" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="192" y="528" name="inst_3F39EFC9" locked="0" code="" scaleX="1" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="288" y="480" name="inst_E80FEA7E" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
@@ -222,6 +222,7 @@ if instance_exists(objWater3){objWater3.sprite_index = spr09Water3;}
     <instance objName="objMiniLeft" x="496" y="272" name="inst_F4EEA221" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="640" y="432" name="inst_2C55B85D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="608" y="432" name="inst_37E66182" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterBlock" x="128" y="608" name="inst_6081D15D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage09" x="0" y="544" w="32" h="32" xo="0" yo="0" id="10008566" name="inst_76B01EA1" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -384,6 +385,7 @@ if instance_exists(objWater3){objWater3.sprite_index = spr09Water3;}
     <tile bgName="bStage09" x="720" y="256" w="32" h="32" xo="0" yo="0" id="10008738" name="inst_C6A9576B" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage09" x="720" y="240" w="32" h="32" xo="0" yo="0" id="10008739" name="inst_29CFC49C" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage09" x="720" y="576" w="32" h="32" xo="0" yo="0" id="10008740" name="inst_A38B623F" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="" x="128" y="512" w="16" h="16" xo="0" yo="0" id="10030356" name="inst_328A5078" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bStage09Number" x="624" y="0" w="96" h="96" xo="0" yo="0" id="10013607" name="inst_AC5BB801" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>

@@ -51,6 +51,7 @@ warpY = 0;
           <argument>
             <kind>1</kind>
             <string>instance_create(warpX,warpY,objPlayer);
+
 room_goto(rHiddenHub);
 </string>
           </argument>

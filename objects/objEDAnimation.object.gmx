@@ -38,16 +38,16 @@ pic_array[0] = sprEd01;
 pic_array[1] = sprEd02;
 // S02
 pic_array[2] = sprEd04;
-pic_array[3] = sprEd05;
+pic_array[3] = sprEd06;
 // S03
-pic_array[4] = sprEd07;
-pic_array[5] = sprEd08;
+pic_array[4] = sprEd08;
+pic_array[5] = sprEd09;
 // S04
 pic_array[6] = sprEd10;
 pic_array[7] = sprEd11;
 // S05
 pic_array[8] = sprEd13;
-pic_array[9] = sprEd14;
+pic_array[9] = sprEd15;
 // S06
 pic_array[10] = sprEd16;
 pic_array[11] = sprEd17;
@@ -59,28 +59,28 @@ pic_array[14] = sprEd22;
 pic_array[15] = sprEd23;
 // S09
 pic_array[16] = sprEd25;
-pic_array[17] = sprEd26;
+pic_array[17] = sprEd27;
 // S10
 pic_array[18] = sprEd28;
-pic_array[19] = sprEd29;
+pic_array[19] = sprEd30;
 // S11
-pic_array[20] = sprEd31;
-pic_array[21] = sprEd32;
+pic_array[20] = sprEd32;
+pic_array[21] = sprEd33;
 // S12
 pic_array[22] = sprEd34;
 pic_array[23] = sprEd35;
 // S13
 pic_array[24] = sprEd37;
-pic_array[25] = sprEd38;
+pic_array[25] = sprEd39;
 // S14
-pic_array[26] = sprEd40;
-pic_array[27] = sprEd41;
+pic_array[26] = sprEd41;
+pic_array[27] = sprEd42;
 // S15
 pic_array[28] = sprEd43;
-pic_array[29] = sprEd44;
+pic_array[29] = sprEd45;
 // S16
 pic_array[30] = sprEd46;
-pic_array[31] = sprEd47;
+pic_array[31] = sprEd48;
 
 pic_array[32] = sprEd49;
 

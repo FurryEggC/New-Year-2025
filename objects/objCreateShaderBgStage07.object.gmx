@@ -51,6 +51,8 @@ real_t = 0;
             <kind>1</kind>
             <string>t += 1;
 real_t += 4 * sin(t/50) + 8;
+
+with (objH07EntranceCheck) if (trg &gt;= 2) other.t = 0;
 </string>
           </argument>
         </arguments>

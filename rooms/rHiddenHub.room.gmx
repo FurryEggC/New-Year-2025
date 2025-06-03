@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1288</w>
+    <h>765</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>349</xoffset>
-    <yoffset>30</yoffset>
+    <xoffset>-10</xoffset>
+    <yoffset>9</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -73,10 +73,10 @@
     <instance objName="objHiddenWarp" x="512" y="128" name="inst_DCAA4D5B" locked="0" code="i = 8;&#xA;roomTo = rStage09_3;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="512" y="256" name="inst_784D91C3" locked="0" code="i = 9;&#xA;roomTo = rStage10_2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="512" y="512" name="inst_4158BEB7" locked="0" code="i = 11;&#xA;roomTo = rStage12_3;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHiddenWarp" x="704" y="512" name="inst_20EF741B" locked="0" code="i = 15&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHiddenWarp" x="704" y="384" name="inst_FEB94293" locked="0" code="i = 14&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHiddenWarp" x="704" y="512" name="inst_20EF741B" locked="0" code="i = 15;&#xA;roomTo = rStage16_2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHiddenWarp" x="704" y="384" name="inst_FEB94293" locked="0" code="i = 14;&#xA;roomTo = rStage15_2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="512" y="384" name="inst_46D97B4C" locked="0" code="i = 10;&#xA;roomTo = rStage11_1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHiddenWarp" x="704" y="256" name="inst_015B59C8" locked="0" code="i = 13;&#xA;roomTo = rStage14_1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHiddenWarp" x="704" y="256" name="inst_015B59C8" locked="0" code="i = 13;&#xA;roomTo = rStage14_1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHiddenWarp" x="704" y="128" name="inst_D16F18D3" locked="0" code="i = 12;&#xA;roomTo = rStage13_2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSecretItem" x="64" y="128" name="inst_3A272EC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSecretItem" x="64" y="256" name="inst_61E45249" locked="0" code="itemNum = 1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -94,6 +94,8 @@
     <instance objName="objSecretItem" x="448" y="384" name="inst_7D0D7F21" locked="0" code="itemNum = 10;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSecretItem" x="448" y="512" name="inst_0BDE6A16" locked="0" code="itemNum = 11;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSecretItem" x="640" y="512" name="inst_5DC98B79" locked="0" code="itemNum = 15&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objFinalHiddenWarp" x="736" y="32" name="inst_8BDEEED8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="32" y="32" name="inst_8B598373" locked="0" code="roomTo = rEndRoom;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="32" w="32" h="32" xo="32" yo="0" id="10014225" name="inst_1F179606" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

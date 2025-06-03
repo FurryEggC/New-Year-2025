@@ -30,7 +30,7 @@
 room_order = array_create(14);
 for(var i = 0; i &lt; 14; ++i)
 {
-    room_order[i] = 75 + i;
+    room_order[i] = 76 + i;
 }
 next_room_index = 0;
 </string>
@@ -79,8 +79,8 @@ room_restart();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (room &lt; 74 || room &gt; 89) instance_destroy();
-else if (room == 74)
+            <string>if (room &lt; 75 || room &gt; 90) instance_destroy();
+else if (room == 75)
 {
     switch (global.difficulty)
     {
@@ -145,7 +145,7 @@ alarm[0] = 50;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(room == 74)
+            <string>if(room == 75)
 {
     room_order = array_shuffle(room_order);
     next_room_index = 0;

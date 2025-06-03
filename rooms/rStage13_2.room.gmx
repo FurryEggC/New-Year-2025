@@ -30,8 +30,8 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1288</w>
-    <h>765</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -41,8 +41,8 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-338</xoffset>
-    <yoffset>-120</yoffset>
+    <xoffset>-93</xoffset>
+    <yoffset>-42</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background45" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -122,7 +122,7 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
     <instance objName="objBetterBlock" x="480" y="480" name="inst_83C49D8F" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="480" y="368" name="inst_C2B0334C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="512" y="320" name="inst_D2EAA50C" locked="0" code="" scaleX="1" scaleY="9" colour="4294967295" rotation="0"/>
-    <instance objName="objStage13Trigger" x="416" y="472" name="inst_46B2F8D7" locked="0" code="kind = 5;&#xA;i = inst_25FC2350;&#xA;&#xA;xea = 96 * 2 - 10;&#xA;value = 0.10;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStage13Trigger" x="416" y="472" name="inst_46B2F8D7" locked="0" code="kind = 5;&#xA;i = inst_25FC2350;&#xA;&#xA;xea = 96 * 2 - 10;&#xA;value = 0.10;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="480" y="256" name="inst_D7E25D8C" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="544" y="96" name="inst_65005184" locked="0" code="" scaleX="1" scaleY="16" colour="4294967295" rotation="0"/>
     <instance objName="objStage13Trigger" x="432" y="240" name="inst_06924FC6" locked="0" code="kind = 3;&#xA;num = 1;&#xA;obj[1] = inst_95A7E9A2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -169,7 +169,7 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
     <instance objName="objWater3" x="352" y="304" name="inst_8789C5A0" locked="0" code="xse = 0.5;&#xA;xs = 0;&#xA;yse = 5.5;&#xA;ys = 0.2;" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objStage13Trigger" x="208" y="48" name="inst_B57EC420" locked="0" code="kind = 4;&#xA;snd = 0;&#xA;&#xA;num = 1;&#xA;&#xA;obj[1] = inst_8789C5A0;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="496" y="240" name="inst_4B6E4488" locked="0" code="xe = xstart;&#xA;ye = ystart + 1 * 32;&#xA;value = 0.10;&#xA;&#xA;depth = 11;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objStage13Trigger" x="480" y="128" name="inst_9A09475C" locked="0" code="kind = 3;&#xA;num = 1;&#xA;obj[1] = choose(inst_33A0255E,inst_EF42612B,inst_1F73F295);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStage13Trigger" x="480" y="128" name="inst_9A09475C" locked="0" code="kind = 3;&#xA;num = 1;&#xA;obj[1] = choose(inst_33A0255E,inst_EF42612B,inst_1F73F295);" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveMedium" x="352" y="64" name="inst_A507635F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="464" y="80" name="inst_33A0255E" locked="0" code="xe = xstart;&#xA;ye = ystart + 4 * 32;&#xA;value = 0.08;&#xA;depth = 11;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="496" y="80" name="inst_EF42612B" locked="0" code="xe = xstart;&#xA;ye = ystart + 4 * 32;&#xA;value = 0.08;&#xA;depth = 11;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

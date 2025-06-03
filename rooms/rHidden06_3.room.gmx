@@ -197,7 +197,7 @@ if instance_exists(objWalljumpR){objWalljumpR.sprite_index = spr06VineR;}
     <instance objName="objSpikeRight" x="560" y="112" name="inst_A5A17023" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="528" y="112" name="inst_8EB8A632" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="608" y="64" name="inst_1531D04C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWater2" x="512" y="112" name="inst_75BDF599" locked="0" code="" scaleX="1.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objWater2" x="544" y="32" name="inst_75BDF599" locked="0" code="" scaleX="0.5" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="640" y="192" name="inst_732D6815" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWaterExtraOnce" x="656" y="32" name="inst_DD356A33" locked="0" code="" scaleX="0.5" scaleY="5.5" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="656" y="32" name="inst_DB9F7507" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

@@ -92,7 +92,7 @@ if (alpha &gt; 0) alpha -= 0.04;
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>objBeginSign</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -100,6 +100,7 @@ if (alpha &gt; 0) alpha -= 0.04;
             <kind>1</kind>
             <string>draw_set_font(fBeginText);
 draw_set_halign(fa_center);
+draw_set_valign(fa_top);
 var yOffset = string_height(signText);
 c1 = make_colour_hsv(hue,255,255);
 c2 = make_colour_hsv(hue+64,255,255);

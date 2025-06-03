@@ -25,8 +25,8 @@ with (objMiniDown) {sprite_index = sprH15SpikeDS;}
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1264</w>
-    <h>756</h>
+    <w>1296</w>
+    <h>768</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>

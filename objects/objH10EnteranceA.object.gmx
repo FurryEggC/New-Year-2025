@@ -54,6 +54,7 @@ trg = 1;
     trg = 0;
     with (objH10EnteranceB) trg = 1;
     with (objH10Enterance) loop++;
+    with (inst_2A5D456A) if (image_speed &gt; 0) image_speed -= 1/45;
 }
 </string>
           </argument>

@@ -8,8 +8,8 @@ var savePosition = argument0;
 if (savePosition)
 {    
     global.saveRoom = room_get_name(room);
-    global.savePlayerX = objPlayer.x;    
-    global.savePlayerY = objPlayer.y;
+    global.savePlayerX = objPlayer.x - objPlayer.hspeed;    
+    global.savePlayerY = objPlayer.y - objPlayer.vspeed;
     global.saveGrav = global.grav;
     
     global.saveMax_jump = global.max_jump;

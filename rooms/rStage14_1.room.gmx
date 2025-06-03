@@ -184,7 +184,7 @@ with (objSave) {sprite_index = spr14Save;}</code>
     <instance objName="objSpikeDown" x="736" y="96" name="inst_DABD898C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="608" y="32" name="inst_324EB7B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="400" y="304" name="inst_63A4BA39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCherry" x="432" y="288" name="inst_634F808D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherry" x="432" y="288" name="inst_634F808D" locked="0" code="image_index = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="464" y="272" name="inst_EA1CA478" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="272" y="512" name="inst_7D09360D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="256" y="544" name="inst_A01BE98C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

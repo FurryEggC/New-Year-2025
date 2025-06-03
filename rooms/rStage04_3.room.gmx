@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-53</xoffset>
-    <yoffset>-79</yoffset>
+    <xoffset>-43</xoffset>
+    <yoffset>-62</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -55,7 +55,7 @@
     <instance objName="objBetterBlock" x="0" y="288" name="inst_8EEB6F93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="0" y="320" name="inst_4C070039" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="64" y="192" name="inst_35825A3E" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="objCherry" x="48" y="240" name="inst_BC357BFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherry" x="48" y="240" name="inst_BC357BFD" locked="0" code="image_speed = 1/10;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objOutsideRoomChanger" x="-32" y="224" name="inst_B098B54C" locked="0" code="roomTo = rStage04_2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSave" x="64" y="288" name="inst_F3C2923F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="128" y="288" name="inst_ED4C9B2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

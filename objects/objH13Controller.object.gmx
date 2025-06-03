@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (inst_9A09475C.trigger == 0) with objH13Enterance flag = 0;
+            <string>if (inst_9A09475C.trigger == 0) {
+    with objH13Enterance flag = 0;
+    with objTouchMovingPlatform visible = 0;
+}
 </string>
           </argument>
         </arguments>

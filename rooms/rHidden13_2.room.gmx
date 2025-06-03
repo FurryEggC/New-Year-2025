@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -30,8 +30,8 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1296</w>
-    <h>768</h>
+    <w>1016</w>
+    <h>600</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -41,8 +41,8 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>180</xoffset>
-    <yoffset>-58</yoffset>
+    <xoffset>200</xoffset>
+    <yoffset>36</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background45" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -139,7 +139,7 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
     <instance objName="objSpikeLeft" x="320" y="224" name="inst_4B34A02B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="352" y="256" name="inst_48DBF453" locked="0" code="xe = xstart;&#xA;ye = ystart - 6 * 32;&#xA;value = 0.08;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="288" y="32" name="inst_6E0B8C30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="320" y="32" name="inst_5CE5FF40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="312" y="32" name="inst_5CE5FF40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="416" y="240" name="inst_E5301BA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="448" y="256" name="inst_DE63EC75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="384" y="320" name="inst_F89201AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -177,7 +177,7 @@ with (objSaveBlocker) {sprite_index = spr13Blocker;}</code>
     <instance objName="objSpikeDown" x="624" y="480" name="inst_6D7962A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="608" y="544" name="inst_7F19A75E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="608" y="512" name="inst_FFF2F1CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="544" y="320" name="inst_4AC0A170" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="552" y="320" name="inst_4AC0A170" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="576" y="320" name="inst_D673AEF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="576" y="336" name="inst_D3984656" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="512" y="256" name="inst_8864AE0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

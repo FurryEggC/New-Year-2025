@@ -70,7 +70,7 @@
     <instance objName="objSpikeUp" x="496" y="304" name="inst_2ADB730C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="496" y="240" name="inst_320ED65C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherry" x="464" y="288" name="inst_FA84F47B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarpAutosaveNext" x="544" y="392" name="inst_D1DEB85D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarpAutosaveNext" x="544" y="400" name="inst_D1DEB85D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="480" y="0" name="inst_339E0619" locked="0" code="" scaleX="3" scaleY="6.5" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="480" y="208" name="inst_6EEBC451" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="512" y="208" name="inst_530C6D25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

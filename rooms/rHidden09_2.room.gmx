@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -42,8 +42,8 @@ with (objPlatformTripple) {sprite_index = spr09PlatformJumpTripple;}</code>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>10</xoffset>
-    <yoffset>-129</yoffset>
+    <xoffset>-111</xoffset>
+    <yoffset>-85</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="background32" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -112,7 +112,6 @@ with (objPlatformTripple) {sprite_index = spr09PlatformJumpTripple;}</code>
     <instance objName="objBetterBlock" x="736" y="304" name="inst_20DEAE22" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="736" y="288" name="inst_B2DFCDD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="704" y="224" name="inst_3DEA20AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeUp" x="608" y="176" name="inst_2C34F7A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="608" y="208" name="inst_71766E2C" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="672" y="192" name="inst_3346867A" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objPlatformOnce" x="736" y="208" name="inst_3DC3DA0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -172,8 +171,8 @@ with (objPlatformTripple) {sprite_index = spr09PlatformJumpTripple;}</code>
     <instance objName="objSpikeRight" x="128" y="224" name="inst_0B040A29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="192" y="160" name="inst_BBC0EFE5" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="192" y="224" name="inst_7271CD83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeLeft" x="160" y="176" name="inst_708AB2FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeLeft" x="160" y="144" name="inst_2F076FCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeLeft" x="160" y="168" name="inst_708AB2FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeLeft" x="160" y="136" name="inst_2F076FCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="96" y="128" name="inst_A26157D6" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="64" y="192" name="inst_D95C50B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterBlock" x="32" y="160" name="inst_841D38F3" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
@@ -217,7 +216,10 @@ with (objPlatformTripple) {sprite_index = spr09PlatformJumpTripple;}</code>
     <instance objName="objMiniDown" x="544" y="160" name="inst_4E819ED5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMiniDown" x="512" y="160" name="inst_DB81FF62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMiniDown" x="528" y="160" name="inst_C0072B0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeUp" x="576" y="240" name="inst_0ECE0454" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMiniUp" x="592" y="256" name="inst_FD4F2E21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMiniUp" x="576" y="256" name="inst_A0093D4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMiniUp" x="624" y="192" name="inst_9944D1E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMiniUp" x="608" y="192" name="inst_E2B9AE4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStage09" x="0" y="544" w="32" h="32" xo="0" yo="0" id="10008566" name="inst_76B01EA1" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

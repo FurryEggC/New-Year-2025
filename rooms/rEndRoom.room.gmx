@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1296</w>
-    <h>768</h>
+    <w>1016</w>
+    <h>600</h>
     <showGrid>0</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-95</xoffset>
-    <yoffset>-19</yoffset>
+    <xoffset>-59</xoffset>
+    <yoffset>-21</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -62,6 +62,8 @@
     <instance objName="objRoomChanger" x="-32" y="448" name="inst_AEFBDEC7" locked="0" code="roomTo = rED;&#xA;" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objRoomChanger" x="800" y="448" name="inst_3D5A3E08" locked="0" code="roomTo = rLevelSelect;&#xA;" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objGameBeat" x="384" y="512" name="inst_C6894416" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objToHiddenRoom" x="384" y="416" name="inst_15C584A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpeedRunCheck" x="0" y="0" name="inst_E90BA2B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bStart" x="96" y="544" w="32" h="32" xo="0" yo="0" id="10013667" name="inst_07C7FF58" depth="7" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

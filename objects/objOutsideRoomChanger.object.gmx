@@ -64,17 +64,23 @@ smoothTransition = true;   //sets whether the player wraps around the screen for
         if (other.x &lt; 0)
         {
             other.x += room_width;
+            other.y -= other.vspeed;
         }
         if (other.x &gt; room_width)
         {
             other.x -= room_width;
+            other.y -= other.vspeed;
         }
         if (other.y &lt; 0)
         {
+            if scrButtonCheck(global.leftButton) other.x += 3;
+            else if scrButtonCheck(global.rightButton) other.x -= 3;
             other.y += room_height;
         }
         if (other.y &gt; room_height)
         {
+            if scrButtonCheck(global.leftButton) other.x += 3;
+            else if scrButtonCheck(global.rightButton) other.x -= 3;
             other.y -= room_height;
         }
         

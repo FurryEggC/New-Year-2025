@@ -48,7 +48,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!instance_exists(objPlayer)) instance_destroy();
+            <string>if (!instance_exists(objPlayer)) {
+    instance_destroy();
+    exit;
+}
 
 if scrButtonCheckPressed(global.shootButton) {
     if (!able) exit;

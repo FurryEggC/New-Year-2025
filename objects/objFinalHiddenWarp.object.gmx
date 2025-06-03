@@ -28,7 +28,7 @@
             <string>//change these in creation code
 
 flag = 1;
-roomTo = rTemplate;
+roomTo = rEX_1;
 image_alpha = 0.4;
 </string>
           </argument>
@@ -52,7 +52,8 @@ image_alpha = 0.4;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(roomTo);
+            <string>global.autosave = 1;
+room_goto(roomTo);
 </string>
           </argument>
         </arguments>
@@ -75,7 +76,8 @@ image_alpha = 0.4;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>for (var i = 0; i &lt; 16; i++){
+            <string>flag = 1;
+for (var i = 0; i &lt; 16; i++){
     if (!global.secretItem[i]) flag = 0;
 }
 
