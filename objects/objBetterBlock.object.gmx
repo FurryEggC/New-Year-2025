@@ -281,20 +281,25 @@ player = instance_place(x, y, objPlayer);
 with (player){
     var t_BhSpd = 0;
     var t_BhSide = 0; //-1 = left, 1 = right
-    var t_roundOffset = 0; //account for GameMaker rounding numbers ending in .50 to the nearest even number, which can cause some issues in gaps the player can barely fit in.
+    // var t_roundOffset = 0; //account for GameMaker rounding numbers ending in .50 to the nearest even number, which can cause some issues in gaps the player can barely fit in.
     
     if (xprevious &lt; other.bbox_lPrevious + (other.bbox_rPrevious - other.bbox_lPrevious)/2){//get bbox_left difference
         t_BhSpd = other.bbox_left - other.bbox_lPrevious;
         t_BhSide = -1;
+        /*
         if (abs(other.x) mod 1 == 0 &amp;&amp; floor(other.x) mod 2 == 0)
             t_roundOffset = -1;
+        */
     }else{ //get bbox_right difference
         t_BhSpd = other.bbox_right - other.bbox_rPrevious;
         t_BhSide = 1;
+        /*
         if (abs(other.x) mod 1 == 0 &amp;&amp; floor(other.x) mod 2 == 0)
             t_roundOffset = 1;
+        */
     }
-    if (!place_meeting(x - PhSpd + t_BhSpd + t_roundOffset, y, other)){
+    // if (!place_meeting(x - PhSpd + t_BhSpd + t_roundOffset, y, other)){
+    if (!place_meeting(x - PhSpd + t_BhSpd, y, other)){
         if (t_BhSide == -1){
             hPush += (other.bbox_left - rightToOrigin) - x;
             x = other.bbox_left - rightToOrigin;
